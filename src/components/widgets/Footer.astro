@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
-import { SITE } from 'astrowind:config';
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -48,7 +47,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       </div>
       <div class="col-span-12 lg:col-span-1"></div>
       {
-        links.map(({ title, links }, index) => (
+        links.map(({ title, links }) => (
           <div class="col-span-6 md:col-span-3 lg:col-span-3">
             <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
             {links && Array.isArray(links) && links.length > 0 && (

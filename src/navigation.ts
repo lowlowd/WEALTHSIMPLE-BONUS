@@ -2,6 +2,7 @@ import { getPermalink, getBlogPermalink } from './utils/permalinks';
 
 // This is for the Header
 export const headerData = {
+  isSticky: true,
   links: [
     {
       text: 'Home',
