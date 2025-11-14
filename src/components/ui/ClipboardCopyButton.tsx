@@ -38,9 +38,7 @@ export default function ClipboardCopyButton({ referralCode, buttonText = 'Copy K
     <div className="max-w-xl mx-auto rounded-2xl bg-transparent p-8">
       <div className="text-center space-y-6">
         <div className="border-2 border-dashed border-teal-500 rounded-xl px-6 py-8">
-          <div className="text-4xl font-bold tracking-[0.35em] text-teal-500">
-            {referralCode}
-          </div>
+          <div className="text-4xl font-bold tracking-[0.35em] text-teal-500">{referralCode}</div>
         </div>
         <button
           type="button"
@@ -64,7 +62,8 @@ export default function ClipboardCopyButton({ referralCode, buttonText = 'Copy K
           {copied ? 'Copied!' : buttonText}
         </button>
         <p className="text-sm text-slate-500 leading-relaxed">
-          Click to copy • Valid for new KOHO users only<br />
+          Click to copy • Valid for new KOHO users only
+          <br />
           Code verified as of {getCurrentDate()}
         </p>
       </div>

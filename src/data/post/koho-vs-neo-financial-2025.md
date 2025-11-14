@@ -1,11 +1,11 @@
 ---
 publishDate: 2025-10-23
-title: "KOHO vs. Neo Financial: The Battle of Fintechs in 2025"
-excerpt: "KOHO or Neo Financial? This 2025 comparison breaks down fees, rewards, and budgeting tools to help you decide which Canadian fintech is right for you."
+title: 'KOHO vs. Neo Financial: The Battle of Fintechs in 2025'
+excerpt: 'KOHO or Neo Financial? This 2025 comparison breaks down fees, rewards, and budgeting tools to help you decide which Canadian fintech is right for you.'
 image: ~/assets/images/blog/koho-vs-neo.png
-category: "Fintech Comparison"
-author: "Koho Referral Codes"
-tags: ["Koho", "Neo Financial", "Comparison"]
+category: 'Fintech Comparison'
+author: 'Koho Referral Codes'
+tags: ['Koho', 'Neo Financial', 'Comparison']
 ---
 
 The way we manage our money is changing. For a long time, traditional banks were the only option, but a new wave of financial technology (fintech) companies has arrived, offering smarter, simpler, and more rewarding ways to handle your finances. Two of the biggest names leading this charge in Canada are KOHO and Neo Financial. Both promise a modern, digital-first experience, but they go about it in very different ways.
@@ -76,4 +76,4 @@ Ultimately, the battle between KOHO and Neo Financial is a win for Canadians. It
 
 Ready to choose KOHO? [Get your KOHO promo code here](/) and use code **C4MNILZARC** to claim your instant $20 bonus plus up to $45 more.
 
-Ultimately, the battle between KOHO and Neo Financial is a win for Canadians. It's a new era of user empowerment and reward. Pick based on your financial style—are you a budgeter (KOHO) or a cashback hunter (Neo)?   
+Ultimately, the battle between KOHO and Neo Financial is a win for Canadians. It's a new era of user empowerment and reward. Pick based on your financial style—are you a budgeter (KOHO) or a cashback hunter (Neo)?

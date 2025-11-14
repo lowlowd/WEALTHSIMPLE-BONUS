@@ -1,6 +1,6 @@
 export default function TestButton() {
   return (
-    <button 
+    <button
       onClick={() => alert('React is working!')}
       style={{
         backgroundColor: '#14b8a6',
@@ -10,7 +10,7 @@ export default function TestButton() {
         border: 'none',
         cursor: 'pointer',
         fontSize: '16px',
-        fontWeight: '600'
+        fontWeight: '600',
       }}
     >
       TEST - Click Me

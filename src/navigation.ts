@@ -84,7 +84,7 @@ export const footerData = {
   socialLinks: [],
   secondaryLinks: [
     {
-      text: '<strong>Disclaimer:</strong> This website is an independent referral page and is not officially affiliated with, endorsed by, or sponsored by KOHO Financial Inc. All product names, logos, and trademarks are property of their respective owners. Referral bonuses and terms are subject to change without notice and are governed by KOHO\'s official terms and conditions. Users must be Canadian residents, 18+ years old, and meet KOHO\'s eligibility requirements. Banking services provided by KOHO Financial Inc. are subject to regulatory compliance and approval.',
+      text: "<strong>Disclaimer:</strong> This website is an independent referral page and is not officially affiliated with, endorsed by, or sponsored by KOHO Financial Inc. All product names, logos, and trademarks are property of their respective owners. Referral bonuses and terms are subject to change without notice and are governed by KOHO's official terms and conditions. Users must be Canadian residents, 18+ years old, and meet KOHO's eligibility requirements. Banking services provided by KOHO Financial Inc. are subject to regulatory compliance and approval.",
       href: '#',
     },
   ],

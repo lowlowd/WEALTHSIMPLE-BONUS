@@ -21,39 +21,48 @@ import ClipboardCopyButton from '~/components/ui/ClipboardCopyButton.tsx';
 const faqItems = [
   {
     title: 'When will I receive my $20 + $45 bonus?',
-    description: 'Your bonus will be credited to your account within 1-2 business days after you successfully spend from your KOHO account at least $20. Make sure to complete this within 30 days of signing up.',
+    description:
+      'Your bonus will be credited to your account within 1-2 business days after you successfully spend from your KOHO account at least $20. Make sure to complete this within 30 days of signing up.',
   },
   {
     title: 'Do I need to make a purchase to get the bonus?',
-    description: 'Yes, it can be anything. We recommend a gift card (like Amazon) of at least $20 within 30 days of signup, and the bonus will be automatically credited to your account.',
+    description:
+      'Yes, it can be anything. We recommend a gift card (like Amazon) of at least $20 within 30 days of signup, and the bonus will be automatically credited to your account.',
   },
   {
     title: 'Can I use KOHO if I already have a bank account?',
-    description: 'Yes! KOHO works alongside your existing bank account. Many users keep both - using KOHO for daily spending to earn cash back while maintaining their traditional bank for other services.',
+    description:
+      'Yes! KOHO works alongside your existing bank account. Many users keep both - using KOHO for daily spending to earn cash back while maintaining their traditional bank for other services.',
   },
   {
     title: 'Are there any monthly fees?',
-    description: "KOHO offers a free tier with no monthly fees. There's also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.",
+    description:
+      "KOHO offers a free tier with no monthly fees. There's also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.",
   },
   {
     title: 'Is KOHO safe and secure?',
-    description: 'Yes, KOHO is regulated by Canadian banking authorities. Your funds are held in a high-interest savings account with a federally regulated financial institution and are protected by CDIC insurance up to $100,000.',
+    description:
+      'Yes, KOHO is regulated by Canadian banking authorities. Your funds are held in a high-interest savings account with a federally regulated financial institution and are protected by CDIC insurance up to $100,000.',
   },
   {
     title: 'What if I forget to enter the referral code?',
-    description: 'Unfortunately, referral codes must be entered during the initial signup process and cannot be applied retroactively. Make sure to enter code C4MNILZARC when creating your account.',
+    description:
+      'Unfortunately, referral codes must be entered during the initial signup process and cannot be applied retroactively. Make sure to enter code C4MNILZARC when creating your account.',
   },
   {
     title: 'Can I refer my friends after signing up?',
-    description: "Absolutely! Once you're a KOHO user, you'll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.",
+    description:
+      "Absolutely! Once you're a KOHO user, you'll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.",
   },
   {
     title: 'What can I use KOHO for?',
-    description: "KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You'll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.",
+    description:
+      "KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You'll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.",
   },
   {
     title: 'What is the KOHO promo code for 2025?',
-    description: 'The current KOHO promo code for 2025 is C4MNILZARC. This KOHO referral code gives you up to $65 in value bonuses when you sign up and make your first purchase.',
+    description:
+      'The current KOHO promo code for 2025 is C4MNILZARC. This KOHO referral code gives you up to $65 in value bonuses when you sign up and make your first purchase.',
   },
 ];
 
@@ -81,9 +90,7 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <WidgetWrapper
-    containerClass="bg-white dark:bg-slate-900 py-4 md:py-8 -mt-16 md:-mt-20"
-  >
+  <WidgetWrapper containerClass="bg-white dark:bg-slate-900 py-4 md:py-8 -mt-16 md:-mt-20">
     <div class="flex flex-col items-center gap-4 max-w-5xl mx-auto">
       <!-- Two-column layout: Bonus Button (left) | divider | Copy Code (right) -->
       <div class="flex flex-col md:flex-row items-center justify-center gap-0 md:gap-0 w-full">
@@ -99,11 +106,11 @@ const metadata = {
             KOHO Referral Code
           </Button>
         </div>
-        
+
         <!-- Middle: Vertical divider line -->
         <div class="hidden md:block w-2 h-24 bg-gray-400 dark:bg-gray-500 mx-2 z-10"></div>
         <div class="md:hidden w-full max-w-xs h-2 bg-gray-400 dark:bg-gray-500 my-1 z-10 relative"></div>
-        
+
         <!-- Right: Copy Referral Code Button -->
         <div class="flex-shrink-0 w-full md:w-auto flex justify-center -mt-6 md:mt-0">
           <ClipboardCopyButton client:load referralCode="C4MNILZARC" buttonText="Copy Koho Referral Code" />
@@ -117,7 +124,7 @@ const metadata = {
     classes={{
       headline: {
         container: 'text-center',
-      }
+      },
     }}
     items={[
       {
@@ -146,13 +153,19 @@ const metadata = {
       <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-8 font-heading">What is KOHO?</h2>
       <div class="text-lg text-muted-foreground max-w-3xl mx-auto space-y-6">
         <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
-          KOHO is a Canadian financial technology company that provides a modern alternative to traditional banking. Founded in 2014 and headquartered in Toronto, KOHO has grown to serve over 500,000 Canadians who are looking for a smarter way to manage their money.
+          KOHO is a Canadian financial technology company that provides a modern alternative to traditional banking.
+          Founded in 2014 and headquartered in Toronto, KOHO has grown to serve over 500,000 Canadians who are looking
+          for a smarter way to manage their money.
         </p>
         <p class="bg-blue-50 dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-blue-200 dark:border-gray-700">
-          Unlike traditional banks, KOHO offers a mobile-first experience with no monthly fees, no minimum balance requirements, and no hidden charges. The platform combines a prepaid Visa card with a high-interest savings account, giving users the best of both worlds.
+          Unlike traditional banks, KOHO offers a mobile-first experience with no monthly fees, no minimum balance
+          requirements, and no hidden charges. The platform combines a prepaid Visa card with a high-interest savings
+          account, giving users the best of both worlds.
         </p>
         <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
-          KOHO's mission is to help Canadians achieve financial wellness through transparent, accessible, and intelligent financial services. The platform provides instant cash back on purchases, automatic savings tools, and detailed spending insights to help users make better financial decisions.
+          KOHO's mission is to help Canadians achieve financial wellness through transparent, accessible, and
+          intelligent financial services. The platform provides instant cash back on purchases, automatic savings tools,
+          and detailed spending insights to help users make better financial decisions.
         </p>
       </div>
     </div>
@@ -165,7 +178,8 @@ const metadata = {
         <div class="text-center md:text-left text-white">
           <div class="text-3xl md:text-4xl font-bold mb-3">Unlock Your Koho Bonus Today!</div>
           <p class="text-lg md:text-xl opacity-95">
-            Sign up with our exclusive KOHO referral code or promo code to claim up to $65 value sign up bonus. Don't miss out on this KOHO promotion!
+            Sign up with our exclusive KOHO referral code or promo code to claim up to $65 value sign up bonus. Don't
+            miss out on this KOHO promotion!
           </p>
         </div>
         <div class="flex-shrink-0">
@@ -218,33 +232,33 @@ const metadata = {
       title="Safety & Security"
       subtitle="KOHO takes security seriously. Here's how your money and information are protected:"
       items={[
-      {
-        title: 'CDIC Insurance',
-        description:
-          'Funds are held with a federally regulated financial institution and protected by CDIC insurance up to $100,000.',
-        icon: 'tabler:shield-check',
-      },
-      {
-        title: 'Bank-Level Encryption',
-        description: 'All data is encrypted using industry-standard 256-bit SSL encryption.',
-        icon: 'tabler:lock',
-      },
-      {
-        title: 'Fraud Protection',
-        description: 'Real-time fraud monitoring and zero liability protection for unauthorized transactions.',
-        icon: 'tabler:shield-lock',
-      },
-      {
-        title: 'Instant Notifications',
-        description: 'Get notified of every transaction in real-time to catch any suspicious activity immediately.',
-        icon: 'tabler:bell-ringing',
-      },
-      {
-        title: 'Card Controls',
-        description: "Lock and unlock your card instantly from the app if it's lost or stolen.",
-        icon: 'tabler:hand-stop',
-      },
-    ]}
+        {
+          title: 'CDIC Insurance',
+          description:
+            'Funds are held with a federally regulated financial institution and protected by CDIC insurance up to $100,000.',
+          icon: 'tabler:shield-check',
+        },
+        {
+          title: 'Bank-Level Encryption',
+          description: 'All data is encrypted using industry-standard 256-bit SSL encryption.',
+          icon: 'tabler:lock',
+        },
+        {
+          title: 'Fraud Protection',
+          description: 'Real-time fraud monitoring and zero liability protection for unauthorized transactions.',
+          icon: 'tabler:shield-lock',
+        },
+        {
+          title: 'Instant Notifications',
+          description: 'Get notified of every transaction in real-time to catch any suspicious activity immediately.',
+          icon: 'tabler:bell-ringing',
+        },
+        {
+          title: 'Card Controls',
+          description: "Lock and unlock your card instantly from the app if it's lost or stolen.",
+          icon: 'tabler:hand-stop',
+        },
+      ]}
     />
   </div>
 
@@ -269,7 +283,7 @@ const metadata = {
       {
         title: 'Are there any monthly fees?',
         description:
-          'KOHO offers a free tier with no monthly fees. There\'s also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.',
+          "KOHO offers a free tier with no monthly fees. There's also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.",
       },
       {
         title: 'Is KOHO safe and secure?',
@@ -284,30 +298,27 @@ const metadata = {
       {
         title: 'Can I refer my friends after signing up?',
         description:
-          'Absolutely! Once you\'re a KOHO user, you\'ll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.',
+          "Absolutely! Once you're a KOHO user, you'll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.",
       },
       {
         title: 'What can I use KOHO for?',
         description:
-          'KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You\'ll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.',
+          "KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You'll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.",
       },
     ]}
   />
 
   <div class="bg-gray-50 dark:bg-slate-800">
-    <BlogLatestPosts
-      title="From the Blog"
-    />
+    <BlogLatestPosts title="From the Blog" />
   </div>
 
   <Footer {...footerData}>
     <div slot="cta" class="col-span-12 mb-8">
       <div class="bg-gradient-to-r from-orange-500 to-orange-400 rounded-lg p-8 text-center">
-        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
-          Ready to Get Your Koho Bonus?
-        </h3>
+        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Ready to Get Your Koho Bonus?</h3>
         <p class="text-white text-lg mb-6 opacity-95">
-          Get your KOHO promo code and unlock exclusive sign up bonuses. Use our verified KOHO referral code C4MNILZARC for instant rewards.
+          Get your KOHO promo code and unlock exclusive sign up bonuses. Use our verified KOHO referral code C4MNILZARC
+          for instant rewards.
         </p>
         <Button
           variant="secondary"

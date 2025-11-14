@@ -1,11 +1,11 @@
 ---
 publishDate: 2025-10-25
-title: "How KOHO is Helping Canadians Save More in 2025"
+title: 'How KOHO is Helping Canadians Save More in 2025'
 excerpt: "Discover how KOHO's automated RoundUps, Savings Goals, and cashback are making saving money effortless for Canadians. Use our KOHO referral code to start."
 image: ~/assets/images/blog/canadian-savings.png
-category: "Savings Tips"
-author: "Koho Referral Codes"
-tags: ["Koho", "Savings", "Budgeting"]
+category: 'Savings Tips'
+author: 'Koho Referral Codes'
+tags: ['Koho', 'Savings', 'Budgeting']
 ---
 
 Saving money is one of those universal goals we all share. Whether you're putting cash aside for a rainy day, a dream vacation, or a down payment on a home, the intention is always there. But let's be honest—actually doing it can be tough. Life gets busy, expenses pop up, and at the end of the month, it can feel like there's nothing left to save. It often feels like you need to be a budgeting expert just to get ahead.

@@ -1,11 +1,11 @@
 ---
 publishDate: 2025-10-14
-title: "KOHO vs. Wealthsimple: Best Savings Account in Canada for Maximum Returns"
-excerpt: "Compare KOHO vs Wealthsimple savings accounts in Canada. See which offers higher interest, better features, and easier access."
+title: 'KOHO vs. Wealthsimple: Best Savings Account in Canada for Maximum Returns'
+excerpt: 'Compare KOHO vs Wealthsimple savings accounts in Canada. See which offers higher interest, better features, and easier access.'
 image: ~/assets/images/blog/koho-vs-wealthsimple.png
-category: "Savings Comparison"
-author: "Koho Referral Codes"
-tags: ["Koho", "Wealthsimple", "Savings"]
+category: 'Savings Comparison'
+author: 'Koho Referral Codes'
+tags: ['Koho', 'Wealthsimple', 'Savings']
 ---
 
 Looking to maximize your savings? Start with our [KOHO sign up bonus](/) worth up to $65, then compare how KOHO's savings features stack up against Wealthsimple.
@@ -39,13 +39,13 @@ When evaluating the **best savings account in Canada**, KOHO stands out for thos
 
 ## KOHO vs Wealthsimple Savings Account Comparison
 
-| Feature | KOHO | Wealthsimple |
-|---------|------|--------------|
-| **High Interest Rate** | ✓ Up to 5% | ⚠️ 0.5%-4% (best rates for large balances) |
-| **No Minimum Balance** | ✓ | ✗ (Tiered, higher for top rates) |
-| **Free Option Available** | ✓ | ✓ |
-| **Budgeting Tools** | ✓ | ✗ |
-| **Optimized for Small Balances** | ✓ | ✗ (Best for large deposits/investors) |
+| Feature                          | KOHO       | Wealthsimple                               |
+| -------------------------------- | ---------- | ------------------------------------------ |
+| **High Interest Rate**           | ✓ Up to 5% | ⚠️ 0.5%-4% (best rates for large balances) |
+| **No Minimum Balance**           | ✓          | ✗ (Tiered, higher for top rates)           |
+| **Free Option Available**        | ✓          | ✓                                          |
+| **Budgeting Tools**              | ✓          | ✗                                          |
+| **Optimized for Small Balances** | ✓          | ✗ (Best for large deposits/investors)      |
 
 New users can boost their savings immediately with the KOHO promotion—get up to $65 with our [KOHO promo code](/).
 

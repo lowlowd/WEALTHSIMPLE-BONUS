@@ -34,7 +34,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <!-- Optional CTA Slot (for homepage) -->
       <slot name="cta" />
-      
+
       <div class="col-span-12 lg:col-span-5">
         <div class="mb-2 flex items-center">
           <a class="inline-flex items-center font-bold text-xl" href={getHomePermalink()}>
@@ -69,7 +69,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         ))
       }
     </div>
-    
+
     <!-- Disclaimer Section -->
     {
       secondaryLinks?.length > 0 && (

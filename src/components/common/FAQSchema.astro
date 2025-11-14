@@ -11,15 +11,19 @@ export interface Props {
 const { faqs } = Astro.props;
 ---
 
-<script type="application/ld+json" is:inline set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": faqs.map(faq => ({
-    "@type": "Question",
-    "name": faq.title,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": faq.description
-    }
-  }))
-})} />
+<script
+  type="application/ld+json"
+  is:inline
+  set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.title,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.description,
+      },
+    })),
+  })}
+/>

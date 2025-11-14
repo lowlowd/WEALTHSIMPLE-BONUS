@@ -31,13 +31,7 @@ export interface Props {
   position?: string;
 }
 
-const {
-  id = 'header',
-  links = [],
-  actions = [],
-  isSticky = false,
-  isDark = false,
-} = Astro.props;
+const { id = 'header', links = [], actions = [], isSticky = false, isDark = false } = Astro.props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 ---
@@ -56,17 +50,19 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       <a class="flex items-center" href={getHomePermalink()}>
         <Logo />
       </a>
-      
+
       <div class="flex items-center lg:hidden">
         <ToggleMenu />
       </div>
-      
+
       <nav
         data-aw-nav
         class="items-center w-full lg:w-auto hidden lg:flex lg:absolute lg:left-1/2 lg:-translate-x-1/2 text-default overflow-y-auto overflow-x-hidden lg:overflow-y-visible lg:overflow-x-auto"
         aria-label="Main navigation"
       >
-        <ul class="flex flex-col lg:flex-row w-full lg:w-auto text-xl lg:text-[0.9375rem] tracking-[0.01rem] font-medium">
+        <ul
+          class="flex flex-col lg:flex-row w-full lg:w-auto text-xl lg:text-[0.9375rem] tracking-[0.01rem] font-medium"
+        >
           {
             links.map(({ text, href, links }) => (
               <li class={links?.length ? 'dropdown' : ''}>
@@ -77,7 +73,10 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
                       class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap"
                     >
                       {text}{' '}
-                      <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden lg:inline" />
+                      <Icon
+                        name="tabler:chevron-down"
+                        class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden lg:inline"
+                      />
                     </button>
                     <ul class="dropdown-menu lg:backdrop-blur-md dark:lg:bg-dark rounded lg:absolute pl-4 lg:pl-0 lg:hidden font-medium lg:bg-white/90 lg:min-w-[200px] drop-shadow-xl">
                       {links.map(({ text: text2, href: href2 }) => (
