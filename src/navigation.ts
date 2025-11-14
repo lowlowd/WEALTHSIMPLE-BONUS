@@ -1,7 +1,31 @@
 import { getPermalink, getBlogPermalink } from './utils/permalinks';
+import type { CallToAction } from './types';
+
+interface Link {
+  text?: string;
+  href?: string;
+  ariaLabel?: string;
+  icon?: string;
+}
+
+interface MenuLink extends Link {
+  links?: Array<MenuLink>;
+}
+
+interface HeaderProps {
+  id?: string;
+  links?: Array<MenuLink>;
+  actions?: Array<CallToAction>;
+  isSticky?: boolean;
+  isDark?: boolean;
+  isFullWidth?: boolean;
+  showToggleTheme?: boolean;
+  showRssFeed?: boolean;
+  position?: string;
+}
 
 // This is for the Header
-export const headerData = {
+export const headerData: HeaderProps = {
   isSticky: true,
   links: [
     {
