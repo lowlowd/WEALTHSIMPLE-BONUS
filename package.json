@@ -53,6 +53,7 @@
     "@types/mdx": "^2.0.13",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
+    "@vercel/node": "^5.5.7",
     "astro-compress": "2.3.8",
     "astro-eslint-parser": "^1.2.2",
     "eslint": "^9.33.0",

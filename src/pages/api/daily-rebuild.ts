@@ -18,7 +18,7 @@ export default async function handler(_: VercelRequest, res: VercelResponse) {
     } else {
       res.status(response.status).json({ error: 'Failed to trigger rebuild' });
     }
-  } catch (error) {
+  } catch {
     res.status(500).json({ error: 'Internal server error' });
   }
 }
