@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler(_: VercelRequest, res: VercelResponse) {
   const hookUrl = process.env.VERCEL_DEPLOY_HOOK;
-  
+
   if (!hookUrl) {
     return res.status(500).json({ error: 'VERCEL_DEPLOY_HOOK environment variable not set' });
   }

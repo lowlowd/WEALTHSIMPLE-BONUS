@@ -1,15 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"files.associations": {
-			"*.mdx": "markdown"
-		},
-		"prettier.documentSelectors": [
-			"**/*.astro"
-		]
-	}
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "files.associations": {
+      "*.mdx": "markdown",
+    },
+    "prettier.documentSelectors": ["**/*.astro"],
+  },
 }
