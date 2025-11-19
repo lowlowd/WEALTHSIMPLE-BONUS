@@ -51,7 +51,7 @@ const postCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
     updateDate: z.date().optional(),
-    draft: z.boolean().optional(),
+    draft: z.boolean().default(false), // Default to false to avoid hiding existing posts unexpectedly, but user can set to true
 
     title: z.string(),
     excerpt: z.string().optional(),
