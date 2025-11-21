@@ -2,6 +2,7 @@ dist
 node_modules
 .github
 .changeset
+koho blog/
 BLOG-OPTIMIZATION-PHASE-2.md
 CONTACT-PAGE-ENHANCEMENT-PLAN.md
 KEYWORD-INTEGRATION-MASTER-PLAN.md
