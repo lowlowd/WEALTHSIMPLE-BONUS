@@ -59,7 +59,7 @@ Saving for big goals—whether it's a down payment on a house, a trip to Disney 
 - **Create Shared Savings Goals:** In the KOHO app, you can create specific Savings Goals for whatever your family is saving for. You can name your goal "Family Vacation" or "New Car Fund" and watch the progress bar grow as you contribute. This visual tracker makes saving feel more tangible and exciting for everyone.
 - **Automate Your Savings with RoundUps:** This feature is a game-changer for families. Every time you use your KOHO card, the app can automatically round up your purchase to the nearest dollar (or more) and move the spare change into your savings. That $4.50 morning coffee becomes a 50-cent contribution to your goal. It's an effortless way for your family's daily spending to fuel your long-term dreams.
 
-KOHO turns saving from a chore into an automated, background process, helping your family build your nest egg faster than you thought possible. For even more strategies, check out our guide on [10 ways to save money](/save-money-2025).
+KOHO turns saving from a chore into an automated, background process, helping your family build your nest egg faster than you thought possible. For even more strategies, check out our guide on [10 ways to save money as a family](/best-money-saving-apps-2025).
 
 ## Financial Literacy for the Whole Family
 

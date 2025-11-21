@@ -66,6 +66,6 @@ These features work together to create a secure ecosystem for your money. Let's 
 
 Your financial tool should do more than just facilitate transactions; it should protect you. KOHO is built with a deep understanding of modern security needs, offering proactive and user-controlled features that traditional banks are still catching up to.
 
-From the foundational safety of a prepaid system to the advanced protection of virtual cards and instant locking, KOHO gives you the confidence to spend, save, and live your life without fear. It's time to choose a financial partner that puts your security in your hands.
+From the foundational safety of a prepaid system to the advanced protection of virtual cards and instant locking, KOHO gives you the confidence to spend, save, and live your life without fear. It's time to choose Traveling soon? Learn more about [KOHO bonuses and security](/koho-referral-code-bonus) for peace of mind abroad.
 
-Want to get started with KOHO? [Get your KOHO referral code here](/) and unlock your **KOHO sign up bonus** today!
+Ready to start? [Get your KOHO referral code here](/) with **KOHO sign up bonus** code C4MNILZARC!
