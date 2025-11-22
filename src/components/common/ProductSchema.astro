@@ -1,0 +1,23 @@
+---
+import { SITE } from 'astrowind:config';
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'Koho Prepaid Mastercard & Financial Account',
+  brand: {
+    '@type': 'Brand',
+    name: 'Koho Financial',
+  },
+  offers: {
+    '@type': 'Offer',
+    category: 'ReferralBonus',
+    price: '0.00',
+    priceCurrency: 'CAD',
+    description: 'Sign up bonus of up to $65 when using verified referral code C4MNILZARC.',
+    url: SITE.site,
+  },
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(productSchema)} />

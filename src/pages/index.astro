@@ -10,6 +10,7 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Features from '~/components/widgets/Features.astro';
 import Button from '~/components/ui/Button.astro';
 import FAQSchema from '~/components/common/FAQSchema.astro';
+import ProductSchema from '~/components/common/ProductSchema.astro';
 
 // Import navigation data
 import { headerData, footerData } from '~/navigation';
@@ -75,6 +76,7 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <FAQSchema faqs={faqItems} />
+  <ProductSchema />
   <Header {...headerData} />
 
   <Hero>
