@@ -3,7 +3,6 @@ import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
@@ -17,6 +16,9 @@ import { headerData, footerData } from '~/navigation';
 
 // This is your new interactive button component
 import ClipboardCopyButton from '~/components/ui/ClipboardCopyButton.tsx';
+
+// Import referral code location image
+import kohoReferralCodeLocation from '~/assets/images/koho-referral-code-location.png';
 
 // FAQ data for schema
 const faqItems = [
@@ -121,207 +123,259 @@ const metadata = {
     </div>
   </WidgetWrapper>
 
-  <Steps
-    title="How to Use Your Koho Referral Code"
-    classes={{
-      headline: {
-        container: 'text-center',
-      },
-    }}
-    items={[
-      {
-        title: 'Sign Up for Koho',
-        description:
-          'Download the Koho app to create your account. <span class="font-bold">There is no credit check!</span>',
-        icon: 'tabler:user-plus',
-      },
-      {
-        title: 'Enter the Referral Code',
-        description:
-          'Enter the KOHO referral code <span class="font-bold">C4MNILZARC</span> during sign-up to activate your bonus.',
-        icon: 'tabler:writing-sign',
-      },
-      {
-        title: 'Get Your Bonus',
-        description:
-          'Make a $20 purchase with your Koho card to get your <span class="font-bold">$20 + $45 Bonus.</span>',
-        icon: 'tabler:gift',
-      },
-    ]}
-  />
+  <section class="relative not-prose scroll-mt-[72px] py-12 md:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12 items-start">
+        <!-- Left Column: 3/5 - Steps -->
+        <div class="lg:col-span-3 space-y-8">
+          <h2 class="text-3xl md:text-4xl font-bold mb-8 font-heading">How to Use Your Koho Referral Code</h2>
 
-  <div class="bg-gray-50 dark:bg-slate-800">
-    <div class="max-w-7xl mx-auto px-4 py-16 text-center">
-      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-8 font-heading">What is KOHO?</h2>
-      <div class="text-lg text-muted-foreground max-w-3xl mx-auto space-y-6">
-        <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
-          KOHO is a Canadian financial technology company that provides a modern alternative to traditional banking.
-          Founded in 2014 and headquartered in Toronto, KOHO has grown to serve over 500,000 Canadians who are looking
-          for a smarter way to manage their money.
-        </p>
-        <p class="bg-blue-50 dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-blue-200 dark:border-gray-700">
-          Unlike traditional banks, KOHO offers a mobile-first experience with no monthly fees, no minimum balance
-          requirements, and no hidden charges. The platform combines a prepaid Visa card with a high-interest savings
-          account, giving users the best of both worlds.
-        </p>
-        <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
-          KOHO's mission is to help Canadians achieve financial wellness through transparent, accessible, and
-          intelligent financial services. The platform provides instant cash back on purchases, automatic savings tools,
-          and detailed spending insights to help users make better financial decisions.
-        </p>
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Sign Up for KOHO</h3>
+              <p class="text-muted">
+                Download the Koho app to create your account. <span class="font-bold">There is no credit check!</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Enter the Referral Code</h3>
+              <p class="text-muted">
+                Enter the KOHO referral code <span class="font-bold">C4MNILZARC</span> during sign-up to activate your bonus.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Get Your KOHO Bonus</h3>
+              <p class="text-muted">
+                Make a $20 purchase with your Koho card to get your <span class="font-bold">Bonus.</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- My Honest Review Section (Bottom Left) -->
+          <div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+            <h3 class="text-2xl md:text-3xl font-bold mb-6 font-heading">My Honest Review after using for 6 Months</h3>
+
+            <div class="border-2 border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden mb-6">
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 divide-y-2 md:divide-y-0 md:divide-x-2 divide-gray-200 dark:divide-gray-700"
+              >
+                <!-- What I Liked -->
+                <div class="p-6 bg-white dark:bg-slate-900">
+                  <div class="flex items-center gap-2 mb-4 border-b-2 border-gray-100 dark:border-gray-800 pb-3">
+                    <div
+                      class="w-6 h-6 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center text-green-600 dark:text-green-400 flex-shrink-0"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-4 h-4"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg
+                      >
+                    </div>
+                    <h4 class="font-bold text-sm uppercase tracking-wider text-green-700 dark:text-green-400">
+                      What I liked
+                    </h4>
+                  </div>
+
+                  <ul class="space-y-4 text-sm">
+                    <li class="border-b border-gray-100 dark:border-gray-800 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">No Credit Check:</span>
+                      <span class="text-muted">100% guaranteed approval. Seriously!</span>
+                    </li>
+                    <li class="border-b border-gray-100 dark:border-gray-800 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">No NSF Fees:</span>
+                      <span class="text-muted"
+                        >If you're short on funds, the card just declines. No $45 penalty fees.</span
+                      >
+                    </li>
+                    <li class="border-b border-gray-100 dark:border-gray-800 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">Earn Interest:</span>
+                      <span class="text-muted"
+                        >You earn high interest on your <em>spending</em> money, not just savings.</span
+                      >
+                    </li>
+                    <li class="border-b border-gray-100 dark:border-gray-800 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">Debt-Free:</span>
+                      <span class="text-muted"
+                        >You can't spend money you don't have. No surprise bills at month-end.</span
+                      >
+                    </li>
+                    <li class="border-b border-gray-100 dark:border-gray-800 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">Safety Net:</span>
+                      <span class="text-muted"
+                        >The "Cover" feature spots you up to $250 interest-free if you run low.</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Needs Consideration -->
+                <div class="p-6 bg-gray-50/50 dark:bg-slate-800/50">
+                  <div class="flex items-center gap-2 mb-4 border-b-2 border-gray-200 dark:border-gray-700 pb-3">
+                    <div
+                      class="w-6 h-6 rounded-full bg-red-100 dark:bg-red-900 flex items-center justify-center text-red-600 dark:text-red-400 flex-shrink-0"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-4 h-4"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        ><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg
+                      >
+                    </div>
+                    <h4 class="font-bold text-sm uppercase tracking-wider text-red-700 dark:text-red-400">
+                      Needs Consideration
+                    </h4>
+                  </div>
+
+                  <ul class="space-y-4 text-sm">
+                    <li class="border-b border-gray-200 dark:border-gray-700 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">Prepaid Limits:</span>
+                      <span class="text-muted"
+                        >It's not a "credit" card, so some car rentals or hotels may not accept it for deposits.</span
+                      >
+                    </li>
+                    <li class="border-b border-gray-200 dark:border-gray-700 pb-4 last:border-0 last:pb-0">
+                      <span class="font-bold block text-gray-900 dark:text-white mb-1">Chat-Only Support:</span>
+                      <span class="text-muted"
+                        >No physical branches. Support is via in-app chat (except for those on the Everything Plan).</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Verdict -->
+            <div class="bg-gray-100 dark:bg-slate-800 rounded-xl p-6 border-l-4 border-primary">
+              <h4 class="font-bold text-lg mb-2">My Honest Verdict:</h4>
+              <p class="text-muted">
+                Perfect for avoiding fees, credit checks, and overspending. Great for daily use, but keep a backup for
+                specific needs like car rentals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: 2/5 - Where to Enter -->
+        <div class="lg:col-span-2">
+          <h2 class="text-3xl md:text-4xl font-bold mb-8 font-heading text-center">Where to Enter the Referral Code</h2>
+
+          <div class="sticky top-24 bg-gray-50 dark:bg-slate-800 rounded-2xl p-6 shadow-lg">
+            <div class="max-w-xs mx-auto">
+              <img
+                src={kohoReferralCodeLocation.src}
+                alt="KOHO app showing where to enter referral code during signup"
+                class="rounded-lg shadow-md w-full"
+              />
+            </div>
+            <p class="text-sm text-center text-muted mt-4">
+              This is step 4 into registration during KOHO signup. Be sure to enter your referral code here after
+              entering you phone number
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+</Layout>
 
-  <!-- CTA Banner Section -->
-  <div class="bg-gradient-to-r from-orange-500 to-orange-400 dark:from-orange-600 dark:to-orange-500">
-    <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="text-center md:text-left text-white">
-          <div class="text-3xl md:text-4xl font-bold mb-3">Unlock Your Koho Bonus Today!</div>
-          <p class="text-lg md:text-xl opacity-95">
-            Sign up with our exclusive KOHO referral code or promo code to claim up to $65 value sign up bonus. Don't
-            miss out on this KOHO promotion!
-          </p>
-        </div>
-        <div class="flex-shrink-0">
-          <Button
-            variant="secondary"
-            href="https://referral.koho.ca/mzGV8zw"
-            target="_blank"
-            class="px-10 py-4 text-lg bg-white text-orange-600 hover:bg-gray-50 border-2 border-white shadow-lg"
-            showArrow
-          >
-            KOHO Referral Code
-          </Button>
-        </div>
-      </div>
+<div class="bg-gray-50 dark:bg-slate-800">
+  <div class="max-w-7xl mx-auto px-4 py-16 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-8 font-heading">What is KOHO?</h2>
+    <div class="text-lg text-muted-foreground max-w-3xl mx-auto space-y-6">
+      <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+        KOHO is a Canadian financial technology company that provides a modern alternative to traditional banking.
+        Founded in 2014 and headquartered in Toronto, KOHO has grown to serve over 500,000 Canadians who are looking for
+        a smarter way to manage their money.
+      </p>
+      <p class="bg-blue-50 dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-blue-200 dark:border-gray-700">
+        Unlike traditional banks, KOHO offers a mobile-first experience with no monthly fees, no minimum balance
+        requirements, and no hidden charges. The platform combines a prepaid Visa card with a high-interest savings
+        account, giving users the best of both worlds.
+      </p>
+      <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+        KOHO's mission is to help Canadians achieve financial wellness through transparent, accessible, and intelligent
+        financial services. The platform provides instant cash back on purchases, automatic savings tools, and detailed
+        spending insights to help users make better financial decisions.
+      </p>
     </div>
   </div>
+</div>
 
-  <Features
-    title="How KOHO Works"
-    items={[
-      {
-        title: 'The KOHO Card',
-        description:
-          'Your KOHO account comes with a prepaid Visa card that works anywhere Visa is accepted. Use it for everyday purchases, online shopping, or contactless payments. Every transaction earns you instant cash back.',
-        icon: 'tabler:credit-card',
-      },
-      {
-        title: 'High-Interest Savings',
-        description:
-          "Your funds are held in a high-interest savings account, so your money grows even when you're not spending. Interest is calculated daily and paid monthly, with no minimum balance required.",
-        icon: 'tabler:trending-up',
-      },
-      {
-        title: 'Smart Money Management',
-        description:
-          'The KOHO app provides real-time spending insights, automatic budgeting tools, and savings goals to help you stay on top of your finances. See exactly where your money goes and make smarter financial decisions.',
-        icon: 'tabler:device-analytics',
-      },
-      {
-        title: 'No Hidden Fees',
-        description:
-          'KOHO believes in transparent pricing. There are no monthly account fees, no minimum balance requirements, no overdraft fees, and no hidden charges. What you see is what you get.',
-        icon: 'tabler:receipt-off',
-      },
-    ]}
-  />
-
-  <div class="bg-gray-50 dark:bg-slate-800">
-    <Features
-      title="Safety & Security"
-      subtitle="KOHO takes security seriously. Here's how your money and information are protected:"
-      items={[
-        {
-          title: 'CDIC Insurance',
-          description:
-            'Funds are held with a federally regulated financial institution and protected by CDIC insurance up to $100,000.',
-          icon: 'tabler:shield-check',
-        },
-        {
-          title: 'Bank-Level Encryption',
-          description: 'All data is encrypted using industry-standard 256-bit SSL encryption.',
-          icon: 'tabler:lock',
-        },
-        {
-          title: 'Fraud Protection',
-          description: 'Real-time fraud monitoring and zero liability protection for unauthorized transactions.',
-          icon: 'tabler:shield-lock',
-        },
-        {
-          title: 'Instant Notifications',
-          description: 'Get notified of every transaction in real-time to catch any suspicious activity immediately.',
-          icon: 'tabler:bell-ringing',
-        },
-        {
-          title: 'Card Controls',
-          description: "Lock and unlock your card instantly from the app if it's lost or stolen.",
-          icon: 'tabler:hand-stop',
-        },
-      ]}
-    />
-  </div>
-
-  <FAQs
-    title="Frequently Asked Questions"
-    items={[
-      {
-        title: 'When will I receive my $20 + $45 bonus?',
-        description:
-          'Your bonus will be credited to your account within 1-2 business days after you successfully spend from your KOHO account at least $20. Make sure to complete this within 30 days of signing up.',
-      },
-      {
-        title: 'Do I need to make a purchase to get the bonus?',
-        description:
-          'Yes, it can be anything. We recommend a gift card (like Amazon) of at least $20 within 30 days of signup, and the bonus will be automatically credited to your account.',
-      },
-      {
-        title: 'Can I use KOHO if I already have a bank account?',
-        description:
-          'Yes! KOHO works alongside your existing bank account. Many users keep both - using KOHO for daily spending to earn cash back while maintaining their traditional bank for other services.',
-      },
-      {
-        title: 'Are there any monthly fees?',
-        description:
-          "KOHO offers a free tier with no monthly fees. There's also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.",
-      },
-      {
-        title: 'Is KOHO safe and secure?',
-        description:
-          'Yes, KOHO is regulated by Canadian banking authorities. Your funds are held in a high-interest savings account with a federally regulated financial institution and are protected by CDIC insurance up to $100,000.',
-      },
-      {
-        title: 'What if I forget to enter the referral code?',
-        description:
-          'Unfortunately, referral codes must be entered during the initial signup process and cannot be applied retroactively. Make sure to enter code C4MNILZARC when creating your account.',
-      },
-      {
-        title: 'Can I refer my friends after signing up?',
-        description:
-          "Absolutely! Once you're a KOHO user, you'll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.",
-      },
-      {
-        title: 'What can I use KOHO for?',
-        description:
-          "KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You'll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.",
-      },
-    ]}
-  />
-
-  <div class="bg-gray-50 dark:bg-slate-800">
-    <BlogLatestPosts title="From the Blog" />
-  </div>
-
-  <Footer {...footerData}>
-    <div slot="cta" class="col-span-12 mb-8">
-      <div class="bg-gradient-to-r from-orange-500 to-orange-400 rounded-lg p-8 text-center">
-        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Ready to Get Your Koho Bonus?</h3>
-        <p class="text-white text-lg mb-6 opacity-95">
-          Get your KOHO promo code and unlock exclusive sign up bonuses. Use our verified KOHO referral code C4MNILZARC
-          for instant rewards.
+<!-- CTA Banner Section -->
+<div class="bg-gradient-to-r from-orange-500 to-orange-400 dark:from-orange-600 dark:to-orange-500">
+  <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="text-center md:text-left text-white">
+        <div class="text-3xl md:text-4xl font-bold mb-3">Unlock Your Koho Bonus Today!</div>
+        <p class="text-lg md:text-xl opacity-95">
+          Sign up with our exclusive KOHO referral code or promo code to claim up to $65 value sign up bonus. Don't miss
+          out on this KOHO promotion!
         </p>
+      </div>
+      <div class="flex-shrink-0">
         <Button
           variant="secondary"
           href="https://referral.koho.ca/mzGV8zw"
@@ -333,5 +387,141 @@ const metadata = {
         </Button>
       </div>
     </div>
-  </Footer>
-</Layout>
+  </div>
+</div>
+
+<Features
+  title="How KOHO Works"
+  items={[
+    {
+      title: 'The KOHO Card',
+      description:
+        'Your KOHO account comes with a prepaid Visa card that works anywhere Visa is accepted. Use it for everyday purchases, online shopping, or contactless payments. Every transaction earns you instant cash back.',
+      icon: 'tabler:credit-card',
+    },
+    {
+      title: 'High-Interest Savings',
+      description:
+        "Your funds are held in a high-interest savings account, so your money grows even when you're not spending. Interest is calculated daily and paid monthly, with no minimum balance required.",
+      icon: 'tabler:trending-up',
+    },
+    {
+      title: 'Smart Money Management',
+      description:
+        'The KOHO app provides real-time spending insights, automatic budgeting tools, and savings goals to help you stay on top of your finances. See exactly where your money goes and make smarter financial decisions.',
+      icon: 'tabler:device-analytics',
+    },
+    {
+      title: 'No Hidden Fees',
+      description:
+        'KOHO believes in transparent pricing. There are no monthly account fees, no minimum balance requirements, no overdraft fees, and no hidden charges. What you see is what you get.',
+      icon: 'tabler:receipt-off',
+    },
+  ]}
+/>
+
+<div class="bg-gray-50 dark:bg-slate-800">
+  <Features
+    title="Safety & Security"
+    subtitle="KOHO takes security seriously. Here's how your money and information are protected:"
+    items={[
+      {
+        title: 'CDIC Insurance',
+        description:
+          'Funds are held with a federally regulated financial institution and protected by CDIC insurance up to $100,000.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Bank-Level Encryption',
+        description: 'All data is encrypted using industry-standard 256-bit SSL encryption.',
+        icon: 'tabler:lock',
+      },
+      {
+        title: 'Fraud Protection',
+        description: 'Real-time fraud monitoring and zero liability protection for unauthorized transactions.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Instant Notifications',
+        description: 'Get notified of every transaction in real-time to catch any suspicious activity immediately.',
+        icon: 'tabler:bell-ringing',
+      },
+      {
+        title: 'Card Controls',
+        description: "Lock and unlock your card instantly from the app if it's lost or stolen.",
+        icon: 'tabler:hand-stop',
+      },
+    ]}
+  />
+</div>
+
+<FAQs
+  title="Frequently Asked Questions"
+  items={[
+    {
+      title: 'When will I receive my $65 Value Bonus?',
+      description:
+        'Your bonus will be credited to your account within 1-2 business days after you successfully spend from your KOHO account at least $20. Make sure to complete this within 30 days of signing up.',
+    },
+    {
+      title: 'Do I need to make a purchase to get the bonus?',
+      description:
+        'Yes, it can be anything. We recommend a gift card (like Amazon) of at least $20 within 30 days of signup, and the bonus will be automatically credited to your account.',
+    },
+    {
+      title: 'Can I use KOHO if I already have a bank account?',
+      description:
+        'Yes! KOHO works alongside your existing bank account. Many users keep both - using KOHO for daily spending to earn cash back while maintaining their traditional bank for other services.',
+    },
+    {
+      title: 'Are there any monthly fees?',
+      description:
+        "KOHO offers a free tier with no monthly fees. There's also KOHO Extra and KOHO Everything plans with additional features for $4 and $9 per month respectively, but these are completely optional.",
+    },
+    {
+      title: 'Is KOHO safe and secure?',
+      description:
+        'Yes, KOHO is regulated by Canadian banking authorities. Your funds are held in a high-interest savings account with a federally regulated financial institution and are protected by CDIC insurance up to $100,000.',
+    },
+    {
+      title: 'What if I forget to enter the referral code?',
+      description:
+        'Unfortunately, referral codes must be entered during the initial signup process and cannot be applied retroactively. Make sure to enter code C4MNILZARC when creating your account.',
+    },
+    {
+      title: 'Can I refer my friends after signing up?',
+      description:
+        "Absolutely! Once you're a KOHO user, you'll get your own referral code. When your friends sign up using your code, both you and your friend can earn bonuses.",
+    },
+    {
+      title: 'What can I use KOHO for?',
+      description:
+        "KOHO can be used anywhere Visa is accepted - online, in stores, and for contactless payments. You'll also get instant cash back on purchases, automatic savings tools, and detailed spending insights.",
+    },
+  ]}
+/>
+
+<div class="bg-gray-50 dark:bg-slate-800">
+  <BlogLatestPosts title="From the Blog" />
+</div>
+
+<Footer {...footerData}>
+  <div slot="cta" class="col-span-12 mb-8">
+    <div class="bg-gradient-to-r from-orange-500 to-orange-400 rounded-lg p-8 text-center">
+      <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Ready to Get Your Koho Bonus?</h3>
+      <p class="text-white text-lg mb-6 opacity-95">
+        Get your KOHO promo code and unlock exclusive sign up bonuses. Use our verified KOHO referral code C4MNILZARC
+        for instant rewards.
+      </p>
+      <Button
+        variant="secondary"
+        href="https://referral.koho.ca/mzGV8zw"
+        target="_blank"
+        class="px-10 py-4 text-lg bg-white text-orange-600 hover:bg-gray-50 border-2 border-white shadow-lg"
+        showArrow
+      >
+        KOHO Referral Code
+      </Button>
+    </div>
+  </div>
+</Footer>

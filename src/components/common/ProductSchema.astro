@@ -1,10 +1,15 @@
 ---
 import { SITE } from 'astrowind:config';
 
+import kohoBonusImg from '~/assets/images/blog/koho-bonus.png';
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'Koho Prepaid Mastercard & Financial Account',
+  image: new URL(kohoBonusImg.src, SITE.site).toString(),
+  description:
+    'The Koho Prepaid Mastercard is a no-fee card that gives you cash back on groceries and transportation, plus tools to build your credit history.',
   brand: {
     '@type': 'Brand',
     name: 'Koho Financial',
@@ -16,6 +21,8 @@ const productSchema = {
     priceCurrency: 'CAD',
     description: 'Sign up bonus of up to $65 when using verified referral code C4MNILZARC.',
     url: SITE.site,
+    availability: 'https://schema.org/InStock',
+    priceValidUntil: '2025-12-31',
   },
 };
 ---

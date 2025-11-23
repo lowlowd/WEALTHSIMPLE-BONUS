@@ -30,7 +30,7 @@ export default function ClipboardCopyButton({ referralCode, buttonText = 'Copy K
   };
 
   const baseButtonClasses =
-    'w-full flex items-center justify-center gap-3 rounded-xl border transition-colors duration-200 font-semibold py-3 text-base';
+    'w-full flex items-center justify-center gap-3 rounded-xl border transition-colors duration-200 font-semibold py-3 px-8 text-base';
   const defaultButtonClasses = 'bg-slate-100 border-slate-300 text-slate-900 hover:bg-slate-200 hover:border-slate-400';
   const copiedButtonClasses = 'bg-emerald-500 border-emerald-500 text-white';
 
