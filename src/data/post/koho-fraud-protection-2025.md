@@ -18,7 +18,7 @@ This guide will walk you through KOHO's fraud prevention tools for 2025, from re
 
 Before we even get to the high-tech features, it's important to understand how KOHO's basic structure acts as a powerful security tool. Your KOHO account is a reloadable prepaid Mastercard, which means it's not directly connected to your main bank account where you might keep the bulk of your savings.
 
-Think of your main bank account as a vault. You want to keep it as secure as possible. Your KOHO account functions as your everyday wallet. You can load it with the money you need for the week's groceries, your monthly subscriptions, or your travel budget. This makes it incredibly [safe to use while traveling](/koho-travelers-2025), as you limit your exposure to just the funds you've loaded.
+Think of your main bank account as a vault. You want to keep it as secure as possible. Your KOHO account functions as your everyday wallet. You can load it with the money you need for the week's groceries, your monthly subscriptions, or your travel budget. This makes it incredibly [safe to use while traveling](/blog/koho-referral-code-bonus), as you limit your exposure to just the funds you've loaded.
 
 This separation creates a "firewall" for your finances. In the unlikely event that your KOHO card details are ever compromised, a fraudster could only access the funds you've loaded onto that card. Your main savings account remains untouched and secure. This simple design significantly reduces your risk compared to using a traditional debit card, which is directly linked to your entire chequing account balance.
 
@@ -66,6 +66,6 @@ These features work together to create a secure ecosystem for your money. Let's 
 
 Your financial tool should do more than just facilitate transactions; it should protect you. KOHO is built with a deep understanding of modern security needs, offering proactive and user-controlled features that traditional banks are still catching up to.
 
-From the foundational safety of a prepaid system to the advanced protection of virtual cards and instant locking, KOHO gives you the confidence to spend, save, and live your life without fear. It's time to choose Traveling soon? Learn more about [KOHO bonuses and security](/koho-referral-code-bonus) for peace of mind abroad.
+From the foundational safety of a prepaid system to the advanced protection of virtual cards and instant locking, KOHO gives you the confidence to spend, save, and live your life without fear. It's time to choose Traveling soon? Learn more about [KOHO bonuses and security](/blog/koho-referral-code-bonus) for peace of mind abroad.
 
 Ready to start? [Get your KOHO referral code here](/) with **KOHO sign up bonus** code C4MNILZARC!

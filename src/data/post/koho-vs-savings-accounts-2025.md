@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-12-08
-title: 'KOHO vs High-Interest Savings Accounts: Which is Better in 2025?'
+title: 'KOHO vs High-Interest Savings Accounts (2025)'
 excerpt: 'Compare KOHO to traditional high-interest savings accounts. Discover which option offers better rates, flexibility, and features for your savings goals in 2025.'
 image: ~/assets/images/blog/koho-vs-savings-accounts-2025.png
 category: 'Savings Comparison'
@@ -45,7 +45,7 @@ KOHO takes a different approach to savings:
 
 ### Features
 
-**KOHO wins.** Beyond just earning interest, you get budgeting tools, instant notifications, and automated savings features like RoundUps. You can even [automate your savings](/koho-spending-control) to grow your wealth effortlessly.
+**KOHO wins.** Beyond just earning interest, you get budgeting tools, instant notifications, and automated savings features like RoundUps. You can even [automate your savings](/blog/koho-spending-control) to grow your wealth effortlessly.
 
 ## Which Should You Choose?
 

@@ -36,7 +36,7 @@ Getting cashback for spending is a huge perk. Both have strong rewards, but take
 - **KOHO:** Cashback on essentials and boosted rates via partner offers.
 - **Neo:** Highest cashback rates at partner merchants; can rival/best premium cards.
 
-Looking at other competitors? Check out our [KOHO vs Wealthsimple comparison](/koho-vs-wealthsimple-savings) as well.
+Looking at other competitors? Check out our [KOHO vs Wealthsimple comparison](/blog/koho-vs-wealthsimple-savings) as well.
 
 **The Verdict:** For max cashback potential, Neo usually wins—especially if you shop at their partners.
 
@@ -64,15 +64,15 @@ Neo excels at partner offers and credit products (credit card, high-interest sav
 - **KOHO if:** You want a prepaid Mastercard, strict budgeting, automated savings, real-time spending notifications, and hate hidden banking fees.
 - **Neo Financial if:** You want big cashback numbers, high-yield savings, and access to retail offers or credit-building tools.
 
-Both KOHO and Neo Financial are light-years ahead of [traditional Canadian banks](/koho-vs-canadian-banks-2025), offering zero monthly fees and modern features.
+Both KOHO and Neo Financial are light-years ahead of [traditional Canadian banks](/blog/koho-vs-canadian-banks-2025), offering zero monthly fees and modern features.
 
 Ultimately, the battle between KOHO and Neo Financial is a win for Canadians. It's a new era of user empowerment and reward. Pick based on your financial style—are you a budgeter (KOHO) or a cashback hunter (Neo)?
 
 ## Related Fintech Comparisons
 
-- [See How KOHO Stacks Up Against Traditional Canadian Banks](/koho-vs-canadian-banks-2025)
-- [Compare KOHO and Wealthsimple Savings Accounts](/koho-vs-wealthsimple-savings)
-- [Discover 10 Reasons Why KOHO Beats Traditional Banks](/why-koho-beats-banks)
+- [See How KOHO Stacks Up Against Traditional Canadian Banks](/blog/koho-vs-canadian-banks-2025)
+- [Compare KOHO and Wealthsimple Savings Accounts](/blog/koho-vs-wealthsimple-savings)
+- [Discover 10 Reasons Why KOHO Beats Traditional Banks](/blog/why-koho-beats-banks)
 
 Ready to choose KOHO? [Get your KOHO promo code here](/) and use code **C4MNILZARC** to claim your instant $20 bonus plus up to $45 more.
 

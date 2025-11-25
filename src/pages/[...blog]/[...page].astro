@@ -25,6 +25,8 @@ const currentPage = page.currentPage ?? 1;
 
 const metadata = {
   title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description:
+    'KOHO guides, comparisons, and money-saving tips. Maximize your referral bonus, compare fintech options, and master personal finance in Canada.',
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,

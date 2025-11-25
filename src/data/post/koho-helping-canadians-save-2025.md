@@ -78,8 +78,8 @@ Stop letting saving be a source of stress. It's time to choose a tool that does 
 
 ## More Savings Strategies
 
-- [Why KOHO Beats Traditional Banks: Save Over $577 Annually](/why-koho-beats-banks)
-- [Complete KOHO Guide for Students in 2025](/koho-for-students-2025)
-- [Best Money Saving Apps in Canada: Complete Comparison](/best-money-saving-apps-2025)
+- [Why KOHO Beats Traditional Banks: Save Over $577 Annually](/blog/why-koho-beats-banks)
+- [Complete KOHO Guide for Students in 2025](/blog/koho-for-students-2025)
+- [Best Money Saving Apps in Canada: Complete Comparison](/blog/best-money-saving-apps-2025)
 
 Join thousands of Canadians already saving with KOHO. [Get your KOHO referral code here](/) and use **C4MNILZARC** for an instant $20 bonus.

@@ -51,7 +51,7 @@ Choosing a **KOHO referral** from a trusted source like Kohoreferral is a mark o
 
 Beyond the initial sign-up incentives, your KOHO account opens the door to continuous rewards. The **KOHO cash back** program is a prominent feature that provides a percentage back on your purchases at select merchants. This system allows you to earn passively as you spend, further compounding the value you receive from your account and making it an indispensable tool for the modern consumer in Canada.
 
-Want to see how KOHO compares to traditional banking? Check out our comparison of [KOHO vs Canadian banks](/koho-vs-canadian-banks-2025) to see why digital banking is the smarter choice.
+Want to see how KOHO compares to traditional banking? Check out our comparison of [KOHO vs Canadian banks](/blog/koho-vs-canadian-banks-2025) to see why digital banking is the smarter choice.
 
 ---
 

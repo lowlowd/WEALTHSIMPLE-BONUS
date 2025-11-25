@@ -18,7 +18,7 @@ This guide will show you why KOHO is the perfect financial partner for newcomers
 
 One of the first hurdles for many newcomers is opening a traditional bank account. Big banks often require a credit history, proof of address, and a lot of paperwork, which can be difficult to provide when you've just arrived.
 
-KOHO makes getting started incredibly simple. You can sign up for an account in minutes right from your phone, often without needing a credit history. This easy and accessible process means you can have a working Canadian spending account almost immediately, allowing you to focus on other important parts of settling in. It's a key reason why many choose KOHO when comparing [KOHO vs traditional savings options](/koho-vs-savings-accounts-2025).
+KOHO makes getting started incredibly simple. You can sign up for an account in minutes right from your phone, often without needing a credit history. This easy and accessible process means you can have a working Canadian spending account almost immediately, allowing you to focus on other important parts of settling in. It's a key reason why many choose KOHO when comparing [KOHO vs traditional savings options](/blog/koho-vs-canadian-banks-2025).
 
 ## Say Goodbye to Confusing Bank Fees
 

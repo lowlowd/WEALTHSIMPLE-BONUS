@@ -28,7 +28,7 @@ KOHO tackles some of the biggest pain points of traditional banking head-on:
 - **The Problem:** Traditional chequing accounts offer zero return and no rewards on debit cards.
 - **The KOHO Solution:** KOHO offers competitive interest on your entire balance and has a built-in cashback program, turning daily spending into an opportunity to save.
 
-See how [KOHO is helping everyday Canadians save money](/koho-helping-canadians-save-2025) and take control of their finances.
+See how [KOHO is helping everyday Canadians save money](/blog/koho-helping-canadians-save-2025) and take control of their finances.
 
 ## Empowering Users Through Financial Literacy
 
@@ -47,7 +47,7 @@ See how [KOHO is helping everyday Canadians save money](/koho-helping-canadians-
 - **Innovation as the Norm:** KOHO integrates spending, saving, budgeting, and rewards in a single platform, raising the bar for legacy banks.
 - **Financial Wellness as the Goal:** Not just a place to store money—KOHO gives tools and knowledge for real financial control.
 
-The [rise of prepaid cards like KOHO](/rise-of-prepaid-cards-koho-2025) represents a fundamental shift in consumer banking preferences.
+The [rise of prepaid cards like KOHO](/blog/rise-of-prepaid-cards-koho-2025) represents a fundamental shift in consumer banking preferences.
 
 - **Innovation as the Norm:** KOHO integrates spending, saving, budgeting, and rewards in a single platform, raising the bar for legacy banks.
 
@@ -59,8 +59,8 @@ By challenging old models and putting the user first, KOHO is changing the relat
 
 ## Explore KOHO's Impact
 
-- [How KOHO is Helping Canadians Save More Money](/koho-helping-canadians-save-2025)
-- [Understanding the Rise of Prepaid Cards in Canada](/rise-of-prepaid-cards-koho-2025)
-- [10 Reasons Why KOHO Beats Traditional Banks](/why-koho-beats-banks)
+- [How KOHO is Helping Canadians Save More Money](/blog/koho-helping-canadians-save-2025)
+- [Understanding the Rise of Prepaid Cards in Canada](/blog/rise-of-prepaid-cards-koho-2025)
+- [10 Reasons Why KOHO Beats Traditional Banks](/blog/why-koho-beats-banks)
 
 Be part of the fintech revolution. Spend $20 in 30 days to unlock.

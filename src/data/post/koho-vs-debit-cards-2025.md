@@ -45,7 +45,7 @@ This small separation is what unlocks a world of features designed to make you a
 - **Debit Cards:** Attaching account often has monthly fees or NSF penalties.
 - **KOHO:** No monthly fees, no e-Transfer fees, can't go negative so no NSF charges.
 
-For a deeper dive into how KOHO saves you money, read our guide on [why KOHO beats traditional banks](/why-koho-beats-banks).
+For a deeper dive into how KOHO saves you money, read our guide on [why KOHO beats traditional banks](/blog/why-koho-beats-banks).
 
 **Winner for Lower Fees:** **KOHO**
 
@@ -54,7 +54,7 @@ For a deeper dive into how KOHO saves you money, read our guide on [why KOHO bea
 - **Debit Cards:** Fraud hits your main funds. Recovery can be slow.
 - **KOHO:** Account is separate/reloadable. If compromised, only lose what's loaded. Lock card from app. Virtual cards for extra safety.
 
-Students especially benefit from KOHO's spending controls—learn more in our [KOHO for students guide](/koho-for-students-2025).
+Students especially benefit from KOHO's spending controls—learn more in our [KOHO for students guide](/blog/koho-for-students-2025).
 
 **Winner for Security:** **KOHO**
 
@@ -68,9 +68,9 @@ For direct bank access, a debit card works. But for everyday spending in 2025, K
 
 ## Related Card & Banking Guides
 
-- [Why KOHO Beats Traditional Banks: Save Over $577 Annually](/why-koho-beats-banks)
-- [KOHO vs Canadian Banks: Complete Feature Comparison](/koho-vs-canadian-banks-2025)
-- [Understanding the Rise of Prepaid Cards in Canada](/rise-of-prepaid-cards-koho-2025)
+- [Why KOHO Beats Traditional Banks: Save Over $577 Annually](/blog/why-koho-beats-banks)
+- [KOHO vs Canadian Banks: Complete Feature Comparison](/blog/koho-vs-canadian-banks-2025)
+- [Understanding the Rise of Prepaid Cards in Canada](/blog/rise-of-prepaid-cards-koho-2025)
 
 Ready to upgrade from traditional debit? [Get KOHO with promo code C4MNILZARC](/) and claim your $20 instant bonus plus cashback rewards.
 

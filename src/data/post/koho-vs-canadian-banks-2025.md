@@ -61,6 +61,6 @@ Get real‑time notifications, automatic categorization, RoundUps, and savings g
 
 Big banks provide everything under one roof but can be expensive; online banks excel at savings rates. KOHO focuses on everyday control—spending smarter, budgeting simply, and saving automatically—making it a strong choice if you want transparency and day‑to‑day value.
 
-**Also compare:** [KOHO vs Wealthsimple](/koho-vs-wealthsimple-savings) | [KOHO vs Neo Financial](/koho-vs-neo-financial-2025) | [Why KOHO Beats Banks](/why-koho-beats-banks)
+**Also compare:** [KOHO vs Wealthsimple](/blog/koho-vs-wealthsimple-savings) | [KOHO vs Neo Financial](/blog/koho-vs-neo-financial-2025) | [Why KOHO Beats Banks](/blog/why-koho-beats-banks)
 
 Ready to switch? Use [KOHO promo code C4MNILZARC](/) to get started with a bonus.

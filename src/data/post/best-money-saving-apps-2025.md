@@ -144,7 +144,7 @@ This comprehensive guide compares Canada's top money-saving apps to help you fin
 
 ### 5. Neo Financial - Best for Cashback-Focused Savers
 
-**What it does:** Spending card with high cashback rates at partner retailers, plus a savings account. See our detailed [KOHO vs Neo Financial comparison](/koho-vs-neo-financial-2025) for a head-to-head analysis.
+**What it does:** Spending card with high cashback rates at partner retailers, plus a savings account. See our detailed [KOHO vs Neo Financial comparison](/blog/koho-vs-neo-financial-2025) for a head-to-head analysis.
 
 **Key Features:**
 
@@ -201,7 +201,7 @@ This comprehensive guide compares Canada's top money-saving apps to help you fin
 - You prefer simplicity over features
 - You don't need a spending card
 
-For a detailed breakdown, check our [KOHO vs Wealthsimple comparison](/koho-vs-wealthsimple-savings).
+For a detailed breakdown, check our [KOHO vs Wealthsimple comparison](/blog/koho-vs-wealthsimple-savings).
 
 ### Choose Moka if:
 
@@ -249,8 +249,8 @@ The best money-saving app for you depends on your specific needs. However, for m
 
 ### Related Articles
 
-- [KOHO vs Neo Financial: Complete Head-to-Head Comparison](/koho-vs-neo-financial-2025)
-- [KOHO vs Wealthsimple Savings: Which Account is Better?](/koho-vs-wealthsimple-savings)
-- [Complete KOHO Guide for Canadian Students](/koho-for-students-2025)
+- [KOHO vs Neo Financial: Complete Head-to-Head Comparison](/blog/koho-vs-neo-financial-2025)
+- [KOHO vs Wealthsimple Savings: Which Account is Better?](/blog/koho-vs-wealthsimple-savings)
+- [Complete KOHO Guide for Canadian Students](/blog/koho-for-students-2025)
 
 **Ready to start saving smarter? [Use KOHO promo code C4MNILZARC](/) to get up to $65 in bonuses and start building real wealth today.**

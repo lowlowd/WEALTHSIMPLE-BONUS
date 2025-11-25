@@ -50,7 +50,7 @@ With this approach, budgeting becomes less of a chore and more of a daily check-
 
 Managing spending isn't just about saying no to things. It's also about making sure you're setting money aside for what's next—maybe a rainy-day fund, a new phone, or just some fun plans.
 
-KOHO's **RoundUps** feature automates saving in a way that feels almost invisible. When you enable it, every time you buy something, KOHO rounds the transaction up to the next $1, $2, $5, or $10, and tucks the spare change away in your savings. Grab a coffee for $4.50? The app rounds it to $5.00, dropping that extra $0.50 into savings for you. Over weeks and months, those small amounts can really stack up. Once you've built up some savings, consider how to [maximize your KOHO bonus](/koho-referral-code-bonus) for better budgeting.
+KOHO's **RoundUps** feature automates saving in a way that feels almost invisible. When you enable it, every time you buy something, KOHO rounds the transaction up to the next $1, $2, $5, or $10, and tucks the spare change away in your savings. Grab a coffee for $4.50? The app rounds it to $5.00, dropping that extra $0.50 into savings for you. Over weeks and months, those small amounts can really stack up. Once you've built up some savings, consider how to [maximize your KOHO bonus](/blog/koho-referral-code-bonus) for better budgeting.
 
 Many KOHO users are surprised by how quickly small change becomes real savings—sometimes hundreds of dollars a year, just by letting the app work in the background.
 

@@ -31,7 +31,7 @@ This is where KOHO shines. It’s a **no-fee spending account**. Because it’s 
 
 When you're a student, every dollar counts. KOHO gives you **cash back on your purchases**. You can get 1% cash back on essentials like groceries and transportation. That's like getting a small discount every time you buy food or take the bus to class.
 
-Unlike [traditional Canadian banks](/koho-vs-canadian-banks-2025) that charge monthly fees and require minimum balances, KOHO rewards you just for spending on what you already need.
+Unlike [traditional Canadian banks](/blog/koho-vs-canadian-banks-2025) that charge monthly fees and require minimum balances, KOHO rewards you just for spending on what you already need.
 
 ## Save Automatically with RoundUps
 
@@ -49,8 +49,8 @@ It gives you the control and confidence you need to manage your money wisely, so
 
 ## Related Student Resources
 
-- [Why KOHO Beats Traditional Banks](/why-koho-beats-banks) - Save $577+ per year vs traditional banks
-- [Best Money Saving Apps for Canadians](/best-money-saving-apps-2025) - Compare KOHO with other fintech options
-- [KOHO Credit Building Guide](/koho-referral-code-bonus) - Learn how to maximize your rewards
+- [Why KOHO Beats Traditional Banks](/blog/why-koho-beats-banks) - Save $577+ per year vs traditional banks
+- [Best Money Saving Apps for Canadians](/blog/best-money-saving-apps-2025) - Compare KOHO with other fintech options
+- [KOHO Credit Building Guide](/blog/koho-referral-code-bonus) - Learn how to maximize your rewards
 
 **Ready to take control of your student finances?** [Use KOHO promo code C4MNILZARC](/) to get your $20 instant bonus plus up to $45 more. Download KOHO today and start saving while you study!

@@ -74,7 +74,7 @@ Want to accelerate your savings goals? The fastest way is to increase your incom
 
 **What it is:** Drive for Uber, Lyft, DoorDash, or Skip the Dishes on your own schedule.
 
-**Why it works in 2025:** Flexible hours and immediate pay make it accessible. This is a [great income source for newcomers](/koho-newcomers-2025) looking for flexible work.
+**Why it works in 2025:** Flexible hours and immediate pay make it accessible. This is a [great income source for newcomers](/blog/koho-newcomers-2025) looking for flexible work.
 
 **Getting started:**
 

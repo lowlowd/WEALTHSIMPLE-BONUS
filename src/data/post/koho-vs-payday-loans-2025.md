@@ -42,7 +42,7 @@ The KOHO app shows you exactly where your money is going in real-time. It helps 
 
 With features like **RoundUps**, KOHO helps you build an emergency fund without thinking about it. Every purchase you make can be rounded up, with the spare change put into your savings. Having even a small $500 emergency fund is often enough to cover a surprise expense and break the payday loan cycle for good.
 
-Learn how [KOHO helps Canadians save money](/koho-helping-canadians-save-2025) and avoid debt traps entirely.
+Learn how [KOHO helps Canadians save money](/blog/koho-helping-canadians-save-2025) and avoid debt traps entirely.
 
 ## The Choice: A Tool vs. A Trap
 
@@ -54,9 +54,9 @@ If you're in a tight spot, take a deep breath and look past the flashing neon si
 
 ### Related Articles
 
-- [10 Reasons Why KOHO Beats Traditional Banks](/why-koho-beats-banks)
-- [Complete KOHO Guide for Students: Budget Smart](/koho-for-students-2025)
-- [How KOHO Helps Canadians Save More Money](/koho-helping-canadians-save-2025)
+- [10 Reasons Why KOHO Beats Traditional Banks](/blog/why-koho-beats-banks)
+- [Complete KOHO Guide for Students: Budget Smart](/blog/koho-for-students-2025)
+- [How KOHO Helps Canadians Save More Money](/blog/koho-helping-canadians-save-2025)
 
 **Ready to break free from payday loans? [Get KOHO with referral code C4MNILZARC](/) and start building real financial security with up to $65 in bonuses.**
 

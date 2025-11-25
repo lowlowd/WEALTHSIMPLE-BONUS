@@ -1,6 +1,6 @@
 ---
 publishDate: 2025-11-27
-title: 'KOHO for Travelers: The Best Card for 2025 Adventures'
+title: 'KOHO for Travelers: No Foreign Fees Guide (2025)'
 excerpt: 'Discover why KOHO is the perfect travel card for 2025. Learn how its no-FX-fee accounts, budgeting tools, and security features help you save money abroad.'
 image: ~/assets/images/blog/koho-travelers-2025.png
 category: 'Banking Trends'
@@ -56,7 +56,7 @@ Keeping your money safe is a top priority for any traveler. Losing your wallet o
 ### A Firewall for Your Finances
 
 - **A Separate Spending Account:** Because KOHO is a reloadable account, it's not directly linked to your main bank account where you keep your life savings. If your KOHO card were ever lost or compromised, a thief could only access the funds you've loaded onto it for your trip, not your entire savings. This acts as a crucial firewall, protecting your primary funds back home.
-- **Instantly Lock Your Card:** Misplaced your card after a long day of sightseeing? Don't panic. You can [instantly lock your card](/koho-fraud-protection-2025) right from the KOHO app. If you find it a few minutes later in your bag, you can unlock it just as easily. This gives you immediate control and peace of mind that no one else can use your card.
+- **Instantly Lock Your Card:** Misplaced your card after a long day of sightseeing? Don't panic. You can [instantly lock your card](/blog/koho-fraud-protection-2025) right from the KOHO app. If you find it a few minutes later in your bag, you can unlock it just as easily. This gives you immediate control and peace of mind that no one else can use your card.
 - **Secure Virtual Cards:** For booking flights, hotels, or tours online, you can create a secure virtual card within the app. This is a unique card number that is separate from your physical card, adding another layer of protection against online fraud.
 
 With these security features, you can explore with confidence, knowing that your money is protected.

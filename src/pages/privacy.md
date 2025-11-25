@@ -1,5 +1,6 @@
 ---
 title: 'Privacy Policy'
+description: 'Privacy Policy for Koho Referral Codes. Learn how we protect your information when you use our KOHO referral code resources and guides.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

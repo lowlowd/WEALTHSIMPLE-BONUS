@@ -1,5 +1,6 @@
 ---
 title: 'Terms of Service'
+description: 'Terms of Service for Koho Referral Codes. Read our terms for using our website and accessing KOHO referral and promotion information.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
