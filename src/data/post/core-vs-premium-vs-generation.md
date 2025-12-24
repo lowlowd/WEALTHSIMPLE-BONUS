@@ -275,5 +275,3 @@ Yes. All Wealthsimple accounts are combined when calculating your tier.
 ### Do referral bonuses count toward tier qualification?
 
 The Wealthsimple sign up bonus itself is cash, not "deposits" for tier purposes. However, any funds you deposit to receive the bonus do count toward your tier status.
-
-
