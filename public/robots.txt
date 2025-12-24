@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kohoreferral.codes/sitemap-index.xml
+Sitemap: https://wealthsimplebonus.ca/sitemap-index.xml
