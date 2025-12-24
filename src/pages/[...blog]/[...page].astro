@@ -26,7 +26,7 @@ const currentPage = page.currentPage ?? 1;
 const metadata = {
   title: `Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
   description:
-    'KOHO guides, comparisons, and money-saving tips. Maximize your referral bonus, compare fintech options, and master personal finance in Canada.',
+    'Wealthsimple guides, investing tips, and financial advice. Learn how to maximize your investments and grow your wealth in Canada.',
   robots: {
     index: blogListRobots?.index && currentPage === 1,
     follow: blogListRobots?.follow,
@@ -40,9 +40,9 @@ const metadata = {
 <Layout metadata={metadata}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline
-      subtitle="Tips, guides, and insights to help you get the most out of your KOHO account and maximize your money!"
+      subtitle="Tips, guides, and insights to help you invest smarter and grow your wealth with Wealthsimple!"
     >
-      All Things KOHO Blog
+      Wealthsimple Investing Blog
     </Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />

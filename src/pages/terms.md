@@ -1,10 +1,10 @@
 ---
 title: 'Terms of Service'
-description: 'Terms of Service for Koho Referral Codes. Read our terms for using our website and accessing KOHO referral and promotion information.'
+description: 'Terms of Service for Wealthsimple Bonus. Read our terms for using our website and accessing Wealthsimple referral information.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: 11/7/2025
+_Last updated_: December 5, 2025
 
 ## 1. Acceptance of Terms
 
@@ -12,20 +12,20 @@ By accessing and using this website, you accept and agree to be bound by the ter
 
 ## 2. Website Purpose
 
-This website is an independent referral page created to provide information about KOHO's referral program. We are not officially affiliated with, endorsed by, or sponsored by KOHO Financial Inc.
+This website is an independent referral page created to provide information about Wealthsimple's referral program. We are not officially affiliated with, endorsed by, or sponsored by Wealthsimple Inc.
 
 ## 3. Referral Program
 
-The referral code and bonus information provided on this website are subject to:
+The referral link and bonus information provided on this website are subject to:
 
-- KOHO's official terms and conditions
-- Change without notice at KOHO's discretion
-- Eligibility requirements as determined by KOHO
+- Wealthsimple's official terms and conditions
+- Change without notice at Wealthsimple's discretion
+- Eligibility requirements as determined by Wealthsimple
 - Canadian regulatory compliance
 
 ## 4. Information Accuracy
 
-While we strive to provide accurate and up-to-date information, we make no warranties or representations about the completeness, accuracy, or reliability of the information on this website. For official information, please refer to KOHO's official website.
+While we strive to provide accurate and up-to-date information, we make no warranties or representations about the completeness, accuracy, or reliability of the information on this website. For official information, please refer to Wealthsimple's official website.
 
 ## 5. No Financial Advice
 
@@ -41,7 +41,7 @@ We shall not be liable for any direct, indirect, incidental, consequential, or p
 
 ## 8. External Links
 
-This website contains links to external websites, including KOHO's official website. We are not responsible for the content, privacy practices, or terms of service of these external sites.
+This website contains links to external websites, including Wealthsimple's official website. We are not responsible for the content, privacy practices, or terms of service of these external sites.
 
 ## 9. Changes to Terms
 

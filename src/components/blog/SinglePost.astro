@@ -4,6 +4,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import FAQSchema from '~/components/blog/FAQSchema.astro';
+import AuthorFooter from '~/components/blog/AuthorFooter.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -34,14 +35,14 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
       <nav aria-label="Breadcrumb" class="mb-6 text-sm text-gray-500 dark:text-gray-400">
         <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="flex flex-wrap items-center">
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-            <a href="/" itemprop="item" class="hover:text-primary dark:hover:text-blue-400 transition-colors">
+            <a href="/" itemprop="item" class="hover:text-primary dark:hover:text-green-400 transition-colors">
               <span itemprop="name">Home</span>
             </a>
             <meta itemprop="position" content="1" />
             <span class="mx-2">/</span>
           </li>
           <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-            <a href="/blog" itemprop="item" class="hover:text-primary dark:hover:text-blue-400 transition-colors">
+            <a href="/blog" itemprop="item" class="hover:text-primary dark:hover:text-green-400 transition-colors">
               <span itemprop="name">Blog</span>
             </a>
             <meta itemprop="position" content="2" />
@@ -53,7 +54,7 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
                 <a
                   href={categorySlug}
                   itemprop="item"
-                  class="hover:text-primary dark:hover:text-blue-400 transition-colors"
+                  class="hover:text-primary dark:hover:text-green-400 transition-colors"
                 >
                   <span itemprop="name">{post.category.title}</span>
                 </a>
@@ -109,7 +110,7 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
               {/* Category */}
               <div class="flex items-center">
                 <Icon name="tabler:bookmark" class="w-4 h-4 mr-1.5 text-gray-500 dark:text-gray-400" />
-                <a href={categorySlug} class="hover:text-primary dark:hover:text-blue-400 transition-colors">
+                <a href={categorySlug} class="hover:text-primary dark:hover:text-green-400 transition-colors">
                   {post.category.title}
                 </a>
               </div>
@@ -150,12 +151,13 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
       )
     }
     <div
-      class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-green-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
     >
       <slot />
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8">
       <PostTags tags={post.tags} />
+      <AuthorFooter authorName={post.author} />
     </div>
   </article>
 </section>

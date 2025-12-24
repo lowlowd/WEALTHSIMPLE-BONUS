@@ -1,0 +1,231 @@
+---
+author: Isabelle Reuben
+publishDate: 2025-12-05T00:00:00Z
+title: 'Wealthsimple Referral Bonus Terms and Conditions Explained (2025)'
+excerpt: "Understand the fine print of Wealthsimple's referral program. Learn about eligibility requirements, deposit minimums, holding periods, and tax implications."
+image: ~/assets/images/referral-bonus-terms-conditions.png
+category: Referral Codes
+tags:
+  - wealthsimple terms
+  - referral bonus eligibility
+  - wealthsimple requirements
+  - referral conditions
+metadata:
+  canonical: https://wealthsimplebonus.ca/blog/referral-bonus-terms-conditions
+---
+
+Before claiming your Wealthsimple sign up bonus, it's important to understand the terms and conditions. This guide breaks down the fine print in plain English so you know exactly what to expect from your referral bonus.
+
+## Eligibility Requirements
+
+### Who Can Receive a Referral Bonus?
+
+To qualify for the **Wealthsimple sign up bonus** of $25 (or higher tier), you must meet ALL of the following criteria:
+
+| Requirement            | Details                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| **New Client Status**  | Never opened a Self-directed, Crypto, Managed Investing, or Chequing account |
+| **Canadian Residency** | Must be a legal resident of Canada                                           |
+| **Age of Majority**    | Must be 18+ (19+ in some provinces)                                          |
+| **Account Standing**   | Must be able to pass identity verification                                   |
+
+### What Counts as a "New Client"?
+
+Wealthsimple's definition of "new" is **absolute**. If you've ever:
+
+- Opened and closed a Wealthsimple account
+- Signed up for Wealthsimple Tax only
+- Started registration but never funded
+
+...you may or may not qualify depending on how far you got in the process. Generally, if you completed identity verification for any investment product, you're not considered new.
+
+> **Exception:** Some users who signed up years ago and never engaged may receive "reactivation" offers with different terms.
+
+## Funding Requirements
+
+### Minimum Deposit: Just $1
+
+One of the most attractive aspects of Wealthsimple's referral program is the **$1 minimum deposit**. Unlike competitors who require $100 or more, Wealthsimple makes it accessible to everyone.
+
+### 30-Day Funding Window
+
+You must fund your account within **30 days** of:
+
+- Entering the referral code, OR
+- Opening your account (AND if the code was applied during signup)
+
+If you miss this window, the referral relationship expires and no bonus is paid to either party.
+
+> **Exception:** If you're doing an institutional transfer (RRSP, TFSA, LIRA from another bank), you get a **90-day window** instead. This accounts for the fact that bank-to-bank transfers can take 2-4 weeks.
+
+### Where Can the Deposit Go?
+
+Your qualifying deposit can go into any of these account types:
+
+- ✅ Self-directed Trading account
+- ✅ Managed Investing (robo-advisor)
+- ✅ Crypto account
+- ✅ Chequing account
+- ✅ TFSA, RRSP, FHSA, or other registered accounts
+
+## Bonus Payment Details
+
+### When You'll Receive Your Bonus
+
+Most users receive their referral bonus within **24 hours** of making a qualifying deposit. In rare cases, it may take up to a few business days.
+
+### Where the Bonus Is Deposited
+
+Your bonus is deposited into your **Wealthsimple Chequing account**, not your investment account.
+
+**Why?** This is intentional. If the bonus went into your TFSA or RRSP, it would count as a contribution and use up your contribution room. By depositing it into Chequing:
+
+- No contribution room is affected
+- You can access it immediately
+- You can move it wherever you want
+
+> **Important:** If you don't have a Chequing account open, Wealthsimple may give you a grace period (typically 30-90 days) to open one. Otherwise, you might not receive your bonus.
+
+### The 180-Day Hold Period
+
+Here's a critical detail many people miss: **you must keep the bonus in your Wealthsimple account for 180 days**.
+
+What happens if you withdraw early?
+
+- The bonus amount may be **deducted from your withdrawal**
+- This applies even if you're withdrawing from a different account than where the bonus was deposited
+
+**Example:** You receive a $25 bonus in your Chequing account but later withdraw $500 from your TFSA within 180 days. Wealthsimple may deduct $25 from that withdrawal.
+
+## Referral Ladder Bonuses
+
+For deposits larger than $1,000, additional bonus tiers apply:
+
+| Deposit Amount      | Total Bonus |
+| ------------------- | ----------- |
+| $1 – $999           | $25         |
+| $1,000 – $9,999     | $50         |
+| $10,000 – $49,999   | $100        |
+| $50,000 – $99,999   | $200        |
+| $100,000 – $499,999 | $500        |
+| $500,000 – $999,999 | $1,500      |
+| $1,000,000+         | $5,000      |
+
+### Extended Funding Period for Transfers
+
+If you're transferring assets from another institution, you get extra time:
+
+- **Standard deposits:** 30 days
+- **Institutional transfers:** Up to 90 days
+
+This accommodation exists because bank transfers can take 2-4 weeks to complete, and Wealthsimple doesn't want you penalized for your old bank's slow processing.
+
+👉 [Full guide: Referral Ladder Challenge](/blog/referral-ladder-challenge)
+
+👉 [Compare: Promotional offers vs referral bonuses](/blog/promo-code-vs-referral-code)
+
+## Tax Implications
+
+### No Tax Slips Issued
+
+Wealthsimple **does not issue tax slips** (like T4A) for referral bonuses. However, this doesn't mean the income is tax-free.
+
+### Your Reporting Responsibility
+
+Technically, referral bonuses may be considered taxable income. Whether you need to report it depends on:
+
+- Your overall tax situation
+- The total amount received
+- Whether you're treating it as casual income or part of a business
+
+Most individual users receiving one-time $25 bonuses don't report them separately, but consult a tax professional if you're earning significant amounts through referrals.
+
+### Why Bonuses Go to Chequing, Not TFSA
+
+If your $25 bonus was deposited directly into your TFSA, it would:
+
+- Count as a contribution
+- Use up $25 of your contribution room
+- Potentially cause over-contribution if you're near your limit
+
+By depositing to Chequing, Wealthsimple avoids this problem entirely.
+
+## Disqualification Scenarios
+
+Your referral may be rejected if:
+
+| Scenario                                              | Result                         |
+| ----------------------------------------------------- | ------------------------------ |
+| Previously opened any Wealthsimple investment account | Ineligible                     |
+| Failed identity verification                          | No bonus until resolved        |
+| Funded after 30-day window                            | Referral expires               |
+| Attempted to refer yourself                           | Both accounts may be suspended |
+| Used fraudulent information                           | Account closure                |
+
+### Self-Referral Is Not Allowed
+
+Attempting to create multiple accounts to refer yourself is against the terms and can result in:
+
+- Forfeiture of all bonuses
+- Account suspension
+- Permanent ban from the platform
+
+## Quebec Residents
+
+Most Wealthsimple promotions and referral bonuses are available to Quebec residents, but **some specific promotions may be excluded**. Always check the specific terms of any promotion if you're in Quebec.
+
+## Getting Your Bonus: Quick Checklist
+
+Before signing up, make sure you can check all these boxes:
+
+- [ ] I've never had a Wealthsimple investment account
+- [ ] I'm a Canadian resident of legal age
+- [ ] I will fund my account within 30 days
+- [ ] I have (or will open) a Wealthsimple Chequing account
+- [ ] I won't withdraw the bonus for 180 days
+
+If everything checks out:
+
+👉 **[Sign up with referral code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)** and get your $25 bonus.
+
+---
+
+## Related Articles
+
+- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [How to Add a Referral Code After Signing Up](/blog/add-referral-code-after-signup)
+- [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
+
+## Frequently Asked Questions
+
+### What if I withdraw my original deposit but leave the bonus?
+
+If you try to withdraw any funds (even your original deposit) within 180 days, the bonus may be deducted.
+
+### Is there a limit to how many people I can refer?
+
+No. Once you're a Wealthsimple client, you can refer unlimited friends and earn at least $25 for each successful referral.
+
+### Is the Wealthsimple sign up bonus worth it?
+
+Absolutely. For a $1 minimum deposit, you get $25 in free cash—that's an instant 2,500% return. If you're transferring larger amounts, the bonus scales up to $5,000, making it one of the best sign up bonuses in Canadian fintech.
+
+### Do I get a T5 or T4A slip for my referral bonus?
+
+No. Wealthsimple generally does not issue tax slips (like a T5 or T4A) for referral bonuses paid into non-registered accounts (like your Cash account). However, this does not mean the income is tax-free; you are still responsible for reporting it to the CRA as "other income" if required.
+
+### Will I lose my bonus if my portfolio drops below the deposit requirement?
+
+Generally, no. Wealthsimple's clawback policy applies to withdrawals, not market performance. If you deposit the required funds and the market value drops, you typically keep your bonus. You only risk losing it if you actively withdraw funds that bring your net deposits below the threshold during the hold period.
+
+### Who gets the bonus if I open a Spousal RRSP?
+
+In a Spousal RRSP, the primary account holder (the person making the contributions) is considered the client for the referral program. They must be the one to enter the referral code and meet the funding requirements to earn the bonus.
+
+### Is there a special Wealthsimple referral code for students?
+
+No. However, the standard referral code (9C6DMQ) is highly recommended for students because it triggers the $25 cash bonus with a minimum deposit of only $1. This low barrier to entry makes it accessible even on a student budget.
+
+### I have a TFSA. Can I use a code if I open a new RRSP?
+
+No. The referral program is strictly for new clients who have never had a Wealthsimple account before. If you already hold any Wealthsimple account (including Cash, Crypto, or Tax), opening a secondary account type (like an RRSP) does not make you eligible for a new client referral bonus.

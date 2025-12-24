@@ -1,10 +1,10 @@
 ---
 title: 'Privacy Policy'
-description: 'Privacy Policy for Koho Referral Codes. Learn how we protect your information when you use our KOHO referral code resources and guides.'
+description: 'Privacy Policy for Wealthsimple Bonus. Learn how we protect your information when you use our Wealthsimple referral resources and guides.'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: 11/7/2025
+_Last updated_: December 5, 2025
 
 ## 1. Introduction
 
@@ -33,7 +33,7 @@ We implement appropriate technical and organizational measures to protect your p
 
 ## 5. Third-Party Services
 
-This website may contain links to third-party websites, including KOHO's official website. We are not responsible for the privacy practices of these external sites. We encourage you to read their privacy policies.
+This website may contain links to third-party websites, including Wealthsimple's official website. We are not responsible for the privacy practices of these external sites. We encourage you to read their privacy policies.
 
 ## 6. Your Rights
 

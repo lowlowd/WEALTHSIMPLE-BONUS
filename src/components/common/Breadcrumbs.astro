@@ -21,7 +21,7 @@ const { items } = Astro.props;
       items.map((item, index) => (
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
           {item.href ? (
-            <a href={item.href} itemprop="item" class="hover:text-primary dark:hover:text-blue-400 transition-colors">
+            <a href={item.href} itemprop="item" class="hover:text-primary dark:hover:text-green-400 transition-colors">
               <span itemprop="name">{item.text}</span>
             </a>
           ) : (

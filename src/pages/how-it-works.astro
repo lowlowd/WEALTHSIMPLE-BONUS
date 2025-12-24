@@ -2,49 +2,54 @@
 import PageLayout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import Features from '~/components/widgets/Features.astro'; // For the Pro Tips
+import Features from '~/components/widgets/Features.astro';
 import Button from '~/components/ui/Button.astro';
 
 const metadata = {
-  title: 'How to Get Your $65 Value KOHO Bonus',
+  title: 'How to Get Your $25 Wealthsimple Bonus',
   description:
-    'Learn how to use our KOHO referral code C4MNILZARC to get up to $65 in bonuses. Step-by-step guide to claiming your sign-up bonus.',
+    'Learn how to claim your $25 Wealthsimple referral bonus. Step-by-step guide to signing up and depositing to receive your cash bonus.',
 };
 ---
 
 <PageLayout metadata={metadata}>
   <HeroText title={metadata.title}>
     <Fragment slot="subtitle">
-      Follow our simple step-by-step guide to claim your referral bonus and start enjoying free banking with KOHO.
+      Follow our simple step-by-step guide to claim your $25 cash bonus and start investing with Wealthsimple.
     </Fragment>
   </HeroText>
 
   <Steps
     title="How to Get Your Bonus"
-    subtitle="Follow these simple steps to claim your $65 Value KOHO signup bonus"
+    subtitle="Follow these simple steps to claim your $25 Wealthsimple cash bonus"
     items={[
       {
-        title: 'Sign Up for KOHO',
+        title: 'Click Our Referral Link',
         description:
-          'Download the Koho app to create your account. <span class="font-bold">There is no credit check!</span>',
-        icon: 'tabler:download',
+          'Use our referral link to sign up for Wealthsimple. This ensures you qualify for the <span class="font-bold">$25 cash bonus</span>.',
+        icon: 'tabler:link',
       },
       {
-        title: 'Enter the Referral Code',
+        title: 'Create Your Account',
         description:
-          'Enter the KOHO referral code <span class="font-bold">C4MNILZARC</span> during sign-up to activate your bonus.',
-        icon: 'tabler:writing-sign',
+          'Complete the signup process. You\'ll need to verify your identity with a government-issued ID.',
+        icon: 'tabler:user-plus',
       },
       {
-        title: 'Get Your KOHO Bonus',
-        description: 'Make a $20 purchase with your Koho card to get your <span class="font-bold">Bonus.</span>',
+        title: 'Deposit $1+',
+        description: 'Fund your account with at least $1. You can transfer from your bank or set up direct deposit.',
+        icon: 'tabler:cash',
+      },
+      {
+        title: 'Get Your $25 Bonus',
+        description: 'Your <span class="font-bold">$25 cash bonus</span> will be deposited within a few business days!',
         icon: 'tabler:gift',
       },
     ]}
   >
     <Fragment slot="footer">
       <p class="text-center text-lg text-muted-foreground">
-        The entire process takes less than 10 minutes. <strong>No credit check required.</strong>
+        The entire process takes just a few minutes. <strong>Start investing today!</strong>
       </p>
     </Fragment>
   </Steps>
@@ -54,33 +59,39 @@ const metadata = {
       title="Detailed Setup Guide"
       items={[
         {
-          title: '1. Download the KOHO App',
+          title: '1. Click the Referral Link',
           description:
-            'Visit the App Store (iOS) or Google Play Store (Android) and search for "KOHO". Download and install the official KOHO app. The app is free and takes less than a minute to download.<br/><br/>Requires iOS 13.0+ or Android 6.0+.<br/>Free download with no in-app purchases required.',
-          icon: 'tabler:device-mobile',
+            'Click our referral link to go to Wealthsimple\'s website. This is essential to qualify for the $25 bonus. The link works on both desktop and mobile.<br/><br/><strong>⚠️ Important: You must use a referral link to get the bonus. Regular signups don\'t qualify.</strong>',
+          icon: 'tabler:click',
         },
         {
           title: '2. Create Your Account',
           description:
-            'Open the app and tap "Sign Up". You\'ll need to provide some basic information:<br/>- Full legal name<br/>- Date of birth<br/>- Canadian address<br/>- Email address and phone number<br/>- Social Insurance Number (for identity verification)<br/><br/><strong>⚠️ Important: When prompted for a referral code, enter C4MNILZARC</strong>',
+            'Click "Get Started" and create your account. You\'ll need to provide:<br/>- Full legal name<br/>- Date of birth<br/>- Email address and phone number<br/>- Canadian address<br/>- Social Insurance Number (for tax reporting)<br/><br/>This information is required by Canadian securities regulations.',
           icon: 'tabler:user-plus',
         },
         {
           title: '3. Verify Your Identity',
           description:
-            "KOHO will need to verify your identity as required by Canadian banking regulations. This typically involves:<br/>- Taking a photo of a government-issued ID (driver's license or passport)<br/>- Taking a selfie for facial verification<br/>- Answering a few security questions<br/><br/>This process is secure, encrypted, and usually takes less than 5 minutes.",
+            'Wealthsimple will verify your identity as required by Canadian securities regulations. This typically involves:<br/>- Taking a photo of your government-issued ID (driver\'s license or passport)<br/>- Taking a selfie for facial verification<br/><br/>This process is secure and usually takes less than 5 minutes.',
           icon: 'tabler:id',
         },
         {
-          title: '4. Fund Your Account',
+          title: '4. Choose Your Account Type',
           description:
-            'To activate your $20 bonus, you need to spend at least $20 to your KOHO account within 30 days. You can fund your account through:<br/>- Direct Deposit: Set up direct deposit with your employer<br/>- Bank Transfer: Link your existing bank account and transfer funds<br/>- Interac e-Transfer: Send money from another bank via email',
+            'Select the account type that best fits your needs:<br/>- <strong>TFSA</strong> - Tax-Free Savings Account (tax-free growth)<br/>- <strong>RRSP</strong> - Registered Retirement Savings Plan (tax-deferred)<br/>- <strong>FHSA</strong> - First Home Savings Account (for first-time home buyers)<br/>- <strong>Personal</strong> - Non-registered investment account<br/>- <strong>Crypto</strong> - For Bitcoin, Ethereum, and other cryptocurrencies',
+          icon: 'tabler:folders',
+        },
+        {
+          title: '5. Fund Your Account with $1+',
+          description:
+            'To qualify for the $25 bonus, deposit at least $1. You can fund your account through:<br/>- <strong>Bank Transfer</strong> - Link your bank account and transfer funds<br/>- <strong>Direct Deposit</strong> - Set up your employer to deposit directly<br/>- <strong>Wire Transfer</strong> - For larger amounts<br/><br/>The deposit must remain for at least 30 days.',
           icon: 'tabler:transfer-in',
         },
         {
-          title: '5. Receive Your Bonus',
+          title: '6. Receive Your $25 Bonus',
           description:
-            "Once you've spent at least $20, your referral bonus will be automatically credited within 1-2 business days. You'll receive a notification in the app when your bonus is available. The $20 will appear in your account balance and can be used immediately for purchases or withdrawals.",
+            'Once your deposit clears, your $25 cash bonus will be credited within a few business days. You\'ll see it appear in your account balance. The bonus can be invested or withdrawn - it\'s real cash!<br/><br/><strong>🎉 Congratulations! You\'re now a Wealthsimple investor!</strong>',
           icon: 'tabler:confetti',
         },
       ]}
@@ -94,13 +105,13 @@ const metadata = {
       {
         title: 'Do This',
         description:
-          '• Enter the referral code during initial signup<br/>• Fund your account within the 30-day window<br/>• Keep your account in good standing<br/>• Take advantage of cash back on purchases',
+          '• Use our referral link before signing up<br/>• Deposit $1+ to qualify for the bonus<br/>• Keep your deposit for at least 30 days<br/>• Set up automatic contributions<br/>• Take advantage of free trades',
         icon: 'tabler:check',
       },
       {
         title: 'Avoid This',
         description:
-          "• Don't skip entering the referral code<br/>• Don't wait more than 30 days to fund<br/>• Don't close your account immediately<br/>• Don't share your login credentials",
+          "• Don't sign up without using a referral link<br/>• Don't withdraw within 30 days of deposit<br/>• Don't deposit less than $1<br/>• Don't share your login credentials<br/>• Don't miss out on the TFSA contribution room",
         icon: 'tabler:x',
       },
     ]}
@@ -108,16 +119,16 @@ const metadata = {
 
   <div class="bg-gray-50 dark:bg-slate-800">
     <div class="max-w-3xl mx-auto px-4 py-16 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 font-heading">Ready to Get Your Bonus?</h2>
-      <p class="text-lg text-muted-foreground mb-8">Use the referral code below to get started.</p>
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 font-heading">Ready to Get Your $25 Bonus?</h2>
+      <p class="text-lg text-muted-foreground mb-8">Click below to sign up and start investing with Wealthsimple today.</p>
       <Button
         variant="primary"
-        href="https://referral.koho.ca/mzGV8zw"
+        href="https://wealthsimple.com/invite/9C6DMQ"
         target="_blank"
-        class="px-8 py-4 text-lg md:px-10"
+        class="px-8 py-4 text-lg md:px-10 bg-green-600 hover:bg-green-700"
         showArrow
       >
-        Get Your Koho Bonus
+        Get Your $25 Wealthsimple Bonus
       </Button>
     </div>
   </div>

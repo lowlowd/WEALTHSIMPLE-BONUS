@@ -1,0 +1,30 @@
+---
+/**
+ * AuthorFooter - Displays author bio at the end of blog posts
+ */
+import isabelleImg from '~/assets/images/isabelle-reuben.jpg';
+
+interface Props {
+  authorName?: string;
+}
+
+const { authorName = 'Isabelle Reuben' } = Astro.props;
+---
+
+<div class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+  <div class="flex items-start gap-4">
+    <!-- Author Image -->
+    <div class="flex-shrink-0">
+      <img src={isabelleImg.src} alt={authorName} class="w-16 h-16 rounded-full object-cover shadow-md" />
+    </div>
+    <!-- Author Info -->
+    <div>
+      <h4 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-1">About the Author</h4>
+      <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+        {authorName} is a freelance finance writer dedicated to exploring how platforms like Wealthsimple help Canadians invest
+        smarter. She shares insights on referral bonuses, investing strategies, and financial tools to help bring financial
+        literacy closer to everyone.
+      </p>
+    </div>
+  </div>
+</div>

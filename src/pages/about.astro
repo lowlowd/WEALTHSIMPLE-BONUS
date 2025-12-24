@@ -1,90 +1,114 @@
 ---
 import PageLayout from '~/layouts/PageLayout.astro';
 import Button from '~/components/ui/Button.astro';
+import isabelleImg from '~/assets/images/isabelle-reuben.jpg';
 
 // Metadata for the page
 const metadata = {
-  title: 'About KOHO',
-  description: "Canada's leading resource on KOHO and its promotions to help Canadians spend, save, and earn smarter.",
+  title: 'About Wealthsimple Bonus',
+  description:
+    'Your trusted resource for Wealthsimple referral bonuses and investing tips to help Canadians grow their wealth.',
 };
 ---
 
 <PageLayout metadata={metadata}>
   <div class="max-w-7xl mx-auto px-4 py-16 text-center bg-white dark:bg-slate-900">
-    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6 font-heading text-blue-600 dark:text-blue-400">
-      Why Koho Referral Codes?
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6 font-heading text-green-600 dark:text-green-400">
+      Why Wealthsimple Bonus?
     </h2>
     <p class="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-      We have the best referral codes for Koho that are tested to maximize your value and your Koho Account. Our
-      verified codes ensure you get the highest possible bonus when signing up for KOHO's innovative banking platform.
+      At Wealthsimple Bonus, our mission is simple: help Canadians discover the benefits of modern investing with
+      Wealthsimple. We believe everyone deserves access to low-cost, professional investment tools that make growing
+      your wealth easier and more accessible.
     </p>
   </div>
 
-  <!-- Our Mission -->
+  <!-- About the Author -->
   <div class="bg-gray-50 dark:bg-slate-800">
     <div class="max-w-4xl mx-auto px-4 py-16">
-      <div class="text-center">
-        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-blue-600 dark:text-blue-400">
-          Our Mission
-        </h3>
-        <p class="text-lg text-muted-foreground leading-relaxed">
-          At Koho Referral Codes, our mission is simple: help Canadians discover and maximize the benefits of modern
-          digital banking. We believe everyone deserves access to financial tools that make managing money easier, more
-          rewarding, and completely transparent.
-        </p>
+      <h3 class="text-3xl font-bold tracking-tight mb-8 font-heading text-green-600 dark:text-green-400 text-center">
+        About the Author
+      </h3>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <!-- Author Image -->
+        <div class="flex-shrink-0">
+          <img
+            src={isabelleImg.src}
+            alt="Isabelle Reuben"
+            class="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-gray-200 dark:border-gray-700"
+          />
+        </div>
+        <!-- Author Info -->
+        <div class="text-center md:text-left">
+          <h4 class="text-2xl font-bold mb-1">Isabelle Reuben</h4>
+          <p class="text-green-600 dark:text-green-400 font-semibold uppercase tracking-wide text-sm mb-4">
+            Freelance Finance Writer
+          </p>
+          <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
+            <p>
+              Isabelle Reuben is a freelance writer with a background in finance and a genuine enthusiasm for helping
+              Canadians navigate the world of personal investing. She specializes in covering investment platforms,
+              referral bonuses, and practical financial tips for everyday investors.
+            </p>
+            <p>
+              Isabelle is passionate about sharing insights on how to make the most of Wealthsimple's features and
+              referral programs. Her articles aim to break down financial concepts into clear, actionable advice—because
+              she believes smart investing should be accessible to everyone, not just the experts.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- Why Trust Our Codes?, What Makes KOHO Special?, Our Commitment - Combined Gray Section -->
+  <!-- Why Trust Us, What Makes Wealthsimple Special, Our Commitment -->
   <div class="bg-gray-50 dark:bg-slate-800">
     <div class="max-w-4xl mx-auto px-4 py-16 space-y-16">
-      <!-- Why Trust Our Codes? -->
+      <!-- Why Trust Us -->
       <div class="text-center">
-        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-blue-600 dark:text-blue-400">
-          Why Trust Our Codes?
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
+          Why Trust Our Referral Link?
         </h3>
         <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
           <p>
-            We personally test and verify every referral code before sharing it with you. Our featured code <strong
-              >C4MNILZARC</strong
-            > is guaranteed to work and provide you with the maximum available bonus when you sign up for KOHO.
+            We personally use Wealthsimple and verify that our referral link works correctly. When you sign up through
+            our link and deposit $1+, you'll receive a <strong>$25 cash bonus</strong> directly into your account.
           </p>
           <p>
-            Unlike other sites that may share outdated or expired codes, we maintain active KOHO accounts ourselves and
-            regularly verify that our codes deliver the promised bonuses. When you use our referral code, you can trust
-            that you're getting the best deal available.
+            Unlike other sites that may share outdated information, we keep our content current with Wealthsimple's
+            latest offerings and bonus structures. We're committed to providing accurate, honest information to help you
+            make the best financial decisions.
           </p>
         </div>
       </div>
 
-      <!-- What Makes KOHO Special? -->
+      <!-- What Makes Wealthsimple Special -->
       <div class="text-center">
-        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-blue-600 dark:text-blue-400">
-          What Makes KOHO Special?
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
+          What Makes Wealthsimple Special?
         </h3>
         <p class="text-lg text-muted-foreground leading-relaxed">
-          KOHO represents a fundamental shift in Canadian banking. While traditional banks profit from fees and
-          penalties, KOHO is built around helping you succeed financially. With features like instant cashback,
-          automatic savings, real-time budgeting tools, and credit building—all without monthly fees—KOHO puts your
-          financial wellness first.
+          Wealthsimple has transformed investing for over 3 million Canadians. With commission-free stock and ETF
+          trading, fractional shares, crypto trading, and professionally managed portfolios, Wealthsimple makes it easy
+          to start investing with any amount. Plus, features like automatic rebalancing, tax-loss harvesting, and CIPF
+          protection give you peace of mind.
         </p>
       </div>
 
-      <!-- Our Commitment to You -->
+      <!-- Our Commitment -->
       <div class="text-center">
-        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-blue-600 dark:text-blue-400">
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
           Our Commitment to You
         </h3>
         <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
           <p>
-            We're committed to providing accurate, up-to-date information about KOHO's features, benefits, and
-            promotional offers. Our team stays informed about the latest updates to ensure you always have access to the
+            We're committed to providing accurate, up-to-date information about Wealthsimple's features, benefits, and
+            referral bonuses. Our team stays informed about the latest updates to ensure you always have access to the
             most current information.
           </p>
           <p>
-            Whether you're a student managing money for the first time, a professional looking to optimize your
-            finances, or anyone in between—we're here to help you make the most of KOHO's innovative banking platform.
+            Whether you're a first-time investor, a seasoned trader, or someone looking to save for retirement, we're
+            here to help you make the most of Wealthsimple's innovative investing platform.
           </p>
         </div>
       </div>
@@ -97,17 +121,17 @@ const metadata = {
       <div class="text-center">
         <h3 class="text-2xl font-bold tracking-tight mb-4 font-heading">Ready to Get Started?</h3>
         <p class="text-lg text-muted-foreground mb-6">
-          Join thousands of Canadians who have already discovered a better way to bank. Use our verified referral code
-          to unlock your bonus and start your KOHO journey today.
+          Join over 3 million Canadians who have discovered a smarter way to invest. Use our referral link to unlock
+          your $25 cash bonus and start your Wealthsimple journey today.
         </p>
         <Button
           variant="primary"
-          href="https://referral.koho.ca/mzGV8zw"
+          href="https://wealthsimple.com/invite/9C6DMQ"
           target="_blank"
-          class="px-6 py-3 text-base"
+          class="px-6 py-3 text-base bg-green-600 hover:bg-green-700"
           showArrow
         >
-          Get Your KOHO Bonus
+          Get Your $25 Wealthsimple Bonus
         </Button>
       </div>
     </div>

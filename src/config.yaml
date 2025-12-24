@@ -1,21 +1,21 @@
 site:
-  name: Koho Referral Codes
-  site: 'https://kohoreferral.codes'
+  name: Wealthsimple Bonus
+  site: 'https://wealthsimplebonus.ca'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ''
 
 metadata:
   title:
-    default: Koho Referral Codes
+    default: Wealthsimple Bonus
     template: '%s' # No suffix - full control per page
-  description: 'Your trusted resource for KOHO news, reviews, comparison guides, and the latest KOHO referral codes for 2025.'
+  description: 'Get a $25 cash bonus when you sign up for Wealthsimple and deposit $1+. Earn up to $5,000 in referral bonuses. Your trusted resource for Wealthsimple referral codes and investing tips.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Koho Referral Codes
+    site_name: Wealthsimple Bonus
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -61,7 +61,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: 'G-ELKHTJTMG1'
+      id: 'G-4C4Q3X143J'
 
 ui:
   theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
