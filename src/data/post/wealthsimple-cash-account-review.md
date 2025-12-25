@@ -12,6 +12,25 @@ tags:
   - cash account review
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-cash-account-review
+faqs:
+  - question: 'What is the Wealthsimple Cash interest rate in 2025?'
+    answer: 'Base rate is 1.25% for Core clients, increasing to 1.75% for Premium and 2.25% for Generation. A 0.5% boost is available with $2,000+/month direct deposit.'
+  - question: 'Are there foreign transaction fees?'
+    answer: 'No. Wealthsimple charges 0% on foreign purchases, making it one of Canada best travel cards.'
+  - question: 'What is the best Wealthsimple sign up bonus?'
+    answer: 'The best sign up bonus is the referral code 9C6DMQ. You get $25 cash for just a $1 deposit, plus it goes directly into your Cash account and starts earning interest immediately.'
+  - question: 'Can I use the Wealthsimple card at Costco?'
+    answer: 'Yes! Costco Canada accepts Mastercard, so the Wealthsimple prepaid Mastercard works perfectly there.'
+  - question: 'Can I open a Joint Wealthsimple Cash account with my partner?'
+    answer: 'Yes. Wealthsimple now supports Joint Chequing accounts. You can invite a partner to join your account directly through the app.'
+  - question: 'Does Wealthsimple reimburse ATM fees charged by other banks?'
+    answer: 'Yes. Wealthsimple does not charge ATM fees, and they also reimburse the fee charged by the ATM operator for eligible withdrawals worldwide.'
+  - question: 'How long do mobile cheque deposits take to clear?'
+    answer: 'It depends on your instant deposit limit. Amounts within your limit are usually available immediately. Larger deposits may be held for 5-7 business days to clear.'
+  - question: 'Does the Wealthsimple Cash account have overdraft protection?'
+    answer: 'No. The Wealthsimple Cash account does not offer traditional overdraft protection or credit.'
+  - question: 'Will I actually get paid a day early with direct deposit?'
+    answer: 'In most cases, yes. Wealthsimple releases the funds as soon as they receive the notice from the payment clearing system, which often happens the day before official payday.'
 ---
 
 The Wealthsimple Cash account (now called "Chequing") has evolved into one of Canada's most competitive everyday banking products. This review covers everything you need to know about interest rates, the prepaid card, and whether it can replace your traditional bank.

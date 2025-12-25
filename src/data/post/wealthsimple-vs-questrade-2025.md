@@ -12,6 +12,21 @@ tags:
   - canadian investing
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-vs-questrade-2025
+faqs:
+  - question: 'Is Wealthsimple or Questrade cheaper?'
+    answer: 'For CAD investing, they are essentially identical. For USD investing, Questrade is cheaper unless you have $100K+ at Wealthsimple which gives you free USD accounts.'
+  - question: 'Which has better customer support?'
+    answer: 'Wealthsimple has faster, more accessible support via in-app chat. Questrade has phone support but longer wait times.'
+  - question: 'When is Norbert Gambit coming to Wealthsimple?'
+    answer: 'Wealthsimple has announced that support for Norbert Gambit is scheduled for release in early 2026. Until then, you must pay the 1.5% FX fee or subscribe to the USD accounts.'
+  - question: 'Do I pay ECN fees on Questrade ETF purchases?'
+    answer: 'Yes. Although Questrade offers $0 commission on ETF buys, you may still be charged ECN fees if your order removes liquidity from the market. Wealthsimple does not pass these ECN fees on to the client.'
+  - question: 'Can I open a Self-Directed RESP on Wealthsimple?'
+    answer: 'Yes. Wealthsimple recently launched Self-Directed RESPs, allowing you to trade stocks and ETFs inside an education savings plan commission-free.'
+  - question: 'Does Questrade offer fractional shares like Wealthsimple?'
+    answer: 'Yes, Questrade has introduced fractional share trading. However, Wealthsimple fractional trading interface is often considered more user-friendly for beginners.'
+  - question: 'Is the Questrade offer code better than the Wealthsimple referral bonus?'
+    answer: 'For most beginners, the Wealthsimple referral code is superior because it offers a $25 cash bonus with only a $1 minimum deposit. Questrade welcome offers require a minimum deposit of $250.'
 ---
 
 The **Wealthsimple vs Questrade** question comes up constantly among Canadian DIY investors. And honestly? Both platforms have gotten a lot better in 2025. The real answer depends on how you actually invest.

@@ -12,6 +12,23 @@ tags:
   - referral conditions
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/referral-bonus-terms-conditions
+faqs:
+  - question: 'What if I withdraw my original deposit but leave the bonus?'
+    answer: 'If you try to withdraw any funds (even your original deposit) within 180 days, the bonus may be deducted.'
+  - question: 'Is there a limit to how many people I can refer?'
+    answer: 'No. Once you are a Wealthsimple client, you can refer unlimited friends and earn at least $25 for each successful referral.'
+  - question: 'Is the Wealthsimple sign up bonus worth it?'
+    answer: 'Absolutely. For a $1 minimum deposit, you get $25 in free cash. If you are transferring larger amounts, the bonus scales up to $5,000, making it one of the best sign up bonuses in Canadian fintech.'
+  - question: 'Do I get a T5 or T4A slip for my referral bonus?'
+    answer: 'No. Wealthsimple generally does not issue tax slips for referral bonuses. However, you are still responsible for reporting it to the CRA as other income if required.'
+  - question: 'Will I lose my bonus if my portfolio drops below the deposit requirement?'
+    answer: 'Generally, no. The clawback policy applies to withdrawals, not market performance. You only risk losing it if you actively withdraw funds during the hold period.'
+  - question: 'Who gets the bonus if I open a Spousal RRSP?'
+    answer: 'The primary account holder making the contributions is considered the client for the referral program. They must enter the referral code and meet funding requirements.'
+  - question: 'Is there a special Wealthsimple referral code for students?'
+    answer: 'No, but the standard referral code is ideal for students because it triggers the $25 cash bonus with only a $1 minimum deposit.'
+  - question: 'I have a TFSA. Can I use a code if I open a new RRSP?'
+    answer: 'No. The referral program is strictly for new clients who have never had any Wealthsimple account before.'
 ---
 
 Before claiming your Wealthsimple sign up bonus, it's important to understand the terms and conditions. This guide breaks down the fine print in plain English so you know exactly what to expect from your referral bonus.

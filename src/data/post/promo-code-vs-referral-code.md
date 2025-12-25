@@ -12,6 +12,27 @@ tags:
   - bonus comparison
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/promo-code-vs-referral-code
+faqs:
+  - question: 'Can I use both a promo code and referral code?'
+    answer: 'Generally, no. You must choose one entry method when signing up. The same funds cannot trigger both bonuses.'
+  - question: 'Do promo codes expire?'
+    answer: 'Yes. Promotional campaigns run for limited periods (typically a few weeks to a few months). Referral codes are always available.'
+  - question: 'How long do I have to keep my money in Wealthsimple?'
+    answer: 'Referral bonuses require keeping your funds for 180 days (6 months). Promo codes for devices like iPhones often require 1-2 years depending on the terms.'
+  - question: 'Is a Wealthsimple promo code better than a referral code?'
+    answer: 'For deposits under $100K, the referral code is almost always better (guaranteed cash with just $1 minimum). For deposits over $100K, compare the promo device value to the referral ladder cash bonus.'
+  - question: 'What is the best Wealthsimple sign up bonus right now?'
+    answer: 'For most Canadians, the referral code offering $25-$5,000 in cash based on deposit size is the best option. It requires just $1 minimum and is always available.'
+  - question: 'Can I refer my spouse or partner living at the same address?'
+    answer: 'Yes. Wealthsimple permits referrals between members of the same household as long as your spouse or partner is a new client.'
+  - question: 'Can I use a referral code when opening a Corporate Account?'
+    answer: 'Yes, Corporate accounts are eligible for referral bonuses. The bonus is typically deposited into a personal non-registered account rather than the corporate account.'
+  - question: 'Is there a specific Wealthsimple promo code for students?'
+    answer: 'No. The standard referral code is ideal for students because it requires only a $1 minimum deposit to trigger the cash bonus.'
+  - question: 'Is there a limit to how many friends I can refer?'
+    answer: 'No. There is currently no limit to the number of people you can refer to Wealthsimple.'
+  - question: 'I signed up but never funded my account. Can I still add a code?'
+    answer: 'Yes. If your account has remained unfunded, you can add a code anytime. The 7-day deadline only begins after your first deposit.'
 ---
 
 If you've been poking around looking for Wealthsimple bonuses, you've probably noticed two different things floating around: **promo codes** and **referral codes**. Are they the same? Can you use both at once? And which one's actually worth your time?

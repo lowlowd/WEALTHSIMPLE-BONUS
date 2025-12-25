@@ -12,6 +12,23 @@ tags:
   - tax filing 2025
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-tax-review-2025
+faqs:
+  - question: 'Is Wealthsimple Tax really free?'
+    answer: 'Yes. You can complete and file your entire return for $0. The donation at the end is completely optional.'
+  - question: 'Can I file in Quebec?'
+    answer: 'Yes, Wealthsimple Tax supports both federal and Quebec provincial returns.'
+  - question: 'Does it handle cryptocurrency?'
+    answer: 'Yes, and it is one of the best free options for crypto. If you trade crypto on Wealthsimple, your ACB and gains/losses are calculated automatically.'
+  - question: 'Does Wealthsimple Tax handle the T1135 form for foreign assets?'
+    answer: 'Yes. If you hold foreign property with a total cost of over $100,000 CAD, Wealthsimple Tax fully supports Form T1135.'
+  - question: 'Can I file a final return for a deceased person?'
+    answer: 'Yes, Wealthsimple Tax supports the preparation and filing of a Final Return (T1) for a deceased individual. However, it does not currently support T3 Trust Income Tax returns.'
+  - question: 'Is the Plus plan with Audit Protection worth it?'
+    answer: 'The free version already includes a 100% accuracy guarantee. For simple T4 returns, the Plus plan is likely unnecessary. For self-employed individuals or those with rental income, the $30 fee may be worth the peace of mind.'
+  - question: 'Can I file taxes for previous years (catch-up filing)?'
+    answer: 'Yes. Wealthsimple Tax allows you to prepare and file returns going back to the 2016 tax year.'
+  - question: 'Where do I find my NETFILE Access Code?'
+    answer: 'Your NETFILE Access Code (NAC) is an 8-character code located on the top right corner of your previous year Notice of Assessment from the CRA.'
 ---
 
 Tax season is stressful. But it doesn't have to be expensive. **Wealthsimple Tax** (formerly SimpleTax) is a free, CRA-certified tax preparation software that handles everything from simple T4s to complex investment income. Here's our complete 2025 review.

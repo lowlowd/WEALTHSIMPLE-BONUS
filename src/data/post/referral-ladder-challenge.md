@@ -12,6 +12,23 @@ tags:
   - portfolio transfer
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/referral-ladder-challenge
+faqs:
+  - question: 'What is the minimum to get more than $25?'
+    answer: '$1,000. Once you deposit $1,000+, you qualify for the $50 tier, representing a 100% increase over the base bonus.'
+  - question: 'Can I transfer my pension to get the bonus?'
+    answer: 'If you have a locked-in account (LIRA) or defined contribution pension, you can transfer it and it will count 100% toward your Referral Ladder tier. Group RRSPs from former employers are also eligible.'
+  - question: 'How long do I need to keep the money at Wealthsimple?'
+    answer: 'The referral bonus has a 180-day hold. The transfer fee reimbursement requires a 90-day hold. Plan to keep funds invested for at least 6 months.'
+  - question: 'What is the best Wealthsimple sign up bonus?'
+    answer: 'The best sign up bonus depends on your deposit amount. For most people, the referral code giving $25 for just $1 is ideal. For high-net-worth transfers ($100K+), either the tiered cash bonus (up to $5,000) or a device promotion may be more valuable.'
+  - question: 'Can I refer my spouse to the Referral Ladder if we live at the same address?'
+    answer: 'Yes. Wealthsimple does not restrict referral bonuses based on household address. If your spouse is a new client, you can refer them.'
+  - question: 'Will I receive a T4A tax slip for the referral bonus?'
+    answer: 'No. Wealthsimple does not issue T4A slips for referral bonuses. However, the bonus is considered taxable income by the CRA, and you are responsible for reporting it.'
+  - question: 'Can I earn the Referral Ladder bonus on a Corporate Account?'
+    answer: 'Yes, Corporate accounts are eligible. The cash bonus is typically deposited into a personal non-registered account linked to your profile.'
+  - question: 'What happens if my deposit drops in value due to the market?'
+    answer: 'You will not lose your bonus. Wealthsimple calculates your tier based on Net Funding (deposits minus withdrawals), not market value.'
 ---
 
 Most people know about Wealthsimple's standard $25 referral bonus, but did you know you can earn up to **$5,000** for a single referral? The **Referral Ladder Challenge** offers tiered Wealthsimple sign up bonuses based on how much you deposit—making it one of the most lucrative fintech referral programs in Canada.

@@ -12,6 +12,21 @@ tags:
   - is premium worth it
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/core-vs-premium-vs-generation
+faqs:
+  - question: 'Can I combine assets with my spouse to reach Generation status?'
+    answer: 'Yes. Wealthsimple allows you to create a Household by linking your profile with a partner. Their system combines your total assets to calculate your tier.'
+  - question: 'If the market drops my balance below $100k, do I lose Premium status?'
+    answer: 'Wealthsimple generally protects you from market downturns. Your status is determined by net deposits OR total portfolio value, whichever is higher. You usually only risk downgrading if you withdraw funds that drop your net deposits below the threshold.'
+  - question: 'Do I have to pay the $10 USD fee for each account separately?'
+    answer: 'No. The single USD account fee covers all your eligible accounts (TFSA, RRSP, and Non-Registered). If you are Premium or Generation, this fee is waived entirely.'
+  - question: 'Is my money locked in if I invest in Private Credit or Private Equity?'
+    answer: 'Yes, these assets have different liquidity rules than stocks. They typically have specific monthly or quarterly redemption windows rather than instant selling.'
+  - question: 'Do Generation clients still get DragonPass lounge access?'
+    answer: 'Yes, but it is part of the Milestone Rewards system. Once you reach the required asset level, you can select the 10 DragonPass lounge visits as your reward for the year.'
+  - question: 'Does TFSA + RRSP + Chequing all count toward tier status?'
+    answer: 'Yes. All Wealthsimple accounts are combined when calculating your tier.'
+  - question: 'Do referral bonuses count toward tier qualification?'
+    answer: 'The Wealthsimple sign up bonus itself is cash, not deposits for tier purposes. However, any funds you deposit to receive the bonus do count toward your tier status.'
 ---
 
 Wealthsimple isn't just a brokerage—it's actually a tiered ecosystem where your benefits get better as your account grows. If you're wondering whether it's worth pushing to hit that $100K or $500K threshold, this breakdown of **Wealthsimple Core vs Premium vs Generation** will help you figure out the real value.

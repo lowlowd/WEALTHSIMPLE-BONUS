@@ -12,6 +12,21 @@ tags:
   - wealthsimple bonus
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/add-referral-code-after-signup
+faqs:
+  - question: 'I opened my account months ago but never funded it. Can I still add a code?'
+    answer: 'Yes. If you opened an account but never deposited any money, you are still considered a new client. You can enter a referral code at any time before you fund, or within 7 days of your first deposit.'
+  - question: 'Can customer support add the code for me if I missed the 7-day window?'
+    answer: 'Generally, no. Wealthsimple system is designed to hard-lock the referral option exactly 7 days after your first deposit lands. Customer support typically cannot override this limit.'
+  - question: 'I clicked a referral link to sign up. Do I still need to enter the code manually?'
+    answer: 'Usually no, the link should apply the code automatically. However, verify by checking the Referrals section for a banner saying You were referred by someone. If not visible, enter code 9C6DMQ manually.'
+  - question: 'Why am I getting an invalid code error?'
+    answer: 'This usually happens because you are not a new client (had an old account linked to your email or SIN), or the 7-day window has passed since your first deposit.'
+  - question: 'I added the code and funded $1. Why have I not received my bonus yet?'
+    answer: 'While Wealthsimple aims to pay the $25 bonus within 24 hours, it can sometimes take up to 5-10 business days if verification is needed. Larger bonuses may take up to 14 days.'
+  - question: 'What if I made a mistake entering my referral code?'
+    answer: 'Contact Wealthsimple support to see if they can correct it. This is easier to fix than adding a new code after the window closes.'
+  - question: 'Will I lose my sign up bonus if I withdraw money?'
+    answer: 'If you withdraw funds within 180 days of receiving your bonus, the bonus amount may be deducted from your withdrawal.'
 ---
 
 Did you sign up for Wealthsimple but forgot to use a referral code? Don't worry. You might still be able to claim your **Wealthsimple sign up bonus**. This guide covers exactly how to add a referral code after signing up—including the critical time windows you need to know about.
