@@ -12,6 +12,17 @@ tags:
   - wealthsimple crypto
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-crypto-vs-newton-vs-shakepay
+faqs:
+  - question: 'Which platform is safer?'
+    answer: 'They are all solid. Wealthsimple Crypto is a CIRO-registered dealer, which is the gold standard for regulation. Newton and Shakepay are registered with FINTRAC. Wealthsimple uses Gemini for custody with $200M insurance.'
+  - question: 'How long does it take to unstake my crypto on Wealthsimple?'
+    answer: 'For Ethereum, there is a warm-up and unbonding period that can take several days to weeks depending on network congestion. You will not be able to sell these assets until that period is over.'
+  - question: 'Why can I not buy USDT (Tether) on Wealthsimple?'
+    answer: 'Tether (USDT) is effectively banned on regulated Canadian platforms. Wealthsimple is a fully compliant restricted dealer under the OSC, meaning they only list approved assets like USDC.'
+  - question: 'How do I get my crypto tax documents from Wealthsimple?'
+    answer: 'Wealthsimple provides a dedicated Crypto Realized Gain Loss Report (CSV) in the app documents section. You can download this file and upload it directly to Koinly or similar tax software.'
+  - question: 'Is there a limit on how much crypto I can withdraw to my wallet on Wealthsimple?'
+    answer: 'Yes. For security, the Wealthsimple crypto withdrawal limit is typically around $10,000 CAD daily equivalent (or $25,000 weekly).'
 ---
 
 The Canadian crypto scene has changed. A lot.
