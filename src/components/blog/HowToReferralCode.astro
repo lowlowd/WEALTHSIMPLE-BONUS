@@ -1,0 +1,29 @@
+---
+/**
+ * HowTo Schema for Wealthsimple Referral Code 2025 post
+ * Shows "How to Claim the Wealthsimple Referral Bonus" in Google search results
+ */
+import HowToSchema from '~/components/common/HowToSchema.astro';
+
+const steps = [
+  {
+    name: 'Sign Up Using a Referral Link',
+    text: 'Click a referral link to automatically connect to the referrer. Use link: wealthsimple.com/invite/9C6DMQ',
+  },
+  {
+    name: 'Fund Your Account with $1+',
+    text: 'Deposit $1 or more within 30 days into any eligible account: Self-directed Trading, Managed Investing, Crypto, or Chequing.',
+  },
+  {
+    name: 'Receive Your $25 Bonus',
+    text: 'Your cash bonus typically shows up in your Wealthsimple Chequing account within 24 hours. Most people get it the same day.',
+  },
+];
+---
+
+<HowToSchema
+  name="How to Claim the Wealthsimple Referral Bonus"
+  description="Get a $25 cash bonus by signing up for Wealthsimple with a referral code and depositing $1 or more."
+  totalTime="PT5M"
+  steps={steps}
+/>

@@ -12,6 +12,10 @@ import { getStaticPathsBlogPost, blogPostRobots } from '~/utils/blog';
 import { findImage } from '~/utils/images';
 import type { MetaData } from '~/types';
 import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import ArticleSchema from '~/components/common/ArticleSchema.astro';
+import BreadcrumbSchema from '~/components/common/BreadcrumbSchema.astro';
+import HowToReferralCode from '~/components/blog/HowToReferralCode.astro';
+import HowToAddCodeAfterSignup from '~/components/blog/HowToAddCodeAfterSignup.astro';
 
 export const prerender = true;
 
@@ -46,6 +50,24 @@ const metadata = merge(
 ---
 
 <Layout metadata={metadata}>
+  <ArticleSchema
+    title={post.title}
+    description={post.excerpt || ''}
+    publishDate={post.publishDate}
+    updateDate={post.updateDate}
+    author={post.author}
+    image={typeof image === 'string' ? image : image?.src}
+    url={String(url)}
+  />
+  <BreadcrumbSchema
+    items={[
+      { name: 'Home', url: 'https://wealthsimplebonus.ca' },
+      { name: 'Blog', url: 'https://wealthsimplebonus.ca/blog' },
+      { name: post.title, url: String(url) },
+    ]}
+  />
+  {post.slug === 'wealthsimple-referral-code-2025' && <HowToReferralCode />}
+  {post.slug === 'add-referral-code-after-signup' && <HowToAddCodeAfterSignup />}
   <SinglePost post={{ ...post, image: image }}>
     {post.Content ? <post.Content /> : <Fragment set:html={post.content || ''} />}
   </SinglePost>

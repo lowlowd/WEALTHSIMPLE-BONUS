@@ -1,0 +1,35 @@
+---
+export interface Props {
+  name?: string;
+  jobTitle?: string;
+  description?: string;
+  image?: string;
+  url?: string;
+}
+
+const {
+  name = 'Isabelle Reuben',
+  jobTitle = 'Freelance Finance Writer',
+  description = 'Isabelle Reuben is a freelance writer with a background in finance and a genuine enthusiasm for helping Canadians navigate the world of personal investing.',
+  image = 'https://wealthsimplebonus.ca/assets/images/isabelle-reuben.jpg',
+  url = 'https://wealthsimplebonus.ca/about',
+} = Astro.props;
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: name,
+  jobTitle: jobTitle,
+  description: description,
+  image: image,
+  url: url,
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Wealthsimple Bonus',
+    url: 'https://wealthsimplebonus.ca',
+  },
+  sameAs: [],
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(personSchema)} />

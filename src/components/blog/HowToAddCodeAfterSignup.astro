@@ -1,0 +1,37 @@
+---
+/**
+ * HowTo Schema for Add Referral Code After Signup post
+ * Shows "How to Add a Wealthsimple Referral Code After Signing Up" in Google search results
+ */
+import HowToSchema from '~/components/common/HowToSchema.astro';
+
+const steps = [
+  {
+    name: 'Open the Wealthsimple App',
+    text: 'Launch the Wealthsimple app on your phone.',
+  },
+  {
+    name: 'Navigate to Referrals',
+    text: 'Tap the Gift icon (🎁) at the top of the home screen, then go to the Referrals tab.',
+  },
+  {
+    name: 'Find Add Referral Code Option',
+    text: "Look for 'I was referred by someone' or 'Add a referral code' option.",
+  },
+  {
+    name: 'Enter the Referral Code',
+    text: 'Enter the code 9C6DMQ and tap Submit or Apply.',
+  },
+  {
+    name: 'Make Your First Deposit',
+    text: 'Deposit $1 or more to activate your $25 cash bonus within 24 hours.',
+  },
+];
+---
+
+<HowToSchema
+  name="How to Add a Wealthsimple Referral Code After Signing Up"
+  description="Add a referral code to your existing Wealthsimple account and get a $25 bonus. Works if you haven't funded yet or are within 7 days of your first deposit."
+  totalTime="PT3M"
+  steps={steps}
+/>
