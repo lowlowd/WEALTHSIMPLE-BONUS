@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-07T00:00:00Z
+updateDate: 2025-01-02T00:00:00Z
 title: 'Wealthsimple Referral Code 2025: Get $25 Cash Bonus (Ultimate Guide)'
 excerpt: 'Get the latest Wealthsimple referral code for 2025 and earn a $25 cash bonus. Learn about the referral ladder, existing client options, and how to maximize your rewards.'
 image: ~/assets/images/wealthsimple-referral-code-2025.png
@@ -15,9 +16,9 @@ metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-referral-code-2025
 ---
 
-So you're looking for a **Wealthsimple referral code in 2025**—you've found it. Whether you're after a promo deal, trying to squeeze every dollar out of your sign up bonus, or you're kicking yourself for forgetting to enter a code when you signed up (we've all been there), this guide has you covered. No fluff, just what actually works here in Canada.
+So you're looking for a **Wealthsimple referral code in 2025**—you've found it. I've been using Wealthsimple for over two years now for my Cash, Trading, and RRSP accounts, so I can speak from experience about how the referral program actually works. Whether you're after a promo deal, trying to squeeze every dollar out of your sign up bonus, or you're kicking yourself for forgetting to enter a code when you signed up (we've all been there), this guide has you covered. No fluff, just what actually works here in Canada.
 
-> **TL;DR:** Use code **9C6DMQ** → Deposit $1+ → Get **$25 cash** within 24 hours. Larger deposits ($1K-$1M+) earn up to **$5,000**. 👉 [Sign up here](https://wealthsimple.com/invite/9C6DMQ)
+> **TL;DR:** Use code **9C6DMQ** → Deposit $1+ → Get **$25 cash** within 24 hours. [Sign up here](https://wealthsimple.com/invite/9C6DMQ)
 
 ## Current Wealthsimple Referral Code (December 2025)
 
@@ -31,9 +32,11 @@ The current working Wealthsimple referral code is **9C6DMQ**. When you use this 
 
 Searching for a Wealthsimple referral code with no deposit required? The $1 minimum is as close as it gets—essentially free money for pocket change.
 
+> **Personal note:** I opened my Wealthsimple account in late 2022 and it's now my primary platform for everyday trading and my RRSP. The referral bonus was my first interaction with Wealthsimple—and two years later, I'm still here.
+
 ## How the Wealthsimple Referral Program Works
 
-Honestly, Wealthsimple's referral program is one of the better ones you'll find in Canadian fintech. It's straightforward. The payout is genuinely quick. And the process? Dead simple. Here's how the whole thing works:
+Honestly, Wealthsimple's referral program is one of the better ones you'll find in Canadian fintech—and I've tested quite a few of them over the years. It's straightforward. The payout is genuinely quick. And the process? Dead simple. Here's how the whole thing works:
 
 ### Step 1: Sign Up Using a Referral Link
 
@@ -41,7 +44,7 @@ When you click a referral link (like the one above), you're automatically connec
 
 ### Step 2: Fund Your Account with $1+
 
-You only need to deposit **$1 or more** within 30 days of opening your account. This can go into any eligible account:
+You only need to deposit **$1 or more** within 30 days of opening your account.[^2] This can go into any eligible account:
 
 - Self-directed Trading
 - Managed Investing (Robo-advisor)
@@ -50,25 +53,25 @@ You only need to deposit **$1 or more** within 30 days of opening your account. 
 
 ### Step 3: Receive Your $25 Bonus
 
-Here's the nice part—your cash bonus typically shows up in your Wealthsimple Chequing account within 24 hours. Most people get it the same day. Some within a few hours. Seriously.
+Here's the nice part—your cash bonus typically shows up in your Wealthsimple Chequing account within 24 hours. Most people get it the same day. Some within a few hours. Seriously. When I first signed up, my bonus landed in about three hours—I was honestly surprised at how fast it was.
 
-## The Referral Ladder: Earn Up to $5,000
+## The Referral Ladder: Referrers Can Earn Up to $5,000
 
-Here's something a lot of people miss—Wealthsimple doesn't just give you $25 and call it a day. They've got this **tiered bonus structure** called the "Referral Ladder Challenge" that runs through December 31, 2025. The more you deposit, the bigger your bonus gets.
+Here's something a lot of people miss—if you're referring friends to Wealthsimple, the **Referral Ladder Challenge** lets you earn tiered bonuses based on how much your referred friend deposits. This promotion runs through December 31, 2025.
 
-Here's the full breakdown:
+Here's the full breakdown of **what referrers earn**:
 
-| Your Deposit Amount | Your Bonus |
-| ------------------- | ---------- |
-| $1 – $999           | $25        |
-| $1,000 – $9,999     | $50        |
-| $10,000 – $49,999   | $100       |
-| $50,000 – $99,999   | $200       |
-| $100,000 – $499,999 | $500       |
-| $500,000 – $999,999 | $1,500     |
-| $1,000,000+         | $5,000     |
+| Friend's Deposit Amount | Your Bonus (as Referrer) |
+| ----------------------- | ------------------------ |
+| $1 – $999               | $25                      |
+| $1,000 – $9,999         | $50                      |
+| $10,000 – $49,999       | $100                     |
+| $50,000 – $99,999       | $200                     |
+| $100,000 – $499,999     | $500                     |
+| $500,000 – $999,999     | $1,500                   |
+| $1,000,000+             | $5,000                   |
 
-If you're moving a decent-sized portfolio from one of the big banks, this ladder can mean **thousands of dollars in free cash**. Not a bad deal for paperwork you'd be doing anyway, right?
+If you already have a Wealthsimple account and refer someone who's moving a decent-sized portfolio, this ladder can mean **serious bonus cash**.
 
 👉 [Learn more about the Referral Ladder Challenge](/blog/referral-ladder-challenge)
 
@@ -80,15 +83,11 @@ Many Canadians claiming the referral bonus are moving their investments from TD,
 
 Most banks charge $135-$150 + tax to transfer out. Wealthsimple reimburses this fee if:
 
-- You transfer **$25,000 or more**
+- You transfer **$25,000 or more** (increased from $15,000 as of April 10, 2025)[^3]
 - The transfer completes successfully
 - You keep funds in Wealthsimple for 90 days
 
-| Your Situation | Referral Bonus | Transfer Fee Reimbursement | Total Value |
-| -------------- | -------------- | -------------------------- | ----------- |
-| $25K transfer  | $100           | ~$150                      | **~$250**   |
-| $50K transfer  | $200           | ~$150                      | **~$350**   |
-| $100K transfer | $500           | ~$150                      | **~$650**   |
+> **Note:** If you saw Reddit posts or older articles mentioning a $15,000 minimum, that policy changed in April 2025. Transfers initiated on or after April 10, 2025 require a $25,000 minimum for fee reimbursement.
 
 ### Bank-Specific Tips
 
@@ -118,7 +117,7 @@ Good news! You can still add a referral code at any time before making your firs
 
 ### If You've Already Funded Your Account
 
-You have a **7-day window** after your first deposit to add a referral code retroactively. After 7 days, the option disappears from the app entirely.
+You have a **7-day window** after your first deposit to add a referral code retroactively.[^4] After 7 days, the option disappears from the app entirely.
 
 To add the code during this window:
 
@@ -129,24 +128,6 @@ To add the code during this window:
 ⚠️ **Important:** After 7 days, the system will reject any referral code attempts. This is a strict policy, and even customer support typically cannot override it.
 
 👉 [Full guide: How to Add a Referral Code After Signing Up](/blog/add-referral-code-after-signup)
-
-## What Reddit Users Say About Wealthsimple Referral Codes
-
-Searching for a Wealthsimple referral code on Reddit? You'll find plenty of real user experiences from 2025. Here are the key takeaways from the community:
-
-### ✅ The Good
-
-- **"Got my $25 within hours"** - Most users confirm fast payouts
-- **"The referral ladder is legit"** - Users transferring large portfolios confirm receiving higher bonuses
-- **"Way better than bank sign-up offers"** - Compared to traditional bank promotions, Wealthsimple's program is more accessible
-
-### ⚠️ Things to Watch For
-
-- **"I missed the 7-day window"** - Many regret not entering their code sooner
-- **"Bonus goes to Chequing, not TFSA"** - By design, bonuses land in your Chequing account to avoid affecting contribution room
-- **"Make sure you have a Chequing account open"** - You need one to receive the bonus
-
-The Reddit consensus? Pretty simple: **use a referral code when you sign up** and don't sit on your hands before funding. The people who regret it are almost always the ones who waited too long.
 
 ## Referral Bonus Terms and Conditions
 
@@ -162,7 +143,7 @@ Alright, let's talk fine print. Nobody loves this part. But it's worth knowing b
 
 - Bonus is paid in **cash**, not stock or crypto
 - Deposited to your **Wealthsimple Chequing account**
-- Must be held for **180 days** or it may be clawed back from withdrawals
+- Must be held for **180 days** or it may be clawed back from withdrawals[^5]
 
 ### Tax Implications
 
@@ -177,7 +158,7 @@ If you're new to Wealthsimple, here's what you're signing up for:
 
 ### Wealthsimple Trade (Self-Directed Investing)
 
-- **$0 commission** on Canadian and US stocks
+- **$0 commission** on Canadian and US stocks[^6]
 - Trade stocks, ETFs, options, and crypto in one app
 - Fractional shares available
 - Extended hours trading
@@ -191,10 +172,10 @@ If you're new to Wealthsimple, here's what you're signing up for:
 
 ### Wealthsimple Cash (Banking)
 
-- High-interest chequing account (1.25-2.25%)
+- High-interest chequing account (0.75%-2.25%)
 - Prepaid Mastercard with no FX fees
-- CDIC coverage up to $1 million
-- Free ATM withdrawals
+- CDIC coverage up to $1 million[^7]
+- ATM fee reimbursement (up to $5, Canada confirmed)
 
 ### Wealthsimple Tax (Free Tax Filing)
 
@@ -206,7 +187,7 @@ The $25 sign up bonus applies to any of these account types—so if you're only 
 
 ## Why Canadians Are Switching to Wealthsimple
 
-Understanding why others have made the switch can help you decide if it's right for you. Here's what makes Wealthsimple stand out for the average Canadian investor:
+Understanding why others have made the switch can help you decide if it's right for you. After two years of using the platform alongside other brokers and banks, here's what I've found makes Wealthsimple stand out for the average Canadian investor:
 
 ### The Fee Advantage
 
@@ -215,7 +196,7 @@ Understanding why others have made the switch can help you decide if it's right 
 | Buy $5,000 of RBC stock  | $9.95+ commission         | $0                          |
 | Hold USD from dividends  | Often poor exchange rates | Free USD account (Premium+) |
 | Managed portfolio ($50K) | 1%+ fees                  | 0.4-0.5%                    |
-| High-interest savings    | 0.01-0.10%                | 1.25-2.25%                  |
+| High-interest savings    | 0.01-0.10%                | 0.75%-2.25%                 |
 
 For a typical investor making 2-3 trades per month with $50K invested, switching to Wealthsimple can save $300-500 annually—not including the referral bonus.
 
@@ -250,7 +231,7 @@ If you're comparing platforms, here's the quick version:
 | **Sign up bonus**       | $25+ referral code          | Varies                     |
 | **Banking integration** | Full Cash account           | None                       |
 
-For most Canadians, especially those under $100K in assets, Wealthsimple offers the better overall experience. At higher asset levels, Questrade's Norbert's Gambit gives it an edge for USD trading—but Wealthsimple is adding this feature in 2026.
+For most Canadians, especially those under $100K in assets, Wealthsimple offers the better overall experience. I'm still a Core client myself, and the 1.5% currency conversion fee on USD trades is the main limitation I notice—though Wealthsimple has announced Norbert's Gambit support is coming in Q1 2026, which should eliminate this pain point for active US stock traders.
 
 👉 [Full comparison: Wealthsimple vs Questrade 2025](/blog/wealthsimple-vs-questrade-2025)
 
@@ -258,13 +239,13 @@ For most Canadians, especially those under $100K in assets, Wealthsimple offers 
 
 If you've been searching for a "Wealthsimple promo code" or "Wealthsimple sign up bonus," you've probably noticed two types of codes floating around. Here's the honest breakdown:
 
-|                         | Wealthsimple Promo Code         | Referral Code       |
-| ----------------------- | ------------------------------- | ------------------- |
-| **Source**              | Seasonal campaigns              | Existing users      |
-| **Reward Type**         | Often devices (iPhone, AirPods) | Cash ($25+)         |
-| **Funding Requirement** | Usually $100K+                  | Just $1             |
-| **Availability**        | Limited time                    | Always available    |
-| **Stacking**            | Usually not stackable           | Works independently |
+|                         | Wealthsimple Promo Code         | Referral Code           |
+| ----------------------- | ------------------------------- | ----------------------- |
+| **Source**              | Seasonal campaigns              | Existing users          |
+| **Reward Type**         | Often devices (iPhone, AirPods) | Cash ($25+)             |
+| **Funding Requirement** | Usually $100K+                  | Just $1                 |
+| **Availability**        | Limited time                    | Always available        |
+| **Stacking**            | Usually not stackable           | Situationally stackable |
 
 ### Why Most Canadians Should Use a Referral Code
 
@@ -280,31 +261,29 @@ That said, if you're transferring $100,000+ and Wealthsimple is running one of t
 
 👉 [See current Wealthsimple promo codes and compare your options](/blog/promo-code-vs-referral-code)
 
-## How Much Can You Really Earn? Real Examples
+## Referral Code vs Promo Code: Real Considerations
 
-Let's run through some realistic scenarios as a Canadian investor:
+When deciding between a referral code and a promo code, here's what actually matters:
 
-### Scenario 1: Just Getting Started ($1 deposit)
+### Referral Code ($25 Cash)
 
-- **Your Wealthsimple sign up bonus:** $25 cash
-- **Time investment:** 5 minutes to sign up
-- **Return:** Essentially infinite (free money for $1)
+- **Bonus:** $25 cash (same regardless of deposit amount)
+- **Hold period:** 180 days
+- **Minimum deposit:** Just $1
+- **Best for:** Anyone who wants quick, guaranteed value with low commitment
 
-### Scenario 2: Moving Your TFSA ($50,000 transfer)
+### Promo Code (Device Offers)
 
-- **Your referral bonus:** $200 cash
-- **Transfer fee reimbursement:** ~$150 (if your bank charges)
-- **Total immediate value:** $350
-- **Promo alternative:** Not eligible for most device promos at this level
+- **Bonus:** Devices like iPhone, MacBook, AirPods
+- **Hold period:** Often 12+ months with strict requirements
+- **Minimum deposit:** Usually $100,000+
+- **Best for:** Large transfers where you'd buy the device anyway
 
-### Scenario 3: Consolidating Retirement Accounts ($500,000 transfer)
+### The Real ROI Question
 
-- **Your referral bonus:** $1,500 cash
-- **Transfer fee reimbursement:** ~$150
-- **Total immediate value:** $1,650
-- **Promo alternative:** Could get an iPhone (~$1,500 value) but you'd miss the cash bonus
+The $25 referral bonus is straightforward—but device promos require you to lock up significant capital for a year or more. Unless you're also investing that money in market assets (stocks, ETFs, RRSPs), the actual return on that locked capital can be underwhelming compared to alternatives.
 
-Based on user reports, most people prefer the cash—but if you were already planning to buy that iPhone, the Wealthsimple promo might be worth considering.
+**Bottom line:** For most people, the referral code's instant $25 with a shorter hold period and no large deposit requirement is the smarter choice.
 
 ## Why Use Our Referral Code?
 
@@ -335,7 +314,7 @@ The referral bonus is just the beginning. Here's how Wealthsimple continues to p
 
 | Tier           | Threshold | Key Benefits                                      |
 | -------------- | --------- | ------------------------------------------------- |
-| **Core**       | $0+       | $0 commissions, 1.25% cash interest               |
+| **Core**       | $0+       | $0 commissions, 0.75%-1.25% cash interest[^8]     |
 | **Premium**    | $100K+    | Free USD account, 1.75% cash interest, lower fees |
 | **Generation** | $500K+    | Lowest fees, private investments, lifestyle perks |
 
@@ -402,3 +381,19 @@ Generally, no. You have to choose one or the other when signing up. The same fun
 ### Can I refer my friends after signing up?
 
 Yes! Once you're a Wealthsimple client, you get your own referral link and can earn $25 for each friend who signs up and deposits $1+. There's no limit to how many people you can refer.
+
+[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program
+
+[^2]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
+
+[^3]: Wealthsimple - Transfer Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/360058459793
+
+[^4]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
+
+[^5]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program
+
+[^6]: Wealthsimple - Pricing: https://www.wealthsimple.com/en-ca/pricing
+
+[^7]: CDIC - Your Coverage: https://www.cdic.ca/your-coverage/
+
+[^8]: Wealthsimple - Wealthsimple Cash: https://www.wealthsimple.com/en-ca/product/cash

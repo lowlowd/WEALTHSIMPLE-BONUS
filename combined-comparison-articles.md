@@ -1,36 +1,155 @@
----
-author: Isabelle Reuben
-publishDate: 2025-12-01T00:00:00Z
-updateDate: 2025-01-11T00:00:00Z
-title: 'Wealthsimple vs Questrade Fees 2025: Complete Comparison'
-excerpt: 'Compare Wealthsimple and Questrade fees for 2025. Learn about trading commissions, FX fees, and which platform is better for your investing style.'
-image: ~/assets/images/wealthsimple-vs-questrade-2025.png
-category: Comparisons
-tags:
-  - wealthsimple vs questrade
-  - trading fees
-  - brokerage comparison
-  - canadian investing
-metadata:
-  canonical: https://wealthsimplebonus.ca/blog/wealthsimple-vs-questrade-2025
-faqs:
-  - question: 'Is Wealthsimple or Questrade cheaper?'
-    answer: 'For CAD investing, they are essentially identical. For USD investing, Questrade is cheaper unless you have $100K+ at Wealthsimple which gives you free USD accounts.'
-  - question: 'Which has better customer support?'
-    answer: 'Wealthsimple has faster, more accessible support via in-app chat. Questrade has phone support but longer wait times.'
-  - question: 'When is Norbert Gambit coming to Wealthsimple?'
-    answer: 'Wealthsimple has announced that support for Norbert Gambit is scheduled for release in early 2026. Until then, you must pay the 1.5% FX fee or subscribe to the USD accounts.'
-  - question: 'Do I pay ECN fees on Questrade ETF purchases?'
-    answer: 'Yes. Although Questrade offers $0 commission on ETF buys, you may still be charged ECN fees if your order removes liquidity from the market. Wealthsimple does not pass these ECN fees on to the client.'
-  - question: 'Can I open a Self-Directed RESP on Wealthsimple?'
-    answer: 'Yes. Wealthsimple recently launched Self-Directed RESPs, allowing you to trade stocks and ETFs inside an education savings plan commission-free. This was a major recent update that closed a long-standing gap between them and Questrade.'
-  - question: 'Does Questrade offer fractional shares like Wealthsimple?'
-    answer: 'Yes, Questrade has introduced fractional share trading. However, Wealthsimple fractional trading interface is often considered more user-friendly for beginners.'
-  - question: 'Is the Questrade offer code better than the Wealthsimple referral bonus?'
-    answer: 'For most beginners, the Wealthsimple referral code is superior because it offers a $25 cash bonus with only a $1 minimum deposit. Questrade welcome offers require a minimum deposit of $250.'
+# Combined Comparison Articles
+
 ---
 
-The **Wealthsimple vs Questrade** question comes up constantly among Canadian DIY investors. While I’m a big fan of the Wealthsimple ecosystem for its ease of use, the majority of my personal investments are actually with Questrade right now. For serious, long-term DIY investing, Questrade remains my preferred platform—though Wealthsimple has truly stepped up their game recently, catching up in areas like self-directed RESPs and USD accounts that used to be Questrade's exclusive territory. The real answer depends on how you actually invest.
+# Article 1: Wealthsimple Crypto vs Newton vs Shakepay: Complete 2025 Comparison
+
+**Author:** Isabelle Reuben  
+**Published:** 2025-12-09
+
+The Canadian crypto scene has changed. A lot.
+
+Remember when we had to wire money to sketchy offshore exchanges and hope it actually arrived? Those days are gone. In 2025, it's really a three-horse race: **Wealthsimple Crypto**, **Newton**, and **Shakepay**.
+
+So, which one is actually the best?
+
+Here's the honest truth: **There isn't one.**
+
+I've used all three. Each one is great at something specific, and terrible at something else. One is my go-to for regular buys. Another is where I hoard my long-term holds. And one is just for the altcoins I can't find anywhere else.
+
+Here is the complete, no-fluff breakdown of Wealthsimple Crypto vs Newton vs Shakepay to help you figure out which one fits _you_.
+
+## Quick Comparison Overview
+
+| Feature             | Wealthsimple Crypto      | Newton                    | Shakepay                         |
+| :------------------ | :----------------------- | :------------------------ | :------------------------------- |
+| **Best For**        | All-in-one investors     | Altcoin traders           | Bitcoin & Ethereum beginners     |
+| **Coins Supported** | 60+                      | 70+                       | Bitcoin & Ethereum               |
+| **Trading Fees**    | 0.5% - 2%                | 0.5% - 0.7% spread        | 1.5% - 2% spread                 |
+| **Fiat Deposits**   | Instant                  | Instant                   | Instant                          |
+| **Withdrawals**     | Free                     | Free (network fees apply) | Free (gas covered)               |
+| **Staking**         | Yes (ETH, SOL, ADA, DOT) | No                        | No                               |
+| **Unique Feature**  | Integrated Ecosystem     | Wide Coin Selection       | Free Daily Bitcoin (ShakingSats) |
+| **Regulation**      | CIRO Regulated           | FINTRAC Registered        | FINTRAC Registered               |
+
+## Fee Structure Analysis
+
+Crypto fees are a headache. And companies love to hide them. Some charge a commission. Others hide their cut in the "spread" (the gap between the buy and sell price).
+
+### Wealthsimple Crypto
+
+Wealthsimple is transparent. They charge an operation fee on every trade. The percentage just depends on how much cash you have with them:
+
+- **Core (Under $100k):** 2% fee
+- **Premium ($100k+):** 1% fee
+- **Generation ($500k+):** 0.5% fee
+
+**Pros:** You know exactly what you're paying. If you're a Generation client, 0.5% is incredibly cheap for a platform this regulated.
+**Cons:** If you're starting small (Core tier), that 2% fee hurts. A lot.
+
+### Newton
+
+Newton claims "no fees". But that's marketing speak. They make money on the spread.
+
+- **Spread:** Usually **0.50% to 0.70%** for BTC/ETH, but can be 3-6% for less liquid altcoins
+- **Surge Pricing:** Heads up—when the market goes crazy, these spreads can widen.
+
+**Pros:** For the average person just trading altcoins, this is often the cheapest option.
+**Cons:** The "no fee" tag is misleading. You are paying a fee; you just don't see it on a separate line.
+
+### Shakepay
+
+Shakepay is the easiest app to use. Period. But you pay for that convenience.
+
+- **Spread:** Typically **1.5% to 2%**
+
+**Pros:** They **cover withdrawal gas fees**. This is huge. I've saved hundreds of dollars in ETH gas fees just by using Shakepay.
+**Cons:** Don't day trade here. The fees will eat you alive.
+
+## Staking & Rewards
+
+If you're holding for the long run, you might as well get paid for it.
+
+### Wealthsimple Crypto: The Staking King
+
+Wealthsimple lets you stake Ethereum, Solana, Cardano, and Polkadot.
+
+- **Yield:** Varies (currently ~3-5% for ETH).
+- **Convenience:** It's one click. Seriously.
+- **Cost:** They take a cut (30% for Core, 15% for Generation), but frankly, avoiding the technical headache of on-chain staking is worth it for most people.
+
+### Shakepay: The "ShakingSats" Phenomenon
+
+Shakepay doesn't do staking. But they have **ShakingSats**.
+
+- **How it works:** Open the app. Shake your phone. Get free Bitcoin.
+- **The catch:** You need a referral code to unlock it.
+- **My take:** It sounds silly, but I do it every morning. It's small amounts, sure. But over a year? It adds up to a nice little stack of sats for literally zero effort.
+
+### Newton
+
+Newton is purely for trading. No staking. No shaking. Just buying and selling.
+
+## Crypto Withdrawals: A Key Difference
+
+This is the big one. Do you leave coins on the exchange, or move them to a cold wallet like a Ledger?
+
+- **Shakepay (Winner):** They pay the miner fees. If you buy $50 of Bitcoin and send it to your wallet, you get the full value. This makes Shakepay the ultimate "on-ramp."
+- **Newton:** You pay the network fees. For ETH, this can get pricey.
+- **Wealthsimple:** You pay the standard network fees.
+
+## The Verdict: Which Platform is For You?
+
+Like I said, there isn't one winner. It depends on _you_.
+
+### Choose Wealthsimple Crypto if:
+
+You want it all in one place. If you already check Wealthsimple for your RRSP and stocks, seeing your crypto right next to it is just convenient. It's also the clear winner for **high-net-worth investors** who get those low fees, or anyone who wants **staking rewards** without the stress.
+
+👉 **[Sign up for Wealthsimple](https://wealthsimple.com/invite/9C6DMQ)** (Code: 9C6DMQ for $25 bonus)
+
+### Choose Newton if:
+
+You're hunting for altcoins. Maybe you want SOL or DOT but don't have $100k for Wealthsimple Premium. With 70+ coins and tight spreads, Newton is the sweet spot for the average Canadian trader who wants variety without getting gouged.
+
+👉 **[Sign up for Newton](https://web.newton.co/r/JPPX31)** (Code: JPPX31 for $25 bonus after trading $100)
+
+### Choose Shakepay if:
+
+You're a Bitcoin or Ethereum purist. And you love self-custody. The free withdrawals make it the perfect place to buy your BTC and immediately move it to your hardware wallet. Use the referral code, unlock ShakingSats, and get your free daily stats. It's a no-brainer.
+
+👉 **[Sign up for Shakepay](https://shakepay.me/r/059XIVK)** (Code: 059XIVK for $20 bonus after trading $100 worth of BTC or ETH)
+
+## Frequently Asked Questions
+
+### Which platform is safer?
+
+They're all solid. Wealthsimple Crypto is a CIRO-registered dealer—that's the gold standard for regulation here. Newton and Shakepay are registered with FINTRAC. Wealthsimple uses Gemini for custody with $200M insurance, which gives me a lot of peace of mind.
+
+### How long does it take to unstake my crypto on Wealthsimple?
+
+For Ethereum, there is a warm-up and unbonding period that can take several days to weeks depending on network congestion (usually a queue + ~27 hours). You won't be able to sell these assets until that period is over. So its not instant.
+
+### Why can't I buy USDT (Tether) on Wealthsimple?
+
+Tether (USDT) is the world's most popular stablecoin, but it is effectively banned on regulated Canadian platforms. Wealthsimple is a fully compliant restricted dealer under the OSC, meaning they only list approved assets like USDC.
+
+### How do I get my crypto tax documents from Wealthsimple?
+
+Preparing for taxes? If you're looking for **wealthsimple crypto tax documents for Koinly**, it's actually quite simple. Unlike some platforms that require complex API keys, Wealthsimple provides a dedicated "Crypto Realized Gain Loss Report" (CSV) in the app's documents section. You can simply download this file and upload it directly to Koinly.
+
+### Is there a limit on how much crypto I can withdraw to my wallet on Wealthsimple?
+
+Yes, there is a limit. For security, the **wealthsimple crypto withdrawal limit daily** is typically set around $10,000 CAD equivalent (or $25,000 weekly). This is important for "whales" or anyone moving large sums to self-custody. Competing platforms like Newton or Shakepay may have different limits, so check this if you plan to move high volumes frequently.
+
+---
+
+# Article 2: Wealthsimple vs Questrade Fees 2025: Complete Comparison
+
+**Author:** Isabelle Reuben  
+**Published:** 2025-12-01
+
+The **Wealthsimple vs Questrade** question comes up constantly among Canadian DIY investors. And honestly? Both platforms have gotten a lot better in 2025. The real answer depends on how you actually invest.
 
 ## Quick Comparison Overview
 
@@ -53,7 +172,7 @@ As of early 2025, both Wealthsimple and Questrade offer **$0 commission trading*
 ### The History
 
 - **Wealthsimple Trade:** Launched commission-free from the start
-- **Questrade:** Eliminated commissions in February 2025 to compete[^3]
+- **Questrade:** Eliminated commissions in February 2025 to compete
 
 This levels the playing field for basic stock and ETF purchases. So where do the real differences show up? Currency conversion. Options. And the little details.
 
@@ -79,7 +198,7 @@ The USD Account lets you convert once and hold USD, eliminating per-trade conver
 
 ### Questrade's Approach
 
-**Standard:** 1.99% FX fee (slightly higher than Wealthsimple's 1.5%)[^4]
+**Standard:** 1.99% FX fee (slightly higher than Wealthsimple's 1.5%)
 
 **But with key advantages:**
 
@@ -132,7 +251,7 @@ If you prefer hands-off investing:
 | Feature                |        Wealthsimple Invest | Questwealth |
 | ---------------------- | -------------------------: | ----------: |
 | **Minimum Investment** |                         $1 |        $250 |
-| **Management Fee**     |                  0.4%-0.5% |   0.25%[^5] |
+| **Management Fee**     |                  0.4%-0.5% |       0.25% |
 | **Features**           | Tax-loss harvesting, Halal | Rebalancing |
 
 **Questwealth is cheaper** (0.25% vs 0.4-0.5%).
@@ -155,8 +274,6 @@ The $125 difference—worth it for the extra features? Maybe. It depends on whet
 **Questrade:** Functional but dated. The app works but isn't as polished.
 
 **Winner: Wealthsimple** (significantly better UX)
-
-**Personal note:** While the Wealthsimple app is objectively more beautiful, I find that Questrade's "clunkier" interface actually suits my serious investing better. It feels more utilitarian, and their IQ Edge desktop platform is where I do all my heavy lifting and analysis.
 
 ### Desktop Trading
 
@@ -184,9 +301,7 @@ Both platforms will reimburse transfer-out fees from your old institution:
 | **Reimbursement Speed**  | 2 business days | 5-10 business days |
 | **Documentation Needed** | Automatic       | Sometimes required |
 
-Both are comparable, with Wealthsimple being slightly faster. I've moved significant assets into both platforms. Wealthsimple's automation is much smoother—they detected my transfer fee and reimbursed it without me having to upload a single statement. With Questrade, I had to manually submit a PDF of my bank statement, but for the larger portfolio I keep there, the extra five minutes was worth it for the lower long-term FX costs.
-
-> **Note:** Wealthsimple increased their minimum from $15,000 to $25,000 as of April 10, 2025.[^1] Transfers initiated before that date qualified at the lower threshold.
+Both are comparable, with Wealthsimple being slightly faster.
 
 ## Banking & Cash Features
 
@@ -196,7 +311,7 @@ Wealthsimple goes beyond investing with its Chequing account:
 
 - 0.75%-2.25% interest on cash
 - No foreign transaction fees on card
-- CDIC insurance up to $1 million (across partner banks)[^6]
+- CDIC insurance up to $1 million (across partner banks)
 
 ### Questrade
 
@@ -260,14 +375,6 @@ Questrade has referral offers, but they're less consistent and typically require
 
 👉 **[Sign up for Wealthsimple with code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)** and get your $25 Wealthsimple sign up bonus.
 
----
-
-## Related Articles
-
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
-- [Wealthsimple Core vs Premium vs Generation](/blog/core-vs-premium-vs-generation)
-- [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
-
 ## Frequently Asked Questions
 
 ### Is Wealthsimple or Questrade cheaper?
@@ -284,7 +391,7 @@ Wealthsimple has announced that support for Norbert's Gambit (a method to conver
 
 ### Do I pay ECN fees on Questrade ETF purchases?
 
-Yes. Although Questrade offers $0 commission on ETF buys, you may still be charged ECN fees (roughly $0.0035 per share) if your order "removes liquidity" from the market (e.g., a marketable limit order or market order).[^7] Wealthsimple does not pass these ECN fees on to the client.
+Yes. Although Questrade offers $0 commission on ETF buys, you may still be charged ECN fees (roughly $0.0035 per share) if your order "removes liquidity" from the market (e.g., a marketable limit order or market order). Wealthsimple does not pass these ECN fees on to the client.
 
 ### Can I open a Self-Directed RESP on Wealthsimple?
 
@@ -296,20 +403,4 @@ Yes, Questrade has introduced fractional share trading for many US and Canadian 
 
 ### Is the Questrade offer code better than the Wealthsimple referral bonus?
 
-For most beginners, the Wealthsimple referral code is superior because it offers a $25 cash bonus with only a $1 minimum deposit. Questrade's welcome offers require a minimum deposit of $250 within 60 days of submitting the application.[^8]
-
-[^1]: Wealthsimple - Pricing: https://www.wealthsimple.com/en-ca/pricing
-
-[^2]: Questrade - Pricing Strategy: https://www.questrade.com/pricing
-
-[^3]: Globe and Mail - Questrade joins commission-free race: https://www.theglobeandmail.com/investing/markets/inside-the-market/article-questrade-commission-free-trading/
-
-[^4]: Questrade - Foreign Exchange Rates: https://www.questrade.com/pricing/exchange-rates
-
-[^5]: Questrade - Questwealth Portfolios: https://www.questrade.com/questwealth-portfolios/pricing
-
-[^6]: CDIC - Wealthsimple Partner Coverage: https://www.cdic.ca/your-coverage/how-deposit-insurance-works/wealthsimple-partnership/
-
-[^7]: Questrade Help - Understanding ECN and SEC fees: https://www.questrade.com/learning/questrade-basics/administrative-fees/ecn-fees
-
-[^8]: Questrade - Referral Program: https://www.questrade.com/about-us/programs/refer-a-friend
+For most beginners, the Wealthsimple referral code is superior because it offers a $25 cash bonus with only a $1 minimum deposit. Questrade's welcome offers require a minimum deposit of $250 within 60 days of submitting the application.

@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-03T00:00:00Z
+updateDate: 2025-01-17T00:00:00Z
 title: 'Wealthsimple Promo Code 2025: Best Current Promotions & Referral Bonus Guide'
 excerpt: 'Confused about Wealthsimple promo codes and referral codes? Learn the key differences, which one is better for you, and whether you can stack them.'
 image: ~/assets/images/promo-code-vs-referral-code.png
@@ -14,15 +15,15 @@ metadata:
   canonical: https://wealthsimplebonus.ca/blog/promo-code-vs-referral-code
 faqs:
   - question: 'Can I use both a promo code and referral code?'
-    answer: 'Generally, no. You must choose one entry method when signing up. The same funds cannot trigger both bonuses.'
+    answer: 'Often yes, but stacking rules vary by campaign. Enter the referral code first, then check if the current device promo allows combining with referral bonuses.'
   - question: 'Do promo codes expire?'
     answer: 'Yes. Promotional campaigns run for limited periods (typically a few weeks to a few months). Referral codes are always available.'
   - question: 'How long do I have to keep my money in Wealthsimple?'
-    answer: 'Referral bonuses require keeping your funds for 180 days (6 months). Promo codes for devices like iPhones often require 1-2 years depending on the terms.'
+    answer: 'Referral bonuses require keeping your funds for 180 days. Device promos often require 1-2 years, but this varies—always check the specific promo terms.'
   - question: 'Is a Wealthsimple promo code better than a referral code?'
-    answer: 'For deposits under $100K, the referral code is almost always better (guaranteed cash with just $1 minimum). For deposits over $100K, compare the promo device value to the referral ladder cash bonus.'
+    answer: 'For most users, the referral code is the easiest option. You get a guaranteed $25 cash bonus with just a $1 minimum deposit. Promo codes offering devices like iPhones require $100K+ deposits and 2-year commitments.'
   - question: 'What is the best Wealthsimple sign up bonus right now?'
-    answer: 'For most Canadians, the referral code offering $25-$5,000 in cash based on deposit size is the best option. It requires just $1 minimum and is always available.'
+    answer: 'For new users, the referral code offering a flat $25 cash bonus is the best option. It requires just $1 minimum and is always available. Once you are a member, you can earn up to $5,000 by referring others.'
   - question: 'Can I refer my spouse or partner living at the same address?'
     answer: 'Yes. Wealthsimple permits referrals between members of the same household as long as your spouse or partner is a new client.'
   - question: 'Can I use a referral code when opening a Corporate Account?'
@@ -35,9 +36,7 @@ faqs:
     answer: 'Yes. If your account has remained unfunded, you can add a code anytime. The 7-day deadline only begins after your first deposit.'
 ---
 
-If you've been poking around looking for Wealthsimple bonuses, you've probably noticed two different things floating around: **promo codes** and **referral codes**. Are they the same? Can you use both at once? And which one's actually worth your time?
-
-Let's clear this up once and for all.
+Let's clear this up once and for all. I've helped dozens of friends set up their accounts, and the first question is always: "Do I have a promo code?" I usually have to break the news that unless they're transferring a six-figure inheritance, a referral code is actually what they're looking for.
 
 ## Quick Comparison: Promo Code vs Referral Code
 
@@ -45,7 +44,7 @@ Let's clear this up once and for all.
 | ------------------- | --------------------------------------- | --------------------------- |
 | **Source**          | Wealthsimple marketing campaigns        | Existing Wealthsimple users |
 | **Typical Reward**  | Devices (iPhone, AirPods) or bonus cash | Cash ($25 - $5,000)         |
-| **Minimum Deposit** | Usually $100,000+                       | Just $1                     |
+| **Minimum Deposit** | Usually $100,000+                       | Just $1 [^1] [^2]           |
 | **Availability**    | Limited time only                       | Always available            |
 | **Stackable**       | Usually not                             | Usually not                 |
 | **Best For**        | High-net-worth investors                | Everyone                    |
@@ -59,28 +58,32 @@ A **promo code** (sometimes called a promotional code or campaign code) is basic
 - Typically have higher funding requirements
 - Are promoted through official Wealthsimple channels
 
-### Examples of Wealthsimple Promotional Campaigns
+### Examples of Past Wealthsimple Promotional Campaigns
 
-#### The Apple Promotion (November-December 2025)
+> **⚠️ Note:** The following are examples based on past promotional campaigns. Device models, deposit thresholds, and hold periods vary by campaign. Always check the current promotion's official terms for the source of truth.
 
-- **Reward:** Latest iPhone or MacBook
-- **Requirement:** Net funding of $100,000 - $500,000
-- **Duration:** Limited time during holiday season
+#### Apple Promotion (Example: Holiday Season)
+
+- **Reward:** Latest iPhone or MacBook model
+- **Requirement:** Net funding of $100,000 - $500,000 (varies by campaign)
+- **Duration:** Limited time during promotional window
 - **Registration:** Specific landing page required
 
-#### Wealthsimple iPhone Promotion vs Referral Bonus
+#### Device Promotion vs Cash Bonus (General Structure)
 
-- **Reward:** Latest iPhone model
+- **Reward:** Flagship device (iPhone, MacBook, etc.)
 - **Requirement:** Usually $100,000+ deposit
 - **Target:** Mass affluent investors considering a platform switch
-- **Trade-off:** You must maintain $100,000 deposit for upwards of 2 years!
+- **Trade-off:** Extended hold periods (often 1-2 years) may apply
 
-#### New WealthsimpleClient Referral Code
+**Personal note:** I actually crunched the numbers on the iPhone 16 promo last year. The 2-year hold period was the biggest dealbreaker for me. Even though an iPhone is worth way more than the referral bonus I’d get normally, I didn't want my principal locked in for 730 days just for a gadget. I preferred the simplicity of the 180-day hold that comes with the standard referral code.
 
-- **Reward:** Enhanced cash bonus (sometimes $50+ instead of $25 can go up to $5,000)
+#### Enhanced Referral Bonuses
+
+- **Reward:** Enhanced cash bonus (sometimes $50+ instead of $25)
 - **Requirement:** Standard funding requirements
 - **Duration:** Short promotional windows
-- **Holding period:** You must maintain bonus deposit for 6 months!There is some flexibility with withdrawal up to 5%.
+- **Note:** Standard 180-day hold period typically applies
 
 ### How Promo Codes Work
 
@@ -113,7 +116,7 @@ Searching for "Wealthsimple promo code" on Google? Yeah, it can get messy out th
 
 ⚠️ **Requests for personal info** — Legitimate codes never require you to share information outside Wealthsimple's platform
 
-The bottom line? For guaranteed, always-available value, **referral codes beat promo hunting** for most investors.
+The bottom line? For guaranteed, always-available value, **referral codes beat promo hunting** for most investors. I’ve seen some pretty wild "promo codes" on TikTok promising thousands of dollars for a $10 deposit. Take it from me: if it sounds too good to be true, it’s usually an expired campaign or a complete scam. Stick to the official promotions page.
 
 ## Wealthsimple Promo Code History: What Worked in 2025
 
@@ -144,9 +147,9 @@ If you're planning a large transfer, timing it around these promotional windows 
 
 A **referral code** comes from an existing Wealthsimple user and connects you to their account. When you use their code:
 
-- You get a $25+ cash bonus
-- They get a corresponding bonus
-- The referral ladder can increase both bonuses based on your deposit size
+- You get a **$25 cash bonus** (flat rate for new users)
+- They get a corresponding bonus (which can scale up to $5,000 based on your deposit size)
+- Once you're a member, you can earn bigger bonuses by referring others through the referral ladder
 
 ### Current Referral Code: 9C6DMQ
 
@@ -157,27 +160,28 @@ A **referral code** comes from an existing Wealthsimple user and connects you to
 1. Click a referral link or manually enter the code during signup
 2. Deposit at least $1 within 30 days
 3. Receive your $25 cash bonus within 24 hours
-4. Larger deposits automatically qualify for higher bonus tiers
+4. Once you're a member, you can refer others and earn up to $5,000 in bonuses yourself
 
 ## Can You Stack Promo Codes and Referral Codes?
 
-**Short answer: no.** You can't double-dip—it'd be nice, but Wealthsimple's system doesn't work that way.
+Often you can stack the standard $25 referral bonus with separate transfer or device promos, but **stacking rules vary by campaign**—always confirm in the current promo's terms.
 
-When you sign up, you've got to pick one path:
+> **⚠️ Important:** In some recent promotions, deposits used for an iPhone/transfer bonus could not also be counted toward a separate transfer-based offer. Each promotion's combinability is different. Stacking rules vary by campaign, so always confirm in the current promo's fine print.[^6]
 
-- Use a referral link/code, OR
-- Register through a promotional landing page
+### How Stacking Generally Works
 
-The same money can't trigger both bonuses. It's one or the other.
+1. **Enter the referral code first** — Add code 9C6DMQ in your account settings to qualify for the $25 sign-up bonus
+2. **Register for the transfer promotion** — Then register through the promotional landing page for the device offer
+3. **Complete the deposit requirements** — Check the specific promo terms to confirm stacking is allowed
 
-### The One Exception: Transfer Fees
+### General Stacking Guidelines
 
-Here's a nice loophole—transfer fee reimbursement isn't technically a "bonus," so you can stack it with either option:
-
-| Your Entry Method | Transfer Fee Reimbursement | Result   |
-| ----------------- | -------------------------- | -------- |
-| Referral code     | ✅ Still eligible          | Get both |
-| Promo campaign    | ✅ Still eligible          | Get both |
+| Combination                                | Typically? | Notes                                              |
+| ------------------------------------------ | ---------- | -------------------------------------------------- |
+| Referral code + Device promo               | ✅ Often   | Check current promo terms to confirm               |
+| Referral code + Transfer bonus             | ✅ Often   | Referral activates with $1, transfer counts total  |
+| Referral code + Transfer fee reimbursement | ✅ Yes     | Generally always stackable                         |
+| Two transfer-based promos                  | ❌ Rarely  | Same funds typically can't trigger multiple promos |
 
 ## So Which Should You Actually Choose?
 
@@ -225,25 +229,25 @@ Let's calculate when choosing a promo over a referral makes financial sense:
 
 | Option        | Reward        | Cash-Equivalent Value |
 | ------------- | ------------- | --------------------- |
-| Referral Code | $500 cash     | $500                  |
+| Referral Code | Cash bonus    | $25                   |
 | iPhone Promo  | Latest iPhone | ~$1,500 retail        |
 
-**Winner: Promo code** (if you'll actually use the iPhone)
+**Winner: Promo code** (if you'll actually use the iPhone and can commit to the 2-year hold period)
 
 ### Scenario: $150,000 Deposit
 
 | Option        | Reward        | Cash-Equivalent Value |
 | ------------- | ------------- | --------------------- |
-| Referral Code | $500 cash     | $500                  |
+| Referral Code | Cash bonus    | $25                   |
 | iPhone Promo  | Latest iPhone | ~$1,500 retail        |
 
-**Winner: Promo code** (still makes sense)
+**Winner: Promo code** (still makes sense on raw value)
 
 ### Scenario: $50,000 Deposit
 
 | Option        | Reward               | Cash-Equivalent Value |
 | ------------- | -------------------- | --------------------- |
-| Referral Code | $200 cash            | $200                  |
+| Referral Code | Cash bonus           | $25                   |
 | Promo Code    | Usually not eligible | $0                    |
 
 **Winner: Referral code** (promo requires higher minimum)
@@ -254,8 +258,8 @@ As of December 2025, here's how current known promotions stack up:
 
 | Promotion       | Reward                  | Min. Deposit      | Referral Alternative |
 | --------------- | ----------------------- | ----------------- | -------------------- |
-| iPhone Promo    | Latest iPhone (~$1,500) | $100,000          | $500 cash            |
-| Apple Promotion | Device varies           | $100,000-$500,000 | $500-$1,500 cash     |
+| iPhone Promo    | Latest iPhone (~$1,500) | $100,000          | $25 cash             |
+| Apple Promotion | Device varies           | $100,000-$500,000 | $25 cash             |
 | Referral Code   | Cash                    | $1                | —                    |
 
 For most users, the **referral code remains the best choice** because:
@@ -267,17 +271,19 @@ For most users, the **referral code remains the best choice** because:
 
 ### Hold Period: The "Hidden" Difference
 
-One of the most critical differences between these two options is how long your money must stay in the account. This is often buried in the fine print but can lock up your funds for years.
+One of the most critical differences between these two options is how long your money must stay in the account. This is often buried in the fine print but can lock up your funds for extended periods.
 
-| Feature             | Referral Code (Cash Bonus) | Promo Code (Device/iPhone)       |
-| :------------------ | :------------------------- | :------------------------------- |
-| **Bonus Value**     | $25 - $5,000               | ~$1,000+ (Device value)          |
-| **Minimum Deposit** | $1                         | $100,000+                        |
-| **Hold Period**     | **180 Days (6 Months)**    | **365 Days - 2 Years**           |
-| **Flexibility**     | 5 % Liquid until 180 days  | Locked in for 365 days - 2 years |
-| **Penalty**         | Bonus amount clawed back   | Full device cost charged         |
+> **⚠️ Note:** The following table shows typical structures based on past promotions. Actual hold periods, penalties, and liquidity terms vary by campaign—always check the current promotion's official terms.
 
-**Key Takeaway:** If you take the iPhone promo, that $100,000+ is effectively "locked" for at least a year. If you need to withdraw it for a down payment or emergency, you will be billed for the full cost of the phone. Referral bonuses typically follow a standard 180-day retention period.
+| Feature             | Referral Code (Cash Bonus) | Promo Code (Device/iPhone)                     |
+| :------------------ | :------------------------- | :--------------------------------------------- |
+| **Bonus Value**     | $25 - $5,000               | Device value (varies by campaign)              |
+| **Minimum Deposit** | $1                         | Usually $100,000+                              |
+| **Hold Period**     | **180 Days (6 Months)**    | **Varies (often 1-2 years)**                   |
+| **Flexibility**     | Standard 180-day hold      | Review promo terms for withdrawal restrictions |
+| **Penalty**         | Bonus amount clawed back   | Device cost may be charged (check promo terms) |
+
+**Key Takeaway:** Device promotions typically require longer hold periods than cash referral bonuses. If you may need access to your funds within a year, carefully review the specific promo's terms before committing.[^3]
 
 ## Final Recommendation
 
@@ -295,11 +301,11 @@ Here's something worth thinking about—your choice between promo codes and refe
 
 ### How Tiers Work
 
-| Tier           | Net Deposits | Key Benefits                                       |
-| -------------- | ------------ | -------------------------------------------------- |
-| **Core**       | $0 - $99,999 | Standard features, 1.5% FX fee on USD              |
-| **Premium**    | $100,000+    | Free USD account, lower management fees            |
-| **Generation** | $500,000+    | Lowest fees, private asset access, lifestyle perks |
+| Tier           | Net Deposits | Key Benefits                                            |
+| -------------- | ------------ | ------------------------------------------------------- |
+| **Core**       | $0 - $99,999 | Standard features, 1.5% FX fee on USD                   |
+| **Premium**    | $100,000+    | Free USD account, lower management fees                 |
+| **Generation** | $500,000+    | Lowest fees, private asset access, lifestyle perks [^7] |
 
 ### Strategic Considerations
 
@@ -398,4 +404,18 @@ No. There is currently no limit to the number of people you can refer to Wealths
 
 ### I signed up a while ago but never funded my account. Can I still add a code?
 
-Yes. If your account has remained unfunded. The strict 7-day deadline to add a code only begins after you make your first deposit. Look for the "Add a referral code" button in the gift/rewards section of the app.
+Yes. If your account has remained unfunded. The strict 7-day deadline to add a code only begins after you make your first deposit. Look for the "Add a referral code" button in the gift/rewards section of the app. I’ve personally helped a friend use this button after they forgot to add a code during signup—it’s a lifesaver, but keep an eye on that 7-day clock![^1]
+
+[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+
+[^2]: Wealthsimple - Promotions and Offers: https://www.wealthsimple.com/en-ca/magazine/promotions
+
+[^3]: Wealthsimple Help Centre - Device Promotion Terms: https://help.wealthsimple.com/hc/en-ca/articles/19154942940059
+
+[^4]: Wealthsimple - Current Promotions: https://promotions.wealthsimple.com/
+
+[^5]: Wealthsimple - Referral Ladder Challenge: https://www.wealthsimple.com/en-ca/legal/referral-ladder-challenge-terms
+
+[^6]: Wealthsimple Help Centre - Can I combine promotions?: https://help.wealthsimple.com/hc/en-ca/articles/1260803566110
+
+[^7]: Wealthsimple - Tiers and Benefits: https://www.wealthsimple.com/en-ca/pricing

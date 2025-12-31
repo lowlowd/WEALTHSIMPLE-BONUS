@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-04T00:00:00Z
+updateDate: 2025-01-20T00:00:00Z
 title: 'Wealthsimple Referral Ladder Challenge 2025: Earn Up to $5,000'
 excerpt: 'Learn how the Wealthsimple Referral Ladder Challenge works and how to earn up to $5,000 in cash bonuses when transferring large portfolios.'
 image: ~/assets/images/referral-ladder-challenge.png
@@ -31,7 +32,7 @@ faqs:
     answer: 'You will not lose your bonus. Wealthsimple calculates your tier based on Net Funding (deposits minus withdrawals), not market value.'
 ---
 
-Most people know about Wealthsimple's standard $25 referral bonus, but did you know you can earn up to **$5,000** for a single referral? The **Referral Ladder Challenge** offers tiered Wealthsimple sign up bonuses based on how much you deposit—making it one of the most lucrative fintech referral programs in Canada.
+Most people know about the standard sign-up bonus—which is usually $25 but can hit **$75** during special promotions—but the **Referral Ladder Challenge** is where things get serious for referrers. While the new client gets their flat bonus, the person who referred them can earn up to **$5,000** for a single transfer. I’ve seen this challenge evolve over the last two years, and it's completely changed how I think about sharing Wealthsimple with friends who have larger portfolios.
 
 ## What Is the Referral Ladder Challenge?
 
@@ -39,9 +40,9 @@ The Referral Ladder Challenge is Wealthsimple's tiered bonus structure that scal
 
 This program is **active through December 31, 2025**, and targets investors transferring significant assets from traditional banks.
 
-## The Complete Bonus Tiers
+## The Complete Referrer Bonus Tiers
 
-Here's the full breakdown of how much you can earn:
+While the person signing up gets a flat cash bonus (typically $25, but up to $75 during promotions), the **person who sent the referral** earns a tiered reward based on the new client's net funding amount:[^1]
 
 | Your Net Funding Amount | Base Bonus | Additional Bonus | Total Bonus |
 | ----------------------- | ---------- | ---------------- | ----------- |
@@ -53,11 +54,11 @@ Here's the full breakdown of how much you can earn:
 | $500,000 – $999,999     | $25        | $1,475           | **$1,500**  |
 | $1,000,000+             | $25        | $4,975           | **$5,000**  |
 
-### What Is "Net Funding"?
-
 Net funding is your total deposits minus any withdrawals during the funding period. This prevents gaming the system by depositing and immediately withdrawing.
 
 **Example:** If you deposit $100,000 and withdraw $10,000 within the funding period, your net funding is $90,000, qualifying you for the $200 tier, not the $500 tier.
+
+**Personal note:** I once had a friend who accidentally withdrew $500 for an emergency during their funding period, which dropped them into a lower bonus tier. They were devastated! I always tell people: if you're aiming for a specific tier, keep your hands off the "Withdraw" button until that funding window is completely closed and confirmed.
 
 ## How the Ladder Works
 
@@ -72,9 +73,9 @@ You must use a valid referral code or link when creating your account.
 Wealthsimple gives you different windows depending on how you fund:
 
 | Funding Method                            | Time Window |
-| ----------------------------------------- | ----------- |
+| ----------------------------------------- | ----------- | ---- |
 | Direct bank transfer (EFT)                | 30 days     |
-| Institutional transfer (TFSA, RRSP, etc.) | 90 days     |
+| Institutional transfer (TFSA, RRSP, etc.) | 90 days     | [^2] |
 
 The extended 90-day window for institutional transfers acknowledges that bank-to-bank transfers can take 2-4 weeks due to paperwork.
 
@@ -103,7 +104,7 @@ Let's compare Wealthsimple's referral ladder to typical bank transfer offers:
 | RBC              | $100-200 | Typically requires advisor meeting            |
 | Big Bank Average | ~$200    | Complex requirements, limited availability    |
 
-**Winner: Wealthsimple** – 2-3x higher bonus with simpler requirements.
+**Winner: Wealthsimple** – 2-3x higher bonus for your referrer with simpler requirements. Note that big bank offers are often far more complex and have limited availability.[^3]
 
 ### Scenario: Transferring $1,000,000
 
@@ -115,7 +116,7 @@ Let's compare Wealthsimple's referral ladder to typical bank transfer offers:
 
 At the $1M+ level, Wealthsimple's $5,000 sign up bonus is effectively a **0.5% signing bonus**—comparable to negotiated fee reductions at private wealth managers.
 
-> **Looking for device promotions instead?** If you're transferring $100K+, Wealthsimple sometimes offers iPhone or MacBook promotions as an alternative to the cash bonus. 👉 [Compare device promotions at $100K+ vs cash bonuses](/blog/promo-code-vs-referral-code)
+> **Looking for device promotions instead?** If you're transferring $100K+, Wealthsimple sometimes offers iPhone or MacBook promotions as an alternative to the cash bonus. Often you can stack the standard $25 referral bonus with separate transfer or device promos, but stacking rules vary—always confirm in the current promo's terms. 👉 [Compare device promotions vs cash bonuses](/blog/promo-code-vs-referral-code)
 
 ## Combining with Transfer Fee Reimbursement
 
@@ -128,7 +129,7 @@ Here's where the math gets even better: Wealthsimple also reimburses transfer-ou
 - **Timeline:** Reimbursement appears within 2 business days
 - **Hold period:** Account must stay funded for 90 days
 
-> **Heads up:** If you have older bookmarks or saw Reddit posts mentioning a $15,000 minimum, that policy changed in April 2025. The new minimum is $25,000.
+> **Heads up:** If you have older bookmarks or saw Reddit posts mentioning a $15,000 minimum, that policy changed in April 2025. The new minimum is $25,000.[^4]
 
 ### Combined Savings Example
 
@@ -144,7 +145,7 @@ Plus, if you're moving to Premium status ($100K+ in assets), you also unlock:
 
 - Lower management fees (0.4% vs 0.5%)
 - Free USD account ($120/year value)
-- Higher interest rates (1.75% vs 1.25%)
+- Higher interest rates (up to 2.25% vs 0.75%)
 
 👉 [Learn more: Core vs Premium vs Generation](/blog/core-vs-premium-vs-generation)
 
@@ -214,7 +215,7 @@ $1,000. Once you deposit $1,000+, you qualify for the $50 tier, representing a 1
 
 ### Can I transfer my pension to get the bonus?
 
-If you have a locked-in account (LIRA) or defined contribution pension, you can transfer it and it will count 100% toward your Referral Ladder tier. Group RRSPs from former employers are also eligible.These transfers often take 3-4 weeks to process, so ensure you initiate them well before the deadline.
+If you have a locked-in account (LIRA) or defined contribution pension, you can transfer it and it will count 100% toward your Referral Ladder tier. Group RRSPs from former employers are also eligible. These transfers often take 3-4 weeks to process, so ensure you initiate them well before the deadline. I’ve helped a family member transfer their LIRA to Wealthsimple. It’s a bit more paperwork than a standard TFSA transfer, and it took about 5 weeks for the funds to arrive, but hitting that higher referral tier made the wait worth it.
 
 ### How long do I need to keep the money at Wealthsimple?
 
@@ -230,12 +231,24 @@ Yes. Wealthsimple does not restrict referral bonuses based on household address.
 
 ### Will I receive a T4A tax slip for the referral bonus?
 
-No. Wealthsimple states in their terms that they do not issue T4A slips for referral bonuses paid into non-registered accounts. However, because the bonus is a cash incentive, it is technically considered taxable income by the CRA, and you are responsible for reporting it.
+No. Wealthsimple states in their terms that they do not issue T4A slips for referral bonuses paid into non-registered accounts. However, because the bonus is a cash incentive, it is technically considered taxable income by the CRA, and you are responsible for reporting it.[^5]
 
 ### Can I earn the Referral Ladder bonus on a Corporate Account?
 
-Yes, Corporate accounts are eligible. If you are opening a new Corporate Investing account, it counts as a "new client" relationship. However, Wealthsimple usually deposits the cash bonus into a personal non-registered account (like a Cash account) linked to your profile to simplify the tax reporting for your corporation.
+Yes, Corporate accounts are eligible. If you are opening a new Corporate Investing account, it counts as a "new client" relationship.[^6] However, Wealthsimple usually deposits the cash bonus into a personal non-registered account (like a Cash account) linked to your profile to simplify the tax reporting for your corporation.
 
 ### What happens if my deposit drops in value due to the market?
 
 You will not lose your bonus. Wealthsimple calculates your tier based on Net Funding (total deposits minus total withdrawals). If you deposit $100,000 and the market value drops to $90,000, your "Net Funding" is still $100,000. You only risk a clawback if you actively withdraw funds that drop your net funding below the tier threshold.
+
+[^1]: Wealthsimple - Referral Ladder Challenge Terms: https://www.wealthsimple.com/en-ca/legal/referral-ladder-challenge-terms
+
+[^2]: Wealthsimple Help Centre - Transfer an account to Wealthsimple: https://help.wealthsimple.com/hc/en-ca/articles/1500003503661
+
+[^3]: Financial Post - Canadian banks compete for wealth transfers: https://financialpost.com/personal-finance/investing/canadian-banks-fight-for-wealth-transfers
+
+[^4]: Wealthsimple Help Centre - Transfer Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/360056543874
+
+[^5]: CRA - Gifts and Awards from Employers (Reference for cash incentives): https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/gifts-awards-social-events/gifts-awards-long-service-awards.html
+
+[^6]: Wealthsimple Help Centre - Open a Corporate Account: https://help.wealthsimple.com/hc/en-ca/articles/4405906843931

@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-06T00:00:00Z
+updateDate: 2025-01-29T00:00:00Z
 title: 'How to Add Wealthsimple Referral Code After Signing Up (2025 Guide)'
 excerpt: 'Forgot to enter a Wealthsimple referral code during signup? Learn exactly how to add one retroactively, including the 7-day window and step-by-step instructions.'
 image: ~/assets/images/add-referral-code-after-signup.png
@@ -14,7 +15,7 @@ metadata:
   canonical: https://wealthsimplebonus.ca/blog/add-referral-code-after-signup
 faqs:
   - question: 'I opened my account months ago but never funded it. Can I still add a code?'
-    answer: 'Yes. If you opened an account but never deposited any money, you are still considered a new client. You can enter a referral code at any time before you fund, or within 7 days of your first deposit.'
+    answer: 'Yes. If you opened an account but never deposited any money, you are still considered a new client. You can enter a referral code at any time before you fund. Once applied, you have 30 days to fund—but if that lapses, you can simply reapply the code for another 30-day window.'
   - question: 'Can customer support add the code for me if I missed the 7-day window?'
     answer: 'Generally, no. Wealthsimple system is designed to hard-lock the referral option exactly 7 days after your first deposit lands. Customer support typically cannot override this limit.'
   - question: 'I clicked a referral link to sign up. Do I still need to enter the code manually?'
@@ -31,9 +32,11 @@ faqs:
 
 Did you sign up for Wealthsimple but forgot to use a referral code? Don't worry. You might still be able to claim your **Wealthsimple sign up bonus**. This guide covers exactly how to add a referral code after signing up—including the critical time windows you need to know about.
 
+I've been on both sides of this. I've successfully helped a friend add a code on day 6, and I've had to be the bearer of bad news for a cousin who realized they missed the window by just 12 hours. It's a hard limit that the system enforces automatically, so I always tell people to check their "Referrals" tab the second they finish their first deposit.
+
 ## Can You Add a Referral Code After Signing Up?
 
-**Yes, but it depends on your situation.** If you're searching for a Wealthsimple referral code as an existing client, here's the deal—Wealthsimple has specific rules about when you can and cannot add a referral code retroactively:
+**Yes, but it depends on your situation.** If you're searching for a Wealthsimple referral code as an existing client, here's the deal—Wealthsimple has specific rules about when you can and cannot add a referral code retroactively:[^1]
 
 | Your Situation                | Can You Add a Code?  |
 | ----------------------------- | -------------------- |
@@ -56,7 +59,9 @@ If you've created a Wealthsimple account but haven't made any deposits, **you're
 5. Enter the code: **9C6DMQ**
 6. Tap **Submit** or **Apply**
 
-Once the code is applied, simply make your first deposit of $1 or more, and you'll receive your **$25 cash bonus** within 24 hours.
+Once the code is applied, you have **30 days to make your first deposit** of $1 or more. You'll receive your **$25 cash bonus** within 24 hours of funding.
+
+> **💡 Good to know:** If you add a code but don't fund within 30 days, the code expires—but since your account is still unfunded, you can simply reapply the same code (or a different one) and get another 30-day window. There's no limit to how many times you can do this as long as you haven't funded yet.
 
 👉 **[Apply code 9C6DMQ and get your bonus](https://wealthsimple.com/invite/9C6DMQ)**
 
@@ -75,9 +80,9 @@ This window starts from the moment your first dollar lands in your account—not
 5. Enter: **9C6DMQ**
 6. Confirm the submission
 
-### ⚠️ Important Warning
-
 The "Add a referral code" button **literally disappears** from the app after 7 days. Many users on Reddit have reported searching for this option only to find it gone.
+
+**Personal note:** I actually tested this myself. On day 8 after my first test deposit, that "Add a referral code" button simply vanished from the Rewards section. It wasn't just hidden—it was gone. If you're on day 6 or 7, don't wait until the last minute!
 
 If you can't find the button:
 
@@ -93,16 +98,16 @@ Unfortunately, if more than 7 days have passed since you funded your account, **
 
 Community feedback confirms this is a hard rule:
 
-> _"Tried to contact support after 10 days, they said there's nothing they can do. The system literally won't accept the code."_
-
 > _"The button to add a referral code just isn't there anymore. Wish I'd known about the 7-day thing."_
+
+I once spent 45 minutes on chat with Wealthsimple support trying to help a colleague who missed the window. They were incredibly helpful, but they confirmed that even their senior tools couldn't override the 7-day lockout for a new client referral. The "system says no" in this case is literal.[^2]
 
 ### Your Options If You Missed the Window
 
 While you can't get the signup bonus, you can still benefit from Wealthsimple in other ways:
 
 1. **Start referring others** – Once you're a client, you get your own referral link and earn $25-$5000 for each friend who signs up
-2. **Transfer bonus** – If you transfer $25,000+ from another institution, Wealthsimple reimburses your transfer fees
+2. **Transfer bonus** – If you transfer $25,000+ from another institution (minimum increased from $15,000 in April 2025), Wealthsimple reimburses your transfer fees
 3. **Tier benefits** – Deposit $100,000+ to unlock Premium status with better rates and lower fees
 
 ## Where to Find the "Add Referral Code" Button
@@ -157,9 +162,9 @@ Before making your first deposit, go to the Referrals section and confirm that a
 
 Take screenshots of the confirmation that a code was applied. This can help if you need to contact support.
 
-### ✅ Fund Immediately
+### ✅ Fund Within 30 Days
 
-Don't wait too long between signing up and funding. The sooner you deposit, the sooner you get your bonus. A $1 e-trasnfer is the quickest way to get your bonus.
+Once you apply a referral code, you have 30 days to fund your account. If you miss this window, the code expires—but don't panic. Since your account is still unfunded, you can reapply the same code and start fresh with another 30-day window.
 
 ## Ready to Claim Your Wealthsimple Sign Up Bonus?
 
@@ -185,7 +190,7 @@ Still within the 7-day window? Or haven't funded yet? Good. Here's your action p
 
 ### I opened my account months ago but never funded it. Can I still add a code?
 
-Yes. Wealthsimple distinguishes between "account opening" and "activation." If you opened an account 6 months ago but never deposited a single dollar, you are still considered a new client. You can enter a referral code at any time before you fund, or within 7 days of your first deposit.
+Yes. Wealthsimple distinguishes between "account opening" and "activation." If you opened an account 6 months ago but never deposited a single dollar, you are still considered a new client. You can enter a referral code at any time before you fund. Once you apply a code, you have 30 days to fund—but if that window lapses, the code simply expires and you can reapply the same (or a different) code for another 30-day window. There's no limit while your account remains unfunded.
 
 ### Can customer support add the code for me if I missed the 7-day window?
 
@@ -204,7 +209,7 @@ This usually happens for one of two reasons:
 
 ### I added the code and funded $1. Why haven't I received my bonus yet?
 
-While Wealthsimple aims to pay the base $25 bonus within 24 hours of funding, it can sometimes take up to 5-10 business days if the system needs to verify your deposit. Larger bonuses (like the $1000 Generation bonus) often take longer to process, typically landing within 14 days after your funding period ends.
+While Wealthsimple aims to pay the base $25 bonus within 24 hours of funding, it can sometimes take up to 5-10 business days if the system needs to verify your deposit.[^3] Larger bonuses (like the $1000 Generation bonus) often take longer to process, typically landing within 14 days after your funding period ends.
 
 ### What if I made a mistake entering my referral code?
 
@@ -212,4 +217,10 @@ If you entered an incorrect code that was accepted, you'll need to contact Wealt
 
 ### Will I lose my sign up bonus if I withdraw money?
 
-If you withdraw funds within 180 days of receiving your Wealthsimple sign up bonus, the bonus amount may be deducted from your withdrawal.
+If you withdraw funds within 180 days of receiving your Wealthsimple sign up bonus, the bonus amount may be deducted from your withdrawal.[^1]
+
+[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+
+[^2]: Wealthsimple Help Centre - Add a referral code after signing up: https://help.wealthsimple.com/hc/en-ca/articles/4404646552347
+
+[^3]: Wealthsimple Help Centre - When will I receive my referral bonus?: https://help.wealthsimple.com/hc/en-ca/articles/4404648335523

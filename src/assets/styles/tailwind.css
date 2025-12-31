@@ -107,3 +107,24 @@
 .dd *:first-child {
   margin-top: 0;
 }
+
+/* Hide footnote backlink arrows */
+a[data-footnote-backref] {
+  display: none;
+}
+
+/* Add spacing before footnote superscripts */
+a[data-footnote-ref] {
+  margin-left: 0.15em;
+}
+
+/* Style footnotes section */
+.footnotes {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dark .footnotes {
+  border-top-color: #374151;
+}

@@ -1,0 +1,22 @@
+name: Scheduled Freshness Rebuild
+
+on:
+  schedule:
+    # Every other day at 10 AM UTC
+    - cron: "0 10 */2 * *"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create empty commit to trigger Vercel rebuild
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: scheduled freshness rebuild"
+          git push

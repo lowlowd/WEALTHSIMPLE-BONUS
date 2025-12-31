@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-02T00:00:00Z
+updateDate: 2025-01-05T00:00:00Z
 title: 'Wealthsimple Core vs Premium vs Generation: Complete Tier Comparison (2025)'
 excerpt: "Compare Wealthsimple's three client tiers - Core, Premium, and Generation. Learn about fees, interest rates, and whether Premium is worth it at $100K."
 image: ~/assets/images/core-vs-premium-vs-generation.png
@@ -14,7 +15,7 @@ metadata:
   canonical: https://wealthsimplebonus.ca/blog/core-vs-premium-vs-generation
 faqs:
   - question: 'Can I combine assets with my spouse to reach Generation status?'
-    answer: 'Yes. Wealthsimple allows you to create a Household by linking your profile with a partner. Their system combines your total assets to calculate your tier.'
+    answer: "Yes, through the Wealthsimple Household feature. A Household is limited to 2 people who share the same residential address. Combined totals determine your tier, but members only see the combined total - not each other's individual account balances or activity."
   - question: 'If the market drops my balance below $100k, do I lose Premium status?'
     answer: 'Wealthsimple generally protects you from market downturns. Your status is determined by net deposits OR total portfolio value, whichever is higher. You usually only risk downgrading if you withdraw funds that drop your net deposits below the threshold.'
   - question: 'Do I have to pay the $10 USD fee for each account separately?'
@@ -29,14 +30,14 @@ faqs:
     answer: 'The Wealthsimple sign up bonus itself is cash, not deposits for tier purposes. However, any funds you deposit to receive the bonus do count toward your tier status.'
 ---
 
-Wealthsimple isn't just a brokerage—it's actually a tiered ecosystem where your benefits get better as your account grows. If you're wondering whether it's worth pushing to hit that $100K or $500K threshold, this breakdown of **Wealthsimple Core vs Premium vs Generation** will help you figure out the real value.
+Wealthsimple isn't just a brokerage—it's actually a tiered ecosystem where your benefits get better as your account grows. As a Core client with two years of experience, I've watched my accounts grow toward that $100K threshold—so I've paid close attention to what each tier actually offers. If you're wondering whether it's worth pushing to hit that $100K or $500K threshold, this breakdown of **Wealthsimple Core vs Premium vs Generation** will help you figure out the real value.
 
 ## Quick Tier Overview
 
 | Feature                | Core ($0-$99K)  | Premium ($100K+)   | Generation ($500K+) |
 | ---------------------- | --------------- | ------------------ | ------------------- |
 | **Management Fee**     | 0.50%           | 0.40%              | 0.20%-0.40%         |
-| **Cash Interest**      | 1.25%           | 1.75%              | 2.25%               |
+| **Cash Interest**      | 0.75%-1.25%\*   | 1.75%              | 2.25% (max)         |
 | **USD Account**        | $10/month       | Free               | Free                |
 | **Crypto Fees**        | 2.0%            | 1.0%               | 0.5%                |
 | **Crypto Staking Cut** | 30%             | 20%                | 15%                 |
@@ -45,7 +46,7 @@ Wealthsimple isn't just a brokerage—it's actually a tiered ecosystem where you
 
 ## Core Tier ($0 - $99,999)
 
-The **Core** tier is where everyone starts—and honestly, it's pretty solid on its own. Here's what you get when you're just starting out or building up your portfolio:
+The **Core** tier is where everyone starts—and honestly, it's pretty solid on its own. I've been a Core client since opening my accounts, and while I'm aware of the limitations, it works well for my current needs. Here's what you get when you're just starting out or building up your portfolio:
 
 ### What You Get
 
@@ -61,8 +62,8 @@ The **Core** tier is where everyone starts—and honestly, it's pretty solid on 
 
 **Banking:**
 
-- 1.25% interest on Chequing balance
-- Can boost to 1.75% with $2,000+/month direct deposit
+- 0.75% base interest on Chequing balance
+- Can boost to 1.25% with $2,000+/month direct deposit
 
 **Crypto:**
 
@@ -71,13 +72,13 @@ The **Core** tier is where everyone starts—and honestly, it's pretty solid on 
 
 ### The Hidden Cost: USD Trading
 
-Okay, here's the catch for Core users—there's a **1.5% currency conversion fee** every time you touch US stocks.
+Okay, here's the catch for Core users—there's a **1.5% currency conversion fee** every time you touch US stocks.[^1] This is the main limitation I've noticed in my own trading—I've mostly stuck to Canadian ETFs to avoid these fees.
 
 **Example:** Buying $10,000 of Apple stock:
 
 - FX fee: $150 (buy) + $150 (sell) = **$300 round-trip cost**
 
-The workaround? The **USD Account** for $10/month, which lets you hold USD and avoid per-trade conversion.
+The workaround? The **USD Account** for $10/month, which lets you hold USD and avoid per-trade conversion.[^1]
 
 For someone trading US stocks monthly, this makes sense:
 
@@ -116,8 +117,8 @@ For someone trading US stocks monthly, this makes sense:
 
 **Higher Cash Interest:**
 
-- Base rate: 1.75% (vs 1.25%)
-- With direct deposit: up to 2.25%
+- Base rate: 1.75% (vs 0.75%-1.25% for Core)
+- With direct deposit: boosted up to the current maximum of 2.25%
 
 **Reduced Crypto Fees:**
 
@@ -145,7 +146,7 @@ Let's do the math for a typical $100K portfolio:
 
 **Our take: Premium is absolutely worth it at $100K.** The benefits kick in automatically—you don't have to do anything once you hit the threshold. For most Canadians investing in US stocks, the free USD account alone pays for itself.
 
-If you're close to $100K, consider consolidating accounts to reach Premium faster.
+If you're close to $100K, consider consolidating accounts to reach Premium faster—it's exactly what I'm planning as my portfolio grows.
 
 ## Generation Tier ($500,000+)
 
@@ -160,8 +161,8 @@ If you're close to $100K, consider consolidating accounts to reach Premium faste
 
 **Maximum Cash Interest:**
 
-- 2.25% base rate (highest tier)
-- Additional 0.5% boost with direct deposit = up to 2.75%
+- 2.25% rate (the highest available)[^2]
+- Note: This is the maximum—Wealthsimple explicitly caps interest at 2.25% and rates cannot be stacked beyond this
 
 **Lowest Crypto Fees:**
 
@@ -177,14 +178,14 @@ If you're close to $100K, consider consolidating accounts to reach Premium faste
 
 **Lifestyle Perks:**
 
-- 50% off Medcan health plans
+- 50% off Medcan health plans[^3]
 - Partner rewards (Uber One, Strava Premium, etc.)
 - Dedicated financial advisor access
 - Estate planning services
 
 **Credit Card Benefits:**
 
-- Wealthsimple Visa Infinite annual fee waived ($240/year value)
+- Wealthsimple Visa Infinite annual fee waived ($240/year value)[^4]
 
 ### Is Generation Worth Pursuing?
 
@@ -248,9 +249,9 @@ Regardless of which tier you'll eventually reach, everyone starts the same way�
 
 👉 **[Sign up with referral code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)** and get a $25+ cash bonus.
 
-If you're transferring a large portfolio to immediately reach Premium or Generation, you could qualify for the **[Referral Ladder Challenge](/blog/referral-ladder-challenge)** with sign up bonuses worth up to $5,000.
+If you're transferring a large portfolio to immediately reach Premium or Generation, you may also benefit from the **[Referral Ladder Challenge](/blog/referral-ladder-challenge)** where referrers can earn tiered bonuses based on their friend's deposit amount.
 
-> 💰 **Want to compare promotional benefits by tier?** Learn when Wealthsimple promo codes might beat referral codes: [Promo Code vs Referral Code Guide](/blog/promo-code-vs-referral-code)
+> **Want to compare promotional benefits by tier?** Learn when Wealthsimple promo codes might beat referral codes: [Promo Code vs Referral Code Guide](/blog/promo-code-vs-referral-code)
 
 ---
 
@@ -265,7 +266,9 @@ If you're transferring a large portfolio to immediately reach Premium or Generat
 
 ### Can I combine assets with my spouse to reach Generation status?
 
-Yes. Wealthsimple allows you to create a "Household" by linking your profile with a partner. Their system combines your total assets to calculate your tier. For example, if you have $300,000 and your partner has $200,000, you will both be upgraded to Generation status and unlock the 2.25% interest rate and other perks.
+Yes, through the **Wealthsimple Household** feature.[^5] A Household is limited to 2 people who share the same residential address. Once linked, Wealthsimple combines your total assets to calculate your tier. For example, if you have $300,000 and your partner has $200,000, you will both be upgraded to Generation status and unlock the 2.25% interest rate and other perks.
+
+> **Privacy note:** Household members can only see the combined total—they cannot access each other's individual account balances or activity.
 
 ### If the market drops my balance below $100k, do I lose Premium status?
 
@@ -290,3 +293,13 @@ Yes. All Wealthsimple accounts are combined when calculating your tier.
 ### Do referral bonuses count toward tier qualification?
 
 The Wealthsimple sign up bonus itself is cash, not "deposits" for tier purposes. However, any funds you deposit to receive the bonus do count toward your tier status.
+
+[^1]: Wealthsimple - Pricing: https://www.wealthsimple.com/en-ca/pricing
+
+[^2]: Wealthsimple - Cash Account: https://www.wealthsimple.com/en-ca/product/cash
+
+[^3]: Wealthsimple - Generation: https://www.wealthsimple.com/en-ca/generation
+
+[^4]: Wealthsimple - Credit Card: https://www.wealthsimple.com/en-ca/product/credit-card
+
+[^5]: Wealthsimple - Household Feature: https://help.wealthsimple.com/hc/en-ca/articles/4408576949787

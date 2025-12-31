@@ -1,6 +1,7 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-05T00:00:00Z
+updateDate: 2025-01-23T00:00:00Z
 title: 'Wealthsimple Referral Bonus Terms and Conditions Explained (2025)'
 excerpt: "Understand the fine print of Wealthsimple's referral program. Learn about eligibility requirements, deposit minimums, holding periods, and tax implications."
 image: ~/assets/images/referral-bonus-terms-conditions.png
@@ -28,7 +29,9 @@ faqs:
   - question: 'Is there a special Wealthsimple referral code for students?'
     answer: 'No, but the standard referral code is ideal for students because it triggers the $25 cash bonus with only a $1 minimum deposit.'
   - question: 'I have a TFSA. Can I use a code if I open a new RRSP?'
-    answer: 'No. The referral program is strictly for new clients who have never had any Wealthsimple account before.'
+    answer: 'No. The referral program is strictly for new clients who have never had a Wealthsimple investment or chequing account before.'
+  - question: 'I only use Wealthsimple Tax. Am I still eligible for a referral bonus?'
+    answer: 'Yes. The new client definition only covers investment and chequing products, not Wealthsimple Tax. Tax-only users are still considered new for the referral program.'
 ---
 
 Before claiming your Wealthsimple sign up bonus, it's important to understand the terms and conditions. This guide breaks down the fine print in plain English so you know exactly what to expect from your referral bonus.
@@ -46,17 +49,20 @@ To qualify for the **Wealthsimple sign up bonus** of $25 (or higher tier), you m
 | **Age of Majority**    | Must be 18+ (19+ in some provinces)                                          |
 | **Account Standing**   | Must be able to pass identity verification                                   |
 
+My identity verification took less than 5 minutes—I just had to snap a photo of my ID and a selfie. It was much smoother than the manual verification I had to do with my traditional bank.
+
 ### What Counts as a "New Client"?
 
-Wealthsimple's definition of "new" is **absolute**. If you've ever:
+- Completed identity verification for any of the above products
+- Started registration and funded any investment product
 
-- Opened and closed a Wealthsimple account
-- Signed up for Wealthsimple Tax only
-- Started registration but never funded
+**Personal note:** I actually started as a Wealthsimple Tax user before ever opening a Cash account. I was worried I wouldn't count as a "new client" for the $25 bonus, but the terms are very specific—Tax doesn't count against you. My bonus landed in my account perfectly within 24 hours of my first $100 deposit.[^1]
 
-...you may or may not qualify depending on how far you got in the process. Generally, if you completed identity verification for any investment product, you're not considered new.
+...you're not considered new for the referral program. Wealthsimple's definition of "new client" is tied specifically to **Self-directed, Crypto, Managed Investing, or Chequing accounts**. These are the only products that "count" for the new client definition.
 
-> **Exception:** Some users who signed up years ago and never engaged may receive "reactivation" offers with different terms.
+> **Good news for Tax users:** Using Wealthsimple Tax alone doesn't disqualify you. The official "new client" definition is explicitly limited to investment and chequing products—the tax product is not mentioned. If you've only ever used Wealthsimple Tax to file your returns, you're likely still eligible for the $25 bonus when you open and fund your first investment account.
+
+> **Reactivation offers:** Some users who signed up years ago and never engaged may receive special "reactivation" offers with different terms.
 
 ## Funding Requirements
 
@@ -73,7 +79,7 @@ You must fund your account within **30 days** of:
 
 If you miss this window, the referral relationship expires and no bonus is paid to either party.
 
-> **Exception:** If you're doing an institutional transfer (RRSP, TFSA, LIRA from another bank), you get a **90-day window** instead. This accounts for the fact that bank-to-bank transfers can take 2-4 weeks.
+> **Exception:** If you're doing an institutional transfer (RRSP, TFSA, LIRA from another bank), you get a **90-day window** instead. This accounts for the fact that bank-to-bank transfers can take 2-4 weeks.[^2]
 
 ### Where Can the Deposit Go?
 
@@ -112,7 +118,9 @@ What happens if you withdraw early?
 - The bonus amount may be **deducted from your withdrawal**
 - This applies even if you're withdrawing from a different account than where the bonus was deposited
 
-**Example:** You receive a $25 bonus in your Chequing account but later withdraw $500 from your TFSA within 180 days. Wealthsimple may deduct $25 from that withdrawal.
+**Example:** You receive a $25 bonus in your Chequing account but later withdraw $500 from your TFSA within 180 days. Wealthsimple may deduct $25 from that withdrawal.[^1]
+
+**Personal note:** I’ve seen some people get caught out by this. They think that since they have $10,000 in the account, withdrawing $100 won't matter. But the terms are clear: _any_ withdrawal within that first 180 days can trigger a clawback of the bonus. I just treat that bonus as "locked" for the first six months to be safe.
 
 ## Referral Ladder Bonuses
 
@@ -145,7 +153,7 @@ This accommodation exists because bank transfers can take 2-4 weeks to complete,
 
 ### No Tax Slips Issued
 
-Wealthsimple **does not issue tax slips** (like T4A) for referral bonuses. However, this doesn't mean the income is tax-free.
+Wealthsimple **does not issue tax slips** (like T4A) for referral bonuses. However, this doesn't mean the income is tax-free.[^3]
 
 ### Your Reporting Responsibility
 
@@ -172,11 +180,11 @@ By depositing to Chequing, Wealthsimple avoids this problem entirely.
 Your referral may be rejected if:
 
 | Scenario                                              | Result                         |
-| ----------------------------------------------------- | ------------------------------ |
+| ----------------------------------------------------- | ------------------------------ | ---- |
 | Previously opened any Wealthsimple investment account | Ineligible                     |
 | Failed identity verification                          | No bonus until resolved        |
 | Funded after 30-day window                            | Referral expires               |
-| Attempted to refer yourself                           | Both accounts may be suspended |
+| Attempted to refer yourself                           | Both accounts may be suspended | [^1] |
 | Used fraudulent information                           | Account closure                |
 
 ### Self-Referral Is Not Allowed
@@ -235,6 +243,12 @@ No. Wealthsimple generally does not issue tax slips (like a T5 or T4A) for refer
 
 Generally, no. Wealthsimple's clawback policy applies to withdrawals, not market performance. If you deposit the required funds and the market value drops, you typically keep your bonus. You only risk losing it if you actively withdraw funds that bring your net deposits below the threshold during the hold period.
 
+[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+
+[^2]: Wealthsimple Help Centre - Transfer an account to Wealthsimple: https://help.wealthsimple.com/hc/en-ca/articles/1500003503661
+
+[^3]: Wealthsimple Help Centre - Referral Bonus Tax Information: https://help.wealthsimple.com/hc/en-ca/articles/4404646483355
+
 ### Who gets the bonus if I open a Spousal RRSP?
 
 In a Spousal RRSP, the primary account holder (the person making the contributions) is considered the client for the referral program. They must be the one to enter the referral code and meet the funding requirements to earn the bonus.
@@ -245,4 +259,8 @@ No. However, the standard referral code (9C6DMQ) is highly recommended for stude
 
 ### I have a TFSA. Can I use a code if I open a new RRSP?
 
-No. The referral program is strictly for new clients who have never had a Wealthsimple account before. If you already hold any Wealthsimple account (including Cash, Crypto, or Tax), opening a secondary account type (like an RRSP) does not make you eligible for a new client referral bonus.
+No. The referral program is strictly for new clients who have never had a Wealthsimple investment or chequing account before. If you already hold any Wealthsimple investment account (Self-directed, Crypto, Managed) or Chequing account, opening a secondary account type (like an RRSP) does not make you eligible for a new client referral bonus.
+
+### I only use Wealthsimple Tax. Am I still eligible for a referral bonus?
+
+Yes, in most cases. The official referral terms define a "new client" as someone who has not previously opened a Self-directed, Crypto, Managed Investing, or Chequing account. Wealthsimple Tax is notably absent from this definition. If you've only ever used Wealthsimple Tax to file your returns, you're likely still considered a new client and can claim the $25 bonus when you open and fund your first investment account.

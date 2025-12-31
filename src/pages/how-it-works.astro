@@ -4,6 +4,7 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features from '~/components/widgets/Features.astro';
 import Button from '~/components/ui/Button.astro';
+import CopyCodeButton from '~/components/ui/CopyCodeButton.astro';
 
 const metadata = {
   title: 'How to Get Your $25 Wealthsimple Bonus',
@@ -19,48 +20,15 @@ const metadata = {
     </Fragment>
   </HeroText>
 
-  <Steps
-    title="How to Get Your Bonus"
-    subtitle="Follow these simple steps to claim your $25 Wealthsimple cash bonus"
-    items={[
-      {
-        title: 'Click Our Referral Link',
-        description:
-          'Use our referral link to sign up for Wealthsimple. This ensures you qualify for the <span class="font-bold">$25 cash bonus</span>.',
-        icon: 'tabler:link',
-      },
-      {
-        title: 'Create Your Account',
-        description: "Complete the signup process. You'll need to verify your identity with a government-issued ID.",
-        icon: 'tabler:user-plus',
-      },
-      {
-        title: 'Deposit $1+',
-        description: 'Fund your account with at least $1. You can transfer from your bank or set up direct deposit.',
-        icon: 'tabler:cash',
-      },
-      {
-        title: 'Get Your $25 Bonus',
-        description: 'Your <span class="font-bold">$25 cash bonus</span> will be deposited within a few business days!',
-        icon: 'tabler:gift',
-      },
-    ]}
-  >
-    <Fragment slot="footer">
-      <p class="text-center text-lg text-muted-foreground">
-        The entire process takes just a few minutes. <strong>Start investing today!</strong>
-      </p>
-    </Fragment>
-  </Steps>
-
   <div class="bg-gray-50 dark:bg-slate-800">
     <Steps
       title="Detailed Setup Guide"
+      subtitle="Follow these simple steps to claim your $25 Wealthsimple cash bonus"
       items={[
         {
           title: '1. Click the Referral Link',
           description:
-            "Click our referral link to go to Wealthsimple's website. This is essential to qualify for the $25 bonus. The link works on both desktop and mobile.<br/><br/><strong>⚠️ Important: You must use a referral link to get the bonus. Regular signups don't qualify.</strong>",
+            'Use our <a href="https://wealthsimple.com/invite/9C6DMQ" target="_blank" class="text-green-600 dark:text-green-400 hover:underline font-medium">referral link</a> or use code <span class="font-bold">9C6DMQ</span> to sign up for Wealthsimple. This ensures you qualify for the $25 cash bonus. You can do both, but just doing one is good enough.',
           icon: 'tabler:click',
         },
         {
@@ -116,21 +84,27 @@ const metadata = {
     ]}
   />
 
-  <div class="bg-gray-50 dark:bg-slate-800">
+  <div class="bg-gradient-to-r from-green-600 to-green-500 dark:from-green-700 dark:to-green-600">
     <div class="max-w-3xl mx-auto px-4 py-16 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 font-heading">Ready to Get Your $25 Bonus?</h2>
-      <p class="text-lg text-muted-foreground mb-8">
-        Click below to sign up and start investing with Wealthsimple today.
-      </p>
-      <Button
-        variant="primary"
-        href="https://wealthsimple.com/invite/9C6DMQ"
-        target="_blank"
-        class="px-8 py-4 text-lg md:px-10 bg-green-600 hover:bg-green-700"
-        showArrow
-      >
-        Get Your $25 Wealthsimple Bonus
-      </Button>
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 font-heading text-white">
+        Ready to Get Your $25 Bonus?
+      </h2>
+      <p class="text-lg text-white/90 mb-8">Click below to sign up and start investing with Wealthsimple today.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+        <CopyCodeButton
+          referralCode="9C6DMQ"
+          buttonClass="px-10 py-4 text-lg bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl shadow-lg transition-all"
+        />
+        <Button
+          variant="secondary"
+          href="https://wealthsimple.com/invite/9C6DMQ"
+          target="_blank"
+          class="px-10 py-4 text-lg bg-white text-green-600 hover:bg-gray-50 border-2 border-white shadow-lg"
+          showArrow
+        >
+          Get Your $25 Bonus
+        </Button>
+      </div>
     </div>
   </div>
 </PageLayout>

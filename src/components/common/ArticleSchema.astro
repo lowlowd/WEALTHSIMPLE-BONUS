@@ -11,13 +11,19 @@ export interface Props {
 
 const { title, description, publishDate, updateDate, author = 'Isabelle Reuben', image, url } = Astro.props;
 
+// Only show dateModified if the updateDate has passed (no future dates exposed in schema)
+// Compare using local date strings (YYYY-MM-DD) to avoid UTC timezone issues
+const todayStr = new Date().toLocaleDateString('en-CA'); // Returns YYYY-MM-DD format
+const updateDateStr = updateDate ? new Date(updateDate).toISOString().split('T')[0] : null;
+const effectiveUpdateDate = updateDateStr && updateDateStr <= todayStr ? updateDate : undefined;
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description: description,
   datePublished: new Date(publishDate).toISOString(),
-  ...(updateDate && { dateModified: new Date(updateDate).toISOString() }),
+  ...(effectiveUpdateDate && { dateModified: new Date(effectiveUpdateDate).toISOString() }),
   author: {
     '@type': 'Person',
     name: author,
