@@ -385,7 +385,7 @@ Generally, no. You have to choose one or the other when signing up. The same fun
 
 Yes! Once you're a Wealthsimple client, you get your own referral link and can earn $25 for each friend who signs up and deposits $1+. There's no limit to how many people you can refer.
 
-[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program
+[^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^2]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
 
@@ -393,7 +393,7 @@ Yes! Once you're a Wealthsimple client, you get your own referral link and can e
 
 [^4]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
 
-[^5]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program
+[^5]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^6]: Wealthsimple - Pricing: https://www.wealthsimple.com/en-ca/pricing
 

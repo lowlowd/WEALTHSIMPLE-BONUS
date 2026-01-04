@@ -303,13 +303,13 @@ For most beginners, the Wealthsimple referral code is superior because it offers
 
 [^2]: Questrade - Pricing Strategy: https://www.questrade.com/pricing
 
-[^3]: Globe and Mail - Questrade joins commission-free race: https://www.theglobeandmail.com/investing/markets/inside-the-market/article-questrade-commission-free-trading/
+[^3]: Questrade - Commission-Free Trading: https://www.questrade.com/pricing/self-directed-commissions-plans-fees
 
 [^4]: Questrade - Foreign Exchange Rates: https://www.questrade.com/pricing/exchange-rates
 
 [^5]: Questrade - Questwealth Portfolios: https://www.questrade.com/questwealth-portfolios/pricing
 
-[^6]: CDIC - Wealthsimple Partner Coverage: https://www.cdic.ca/your-coverage/how-deposit-insurance-works/wealthsimple-partnership/
+[^6]: CDIC - Deposit Insurance Coverage: https://help.wealthsimple.com/hc/en-ca/articles/360056590614-How-we-keep-your-money-safe
 
 [^7]: Questrade Help - Understanding ECN and SEC fees: https://www.questrade.com/learning/questrade-basics/administrative-fees/ecn-fees
 

@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
-import LanguagePicker from '~/components/common/LanguagePicker.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -86,9 +85,6 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
     }
 
     <div class="md:flex md:items-center md:justify-between py-6 md:py-8">
-      <div class="flex items-center gap-4 mb-4 md:mb-0">
-        <LanguagePicker />
-      </div>
       {
         socialLinks?.length ? (
           <ul class="flex md:order-1 -ml-2 md:ml-4 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">

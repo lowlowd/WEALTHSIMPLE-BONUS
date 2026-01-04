@@ -44,6 +44,16 @@ function getAlternateUrl(path: string): string {
       return enSlug ? `/blog/${enSlug}` : '/blog';
     }
 
+    // Handle French tag pages - fallback to English blog (no direct mapping)
+    if (enPath.startsWith('/etiquette/')) {
+      return '/blog';
+    }
+
+    // Handle French category pages - fallback to English blog (no direct mapping)
+    if (enPath.startsWith('/categorie/')) {
+      return '/blog';
+    }
+
     return enPath || '/';
   } else {
     // Currently English → switch to French
@@ -72,7 +82,17 @@ function getAlternateUrl(path: string): string {
       return frSlug ? `/fr/blogue/${frSlug}` : '/fr/blogue';
     }
 
-    // Default: just add /fr prefix
+    // Handle English tag pages - fallback to French blog (no direct mapping)
+    if (normalizedPath.startsWith('/tag/')) {
+      return '/fr/blogue';
+    }
+
+    // Handle English category pages - fallback to French blog (no direct mapping)
+    if (normalizedPath.startsWith('/category/')) {
+      return '/fr/blogue';
+    }
+
+    // Default: just add /fr prefix (for any unmapped pages)
     return '/fr' + normalizedPath;
   }
 }

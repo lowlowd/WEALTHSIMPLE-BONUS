@@ -220,7 +220,7 @@ If you entered an incorrect code that was accepted, you'll need to contact Wealt
 
 If you withdraw funds within 180 days of receiving your Wealthsimple sign up bonus, the bonus amount may be deducted from your withdrawal.[^1]
 
-[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+[^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^2]: Wealthsimple Help Centre - Add a referral code after signing up: https://help.wealthsimple.com/hc/en-ca/articles/4404646552347
 

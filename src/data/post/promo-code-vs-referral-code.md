@@ -407,7 +407,7 @@ No. There is currently no limit to the number of people you can refer to Wealths
 
 Yes. If your account has remained unfunded. The strict 7-day deadline to add a code only begins after you make your first deposit. Look for the "Add a referral code" button in the gift/rewards section of the app. I’ve personally helped a friend use this button after they forgot to add a code during signup—it’s a lifesaver, but keep an eye on that 7-day clock![^1]
 
-[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+[^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^2]: Wealthsimple - Promotions and Offers: https://www.wealthsimple.com/en-ca/magazine/promotions
 
@@ -415,7 +415,7 @@ Yes. If your account has remained unfunded. The strict 7-day deadline to add a c
 
 [^4]: Wealthsimple - Current Promotions: https://promotions.wealthsimple.com/
 
-[^5]: Wealthsimple - Referral Ladder Challenge: https://www.wealthsimple.com/en-ca/legal/referral-ladder-challenge-terms
+[^5]: Wealthsimple - Referral Ladder Challenge: https://promotions.wealthsimple.com/hc/en-ca/articles/39074332108955-Wealthsimple-Referral-Ladder-Challenge
 
 [^6]: Wealthsimple Help Centre - Can I combine promotions?: https://help.wealthsimple.com/hc/en-ca/articles/1260803566110
 

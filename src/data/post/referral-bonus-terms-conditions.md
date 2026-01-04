@@ -243,7 +243,7 @@ No. Wealthsimple generally does not issue tax slips (like a T5 or T4A) for refer
 
 Generally, no. Wealthsimple's clawback policy applies to withdrawals, not market performance. If you deposit the required funds and the market value drops, you typically keep your bonus. You only risk losing it if you actively withdraw funds that bring your net deposits below the threshold during the hold period.
 
-[^1]: Wealthsimple - Referral Program Terms: https://www.wealthsimple.com/en-ca/legal/referral-program-terms
+[^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^2]: Wealthsimple Help Centre - Transfer an account to Wealthsimple: https://help.wealthsimple.com/hc/en-ca/articles/1500003503661
 

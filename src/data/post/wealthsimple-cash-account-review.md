@@ -268,12 +268,12 @@ In most cases, yes. Traditional banks hold payroll funds until the official "pay
 
 [^1]: Wealthsimple - Cash Account Rates: https://www.wealthsimple.com/en-ca/product/cash
 
-[^2]: Financial Consumer Agency of Canada - Foreign Currency Conversion: https://www.canada.ca/en/financial-consumer-agency/services/banking/foreign-currency-conversion.html
+[^2]: Bank of Canada - Foreign Exchange Rates: https://www.bankofcanada.ca/rates/exchange/currency-converter/
 
 [^3]: Wealthsimple Help Centre - ATM Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/1500012838081
 
-[^4]: CDIC - Wealthsimple Partner Coverage: https://www.cdic.ca/your-coverage/how-deposit-insurance-works/wealthsimple-partnership/
+[^4]: CDIC - Deposit Insurance Coverage: https://help.wealthsimple.com/hc/en-ca/articles/360056590614-How-we-keep-your-money-safe
 
-[^5]: Wealthsimple - Private Credit: https://www.wealthsimple.com/en-ca/generation
+[^5]: Wealthsimple - Pricing & Tiers: https://www.wealthsimple.com/en-ca/pricing
 
 [^6]: EQ Bank - Personal Account Rates: https://www.eqbank.ca/personal-banking/personal-account

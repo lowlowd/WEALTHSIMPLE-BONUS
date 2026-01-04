@@ -185,8 +185,8 @@ Yes, there is a limit. For security, the **wealthsimple crypto withdrawal limit 
 
 [^4]: CIRO - List of Regulated Investment Dealers: https://www.ciro.ca/investors/choosing-investment-advisor/regulated-firms
 
-[^5]: CDIC - What's Not Covered (Crypto): https://www.cdic.ca/your-coverage/whats-not-covered/
+[^5]: CDIC - Coverage Information: https://www.cdic.ca/depositors/whats-covered/
 
-[^6]: Ontario Securities Commission - Crypto Asset Trading Platforms: https://www.osc.ca/en/industry/registration-and-compliance/crypto-asset-trading-platforms
+[^6]: Ontario Securities Commission - Registered Crypto Trading Platforms: https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses
 
 [^7]: Wealthsimple - Withdrawing Crypto to External Wallets: https://help.wealthsimple.com/hc/en-ca/articles/4415114284315
