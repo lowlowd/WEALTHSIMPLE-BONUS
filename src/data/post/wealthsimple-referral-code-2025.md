@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-07T00:00:00Z
 updateDate: 2026-01-06T00:00:00Z
-title: 'Wealthsimple Referral Code 2026: Get $25 Cash Bonus (Ultimate Guide)'
+title: 'Wealthsimple Referral Code 2026: Get $25 Bonus (Ultimate Guide)'
 excerpt: 'Get the latest Wealthsimple referral code for 2026 and earn a $25 cash bonus. Learn about the referral ladder, existing client options, and how to maximize your rewards.'
 image: /images/en/wealthsimple-referral-code-9c6dmq.webp
 imageCaption: 'Using referral code 9C6DMQ to claim your Wealthsimple signup bonus in 2026'

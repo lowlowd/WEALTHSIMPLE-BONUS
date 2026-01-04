@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-05T00:00:00Z
 updateDate: 2026-01-20T00:00:00Z
-title: 'Conditions générales de la prime de parrainage Wealthsimple expliquées (2026)'
+title: 'Prime parrainage Wealthsimple : Conditions & Règles (2026)'
 excerpt: "Comprenez les petits caractères du programme de parrainage Wealthsimple. Découvrez les exigences d'admissibilité, les dépôts minimums, les périodes de conservation et les implications fiscales."
 image: ~/assets/images/conditions-prime-parrainage.png
 category: Codes de parrainage

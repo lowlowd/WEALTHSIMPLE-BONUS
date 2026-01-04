@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-03T00:00:00Z
 updateDate: 2026-01-16T00:00:00Z
-title: 'Code promo Wealthsimple 2026 : Meilleures promotions actuelles et guide des primes de parrainage'
+title: 'Code Promo Wealthsimple 2026 : Primes & Offres (Guide)'
 excerpt: 'Confus entre les codes promo et les codes de parrainage Wealthsimple ? Apprenez les différences clés, lequel est meilleur pour vous, et si vous pouvez les cumuler.'
 image: /images/fr/wealthsimple-code-promo-vs-parrainage.webp
 imageCaption: 'Comparaison des codes promo et codes de parrainage Wealthsimple 2026'

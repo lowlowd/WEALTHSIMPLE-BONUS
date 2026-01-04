@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-02T00:00:00Z
 updateDate: 2026-01-08T00:00:00Z
-title: 'Wealthsimple Core vs Premium vs Génération : Comparaison complète 2026'
+title: 'Wealthsimple Core vs Premium vs Génération (Comparatif 2026)'
 excerpt: 'Comparez les paliers clients Wealthsimple : Core, Premium et Génération. Apprenez-en sur les structures de frais, les avantages exclusifs, et quel palier convient à votre portefeuille.'
 image: ~/assets/images/core-vs-premium-vs-generation-fr.png
 category: Comparaisons

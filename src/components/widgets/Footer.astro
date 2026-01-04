@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
+import LanguagePicker from '~/components/common/LanguagePicker.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -21,9 +22,10 @@ export interface Props {
   socialLinks: Array<Link>;
   footNote?: string;
   theme?: string;
+  homeHref?: string;
 }
 
-const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
+const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light', homeHref } = Astro.props;
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
@@ -37,7 +39,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
 
       <div class="col-span-12 lg:col-span-5">
         <div class="mb-2 flex items-center">
-          <a class="inline-flex items-center font-bold text-xl" href={getHomePermalink()}>
+          <a class="inline-flex items-center font-bold text-xl" href={homeHref || getHomePermalink()}>
             <Logo />
           </a>
         </div>
@@ -84,9 +86,12 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
     }
 
     <div class="md:flex md:items-center md:justify-between py-6 md:py-8">
+      <div class="flex items-center gap-4 mb-4 md:mb-0">
+        <LanguagePicker />
+      </div>
       {
         socialLinks?.length ? (
-          <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">
+          <ul class="flex md:order-1 -ml-2 md:ml-4 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">
             {socialLinks.map(({ ariaLabel, href, text, icon }) => (
               <li>
                 <a

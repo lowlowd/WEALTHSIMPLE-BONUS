@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-11-29T00:00:00Z
 updateDate: 2026-01-22T00:00:00Z
-title: "Évaluation Wealthsimple Impôt 2026 : Production d'impôts gratuite pour les Canadiens"
+title: 'Avis Wealthsimple Impôt 2026 : Gratuit & Simple (Canadiens)'
 excerpt: "Une évaluation complète de Wealthsimple Impôt pour 2026. Apprenez-en sur les fonctionnalités, les limitations, et comment il s'intègre avec vos investissements pour une production d'impôts sans tracas."
 image: ~/assets/images/evaluation-wealthsimple-impot.png
 category: Évaluations

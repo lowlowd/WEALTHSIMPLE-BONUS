@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-08T00:00:00Z
 updateDate: 2026-01-12T00:00:00Z
-title: 'Wealthsimple vs Questrade 2026 : Quel courtier vous convient ?'
+title: 'Wealthsimple vs Questrade 2026 : Comparatif & Frais'
 excerpt: "Une comparaison détaillée de Wealthsimple et Questrade pour les investisseurs canadiens. Comparez les frais, les fonctionnalités, et découvrez quelle plateforme convient à votre style d'investissement."
 image: ~/assets/images/wealthsimple-vs-questrade.png
 category: Comparaisons

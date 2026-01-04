@@ -166,3 +166,55 @@ export const findFrenchPostsByIds = async (ids: Array<string>): Promise<Array<Po
     return r;
   }, []);
 };
+
+/** Get static paths for French tag pages */
+export const getStaticPathsFrenchBlogTag = async ({ paginate }: { paginate: PaginateFunction }) => {
+  const posts = await fetchFrenchPosts();
+
+  // Collect all unique tags from French posts
+  const tags = new Map<string, { slug: string; title: string }>();
+  posts.forEach((post) => {
+    if (post.tags) {
+      post.tags.forEach((tag) => {
+        if (!tags.has(tag.slug)) {
+          tags.set(tag.slug, tag);
+        }
+      });
+    }
+  });
+
+  // Generate paginated paths for each tag
+  return Array.from(tags.values()).flatMap((tag) => {
+    const filteredPosts = posts.filter((post) => post.tags && post.tags.some((t) => t.slug === tag.slug));
+    return paginate(filteredPosts, {
+      params: { tag: tag.slug },
+      props: { tag },
+      pageSize: blogPostsPerPage,
+    });
+  });
+};
+
+/** Get static paths for French category pages */
+export const getStaticPathsFrenchBlogCategory = async ({ paginate }: { paginate: PaginateFunction }) => {
+  const posts = await fetchFrenchPosts();
+
+  // Collect all unique categories from French posts
+  const categories = new Map<string, { slug: string; title: string }>();
+  posts.forEach((post) => {
+    if (post.category) {
+      if (!categories.has(post.category.slug)) {
+        categories.set(post.category.slug, post.category);
+      }
+    }
+  });
+
+  // Generate paginated paths for each category
+  return Array.from(categories.values()).flatMap((category) => {
+    const filteredPosts = posts.filter((post) => post.category && post.category.slug === category.slug);
+    return paginate(filteredPosts, {
+      params: { category: category.slug },
+      props: { category },
+      pageSize: blogPostsPerPage,
+    });
+  });
+};

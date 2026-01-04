@@ -22,11 +22,13 @@ interface HeaderProps {
   showToggleTheme?: boolean;
   showRssFeed?: boolean;
   position?: string;
+  homeHref?: string;
 }
 
 // French Header Navigation
 export const headerDataFr: HeaderProps = {
   isSticky: true,
+  homeHref: '/fr',
   links: [
     {
       text: 'Accueil',
@@ -62,6 +64,7 @@ export const headerDataFr: HeaderProps = {
 
 // French Footer Navigation
 export const footerDataFr = {
+  homeHref: '/fr',
   links: [
     {
       title: 'Liens rapides',

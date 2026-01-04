@@ -1,0 +1,38 @@
+---
+import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import { getStaticPathsFrenchBlogCategory } from '~/utils/blog-fr';
+
+import PageLayoutFr from '~/layouts/PageLayoutFr.astro';
+import ListFr from '~/components/blog/ListFr.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  return await getStaticPathsFrenchBlogCategory({ paginate });
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page, category } = Astro.props as Props;
+
+const currentPage = page.currentPage ?? 1;
+
+const metadata = {
+  title: `Articles dans la catégorie « ${category.title} »${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  description: `Parcourez tous les articles dans la catégorie ${category.title}. Trouvez des guides Wealthsimple, des conseils financiers et plus encore.`,
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+---
+
+<PageLayoutFr metadata={metadata}>
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline>Catégorie : {category.title}</Headline>
+    <ListFr posts={page.data} />
+    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+  </section>
+</PageLayoutFr>

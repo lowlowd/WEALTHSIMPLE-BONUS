@@ -30,9 +30,10 @@ export interface Props {
   showToggleTheme?: boolean;
   showRssFeed?: boolean;
   position?: string;
+  homeHref?: string;
 }
 
-const { id = 'header', links = [], actions = [], isSticky = false, isDark = false } = Astro.props;
+const { id = 'header', links = [], actions = [], isSticky = false, isDark = false, homeHref } = Astro.props;
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 ---
@@ -48,7 +49,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   <div class="absolute inset-0"></div>
   <div class="relative text-default py-3 px-3 md:px-6 lg:px-8 mx-auto w-full max-w-7xl">
     <div class="flex justify-between items-center w-full">
-      <a class="flex items-center" href={getHomePermalink()}>
+      <a class="flex items-center" href={homeHref || getHomePermalink()}>
         <Logo />
       </a>
 

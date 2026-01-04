@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-04T00:00:00Z
 updateDate: 2026-01-18T00:00:00Z
-title: "Défi de l'échelle de parrainage Wealthsimple 2026 : Gagnez jusqu'à 5 000 $"
+title: 'Défi Échelle Wealthsimple 2026 : Gagnez 5 000 $ (Détails)'
 excerpt: "Découvrez comment fonctionne le défi de l'échelle de parrainage Wealthsimple et comment gagner jusqu'à 5 000 $ en primes en argent lors du transfert de grands portefeuilles."
 image: ~/assets/images/defi-echelle-parrainage.png
 category: Codes de parrainage

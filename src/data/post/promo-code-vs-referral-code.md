@@ -2,7 +2,7 @@
 author: Isabelle Reuben
 publishDate: 2025-12-03T00:00:00Z
 updateDate: 2026-01-16T00:00:00Z
-title: 'Wealthsimple Promo Code 2026: Best Current Promotions & Referral Bonus Guide'
+title: 'Wealthsimple Promo Code 2026: Best Deals & Bonuses (Guide)'
 excerpt: 'Confused about Wealthsimple promo codes and referral codes? Learn the key differences, which one is better for you, and whether you can stack them.'
 image: /images/en/wealthsimple-promo-code-vs-referral-code.webp
 imageCaption: 'Comparison of Wealthsimple promo codes vs referral codes for 2026'
