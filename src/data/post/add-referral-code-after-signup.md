@@ -1,10 +1,11 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-06T00:00:00Z
-updateDate: 2025-01-29T00:00:00Z
-title: 'How to Add Wealthsimple Referral Code After Signing Up (2025 Guide)'
+updateDate: 2026-01-24T00:00:00Z
+title: 'How to Add Wealthsimple Referral Code After Signing Up (2026 Guide)'
 excerpt: 'Forgot to enter a Wealthsimple referral code during signup? Learn exactly how to add one retroactively, including the 7-day window and step-by-step instructions.'
-image: ~/assets/images/add-referral-code-after-signup.png
+image: /images/en/wealthsimple-add-referral-code-9c6dmq-after-signup.webp
+imageCaption: 'Enter referral code 9C6DMQ on the Wealthsimple app after signup'
 category: Referral Codes
 tags:
   - wealthsimple referral code

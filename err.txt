@@ -1,0 +1,23 @@
+﻿============================================================
+VERTEX AI IMAGE GENERATOR - WORKING VERSION
+============================================================
+Project: imaging-and-ocr
+Location: us-central1
+Using: GenerateImagesConfig (PLURAL) + Raw Dict approach
+============================================================
+
+[*] Generating 4 candidates (RAW DICT): Post 10 - Add Referral Code After Signup (English)
+  [X] Error with raw dict: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'Gemini cannot be accessed through Vertex Predict/RawPredict API. Please follow https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal for Gemini usage.', 'status': 'FAILED_PRECONDITION'}}
+  [*] Trying typed GenerateImagesConfig...
+  [X] Typed config also failed: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'Gemini cannot be accessed through Vertex Predict/RawPredict API. Please follow https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal for Gemini usage.', 'status': 'FAILED_PRECONDITION'}}
+[*] Generating 4 candidates: Post 10 - Add Referral Code After Signup (French)
+  [X] Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'Gemini cannot be accessed through Vertex Predict/RawPredict API. Please follow https://cloud.google.com/vertex-ai/docs/generative-ai/start/quickstarts/quickstart-multimodal for Gemini usage.', 'status': 'FAILED_PRECONDITION'}}
+
+============================================================
+[OK] Generation complete!
+============================================================
+Check preview/ folder for 'preview_working_*' files
+Safety parameters should give REALISTIC skin texture!
+
+To approve: Rename favorite to 'preview_en_[filename]' and run:
+  py generate_images.py approve

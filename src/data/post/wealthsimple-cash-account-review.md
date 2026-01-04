@@ -1,9 +1,9 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-11-30T00:00:00Z
-updateDate: 2025-01-08T00:00:00Z
-title: 'Wealthsimple Cash Account Review 2025: Interest Rates, Features & Card'
-excerpt: 'A complete review of the Wealthsimple Cash account in 2025. Learn about current interest rates, the prepaid Mastercard, foreign transaction fees, and CDIC coverage.'
+updateDate: 2026-01-10T00:00:00Z
+title: 'Wealthsimple Cash Account Review 2026: Interest Rates, Features & Card'
+excerpt: 'A complete review of the Wealthsimple Cash account in 2026. Learn about current interest rates, the prepaid Mastercard, foreign transaction fees, and CDIC coverage.'
 image: ~/assets/images/wealthsimple-cash-account-review.png
 category: Reviews
 tags:

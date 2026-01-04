@@ -1,17 +1,18 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-07T00:00:00Z
-updateDate: 2025-01-02T00:00:00Z
-title: 'Wealthsimple Referral Code 2025: Get $25 Cash Bonus (Ultimate Guide)'
-excerpt: 'Get the latest Wealthsimple referral code for 2025 and earn a $25 cash bonus. Learn about the referral ladder, existing client options, and how to maximize your rewards.'
-image: ~/assets/images/wealthsimple-referral-code-2025.png
+updateDate: 2026-01-06T00:00:00Z
+title: 'Wealthsimple Referral Code 2026: Get $25 Cash Bonus (Ultimate Guide)'
+excerpt: 'Get the latest Wealthsimple referral code for 2026 and earn a $25 cash bonus. Learn about the referral ladder, existing client options, and how to maximize your rewards.'
+image: /images/en/wealthsimple-referral-code-9c6dmq.webp
+imageCaption: 'Using referral code 9C6DMQ to claim your Wealthsimple signup bonus in 2026'
 category: Referral Codes
 tags:
   - wealthsimple referral code
   - wealthsimple bonus
   - wealthsimple sign up bonus
   - wealthsimple promo code
-  - wealthsimple referral 2025
+  - wealthsimple referral 2026
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-referral-code-2025
 ---
@@ -70,6 +71,8 @@ Here's the full breakdown of **what referrers earn**:
 | $100,000 – $499,999     | $500                     |
 | $500,000 – $999,999     | $1,500                   |
 | $1,000,000+             | $5,000                   |
+
+> **Timing note:** The base $25 bonus typically arrives within 24 hours. For additional ladder bonuses ($50+), it can take up to 14 business days after the end of the 30-day funding period.
 
 If you already have a Wealthsimple account and refer someone who's moving a decent-sized portfolio, this ladder can mean **serious bonus cash**.
 

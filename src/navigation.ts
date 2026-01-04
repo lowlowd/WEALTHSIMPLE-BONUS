@@ -93,7 +93,7 @@ export const footerData = {
       Get a $25 cash bonus when you sign up for Wealthsimple and deposit $1+. Earn up to $5,000 in referral bonuses. Start investing with Canada's leading investment platform.
     </div>
     <div class="text-xs text-gray-600 dark:text-gray-400 mb-4">
-      © 2025 Wealthsimple Bonus. This is an independent referral page, not affiliated with Wealthsimple Inc.
+      © 2026 Wealthsimple Bonus. This is an independent referral page, not affiliated with Wealthsimple Inc.
     </div>
   `,
 };

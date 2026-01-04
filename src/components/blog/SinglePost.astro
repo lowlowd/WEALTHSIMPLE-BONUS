@@ -136,18 +136,33 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
     <!-- Featured Image (if exists) -->
     {
       post.image && (
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 mb-8 overflow-hidden">
-          <Image
-            src={post.image}
-            class="w-full h-auto rounded-lg shadow-md"
-            widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post?.title || 'Blog post image'}
-            width={900}
-            loading="eager"
-            decoding="async"
-          />
-        </div>
+        <figure class="max-w-3xl mx-auto px-4 sm:px-6 mb-8">
+          {typeof post.image === 'string' ? (
+            <img
+              src={post.image}
+              class="w-full h-auto rounded-lg shadow-md"
+              alt={post?.title || 'Blog post image'}
+              loading="eager"
+              decoding="async"
+            />
+          ) : (
+            <Image
+              src={post.image}
+              class="w-full h-auto rounded-lg shadow-md"
+              widths={[400, 900]}
+              sizes="(max-width: 900px) 400px, 900px"
+              alt={post?.title || 'Blog post image'}
+              width={900}
+              loading="eager"
+              decoding="async"
+            />
+          )}
+          {post.imageCaption && (
+            <figcaption class="text-sm text-gray-500 dark:text-gray-400 italic text-center mt-2">
+              {post.imageCaption}
+            </figcaption>
+          )}
+        </figure>
       )
     }
     <div

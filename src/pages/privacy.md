@@ -4,7 +4,7 @@ description: 'Privacy Policy for Wealthsimple Bonus. Learn how we protect your i
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: December 5, 2025
+_Last updated_: January 4, 2026
 
 ## 1. Introduction
 

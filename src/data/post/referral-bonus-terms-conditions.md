@@ -1,8 +1,8 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-05T00:00:00Z
-updateDate: 2025-01-23T00:00:00Z
-title: 'Wealthsimple Referral Bonus Terms and Conditions Explained (2025)'
+updateDate: 2026-01-20T00:00:00Z
+title: 'Wealthsimple Referral Bonus Terms and Conditions Explained (2026)'
 excerpt: "Understand the fine print of Wealthsimple's referral program. Learn about eligibility requirements, deposit minimums, holding periods, and tax implications."
 image: ~/assets/images/referral-bonus-terms-conditions.png
 category: Referral Codes

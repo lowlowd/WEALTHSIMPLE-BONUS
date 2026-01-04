@@ -128,3 +128,84 @@ a[data-footnote-ref] {
 .dark .footnotes {
   border-top-color: #374151;
 }
+
+/* Enhanced table styles for blog posts */
+.prose table {
+  @apply w-full border-collapse overflow-hidden rounded-lg shadow-md;
+  border: 1px solid #e5e7eb;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 768px) {
+  .prose table {
+    display: table;
+    overflow-x: visible;
+  }
+}
+
+.prose thead {
+  background: linear-gradient(to right, #334155, #1e293b);
+}
+
+.prose thead th {
+  @apply px-4 py-3 text-left font-semibold text-sm uppercase tracking-wider border-0;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+.prose tbody tr {
+  @apply transition-colors duration-150;
+}
+
+.prose tbody tr:nth-child(odd) {
+  @apply bg-slate-50;
+}
+
+.prose tbody tr:nth-child(even) {
+  @apply bg-white;
+}
+
+.prose tbody tr:hover {
+  @apply bg-green-50;
+}
+
+.prose tbody td {
+  @apply px-4 py-3 border-b border-gray-200;
+  text-align: center;
+}
+
+.prose tbody td:first-child {
+  @apply font-medium text-slate-700;
+  text-align: left;
+}
+
+/* Dark mode table styles */
+.dark .prose table {
+  border-color: #374151;
+}
+
+.dark .prose thead {
+  @apply bg-gradient-to-r from-slate-800 to-slate-900;
+}
+
+.dark .prose tbody tr:nth-child(odd) {
+  @apply bg-slate-800/50;
+}
+
+.dark .prose tbody tr:nth-child(even) {
+  @apply bg-slate-900/50;
+}
+
+.dark .prose tbody tr:hover {
+  @apply bg-green-900/30;
+}
+
+.dark .prose tbody td {
+  @apply border-slate-700;
+}
+
+.dark .prose tbody td:first-child {
+  @apply text-slate-300;
+}

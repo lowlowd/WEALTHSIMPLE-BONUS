@@ -1,9 +1,9 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-01T00:00:00Z
-updateDate: 2025-01-11T00:00:00Z
-title: 'Wealthsimple vs Questrade Fees 2025: Complete Comparison'
-excerpt: 'Compare Wealthsimple and Questrade fees for 2025. Learn about trading commissions, FX fees, and which platform is better for your investing style.'
+updateDate: 2026-01-12T00:00:00Z
+title: 'Wealthsimple vs Questrade Fees 2026: Complete Comparison'
+excerpt: 'Compare Wealthsimple and Questrade fees for 2026. Learn about trading commissions, FX fees, and which platform is better for your investing style.'
 image: ~/assets/images/wealthsimple-vs-questrade-2025.png
 category: Comparisons
 tags:
@@ -25,7 +25,7 @@ faqs:
   - question: 'Can I open a Self-Directed RESP on Wealthsimple?'
     answer: 'Yes. Wealthsimple recently launched Self-Directed RESPs, allowing you to trade stocks and ETFs inside an education savings plan commission-free. This was a major recent update that closed a long-standing gap between them and Questrade.'
   - question: 'Does Questrade offer fractional shares like Wealthsimple?'
-    answer: 'Yes, Questrade has introduced fractional share trading. However, Wealthsimple fractional trading interface is often considered more user-friendly for beginners.'
+    answer: 'No. Questrade does not currently offer fractional share trading. If you want to buy partial shares of expensive stocks, Wealthsimple is the better choice.'
   - question: 'Is the Questrade offer code better than the Wealthsimple referral bonus?'
     answer: 'For most beginners, the Wealthsimple referral code is superior because it offers a $25 cash bonus with only a $1 minimum deposit. Questrade welcome offers require a minimum deposit of $250.'
 ---
@@ -42,6 +42,7 @@ The **Wealthsimple vs Questrade** question comes up constantly among Canadian DI
 | **ETF Sells**             | $0                     | $0                         |
 | **Options**               | $0 + $0.75-$2/contract | $0 + $0.99/contract        |
 | **Currency Conversion**   | 1.5% (or USD account)  | 1.5% (or Norbert's Gambit) |
+| **DRIP**                  | Yes                    | Yes                        |
 | **Robo-Advisor**          | 0.4%-0.5%              | 0.25% (Questwealth)        |
 | **Account Minimum**       | $0                     | $0                         |
 | **Mobile App**            | ⭐⭐⭐⭐⭐             | ⭐⭐⭐                     |
@@ -79,7 +80,7 @@ The USD Account lets you convert once and hold USD, eliminating per-trade conver
 
 ### Questrade's Approach
 
-**Standard:** 1.99% FX fee (slightly higher than Wealthsimple's 1.5%)[^4]
+**Standard:** 1.5% FX fee (same as Wealthsimple)[^4]
 
 **But with key advantages:**
 
@@ -292,7 +293,7 @@ Yes. Wealthsimple recently launched Self-Directed RESPs, allowing you to trade s
 
 ### Does Questrade offer fractional shares like Wealthsimple?
 
-Yes, Questrade has introduced fractional share trading for many US and Canadian securities. However, Wealthsimple's fractional trading interface is often considered more user-friendly for beginners looking to dollar-cost average small amounts.
+No. Questrade does not currently offer fractional share trading. If you want to buy partial shares of expensive stocks like Amazon or Google, Wealthsimple is the better choice for Canadian investors.
 
 ### Is the Questrade offer code better than the Wealthsimple referral bonus?
 

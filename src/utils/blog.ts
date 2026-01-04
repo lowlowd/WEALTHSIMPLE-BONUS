@@ -50,6 +50,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     title,
     excerpt,
     image,
+    imageCaption,
     tags: rawTags = [],
     category: rawCategory,
     author,
@@ -85,6 +86,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     title: title,
     excerpt: excerpt,
     image: image,
+    imageCaption: imageCaption,
 
     category: category,
     tags: tags,
@@ -104,8 +106,10 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 };
 
 const load = async function (): Promise<Array<Post>> {
-  const posts = await getCollection('post');
-  const normalizedPosts = posts.map(async (post) => await getNormalizedPost(post));
+  const allPosts = await getCollection('post');
+  // Filter out French posts (they have their own routing via blog-fr.ts)
+  const englishPosts = allPosts.filter((post) => !post.id.startsWith('fr/'));
+  const normalizedPosts = englishPosts.map(async (post) => await getNormalizedPost(post));
 
   const now = new Date();
   const results = (await Promise.all(normalizedPosts))

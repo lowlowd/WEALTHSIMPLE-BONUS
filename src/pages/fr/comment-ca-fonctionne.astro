@@ -1,0 +1,113 @@
+---
+import PageLayoutFr from '~/layouts/PageLayoutFr.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features from '~/components/widgets/Features.astro';
+import Button from '~/components/ui/Button.astro';
+import CopyCodeButton from '~/components/ui/CopyCodeButton.astro';
+
+const metadata = {
+  title: 'Comment obtenir votre prime Wealthsimple de 25 $',
+  description:
+    'Apprenez comment réclamer votre prime de parrainage Wealthsimple de 25 $. Guide étape par étape pour vous inscrire et déposer pour recevoir votre prime en argent.',
+};
+---
+
+<PageLayoutFr metadata={metadata}>
+  <HeroText title={metadata.title}>
+    <Fragment slot="subtitle">
+      Suivez notre guide simple étape par étape pour réclamer votre prime de 25 $ en argent et commencer à investir avec
+      Wealthsimple.
+    </Fragment>
+  </HeroText>
+
+  <div class="bg-gray-50 dark:bg-slate-800">
+    <Steps
+      title="Guide de configuration détaillé"
+      subtitle="Suivez ces étapes simples pour réclamer votre prime Wealthsimple de 25 $ en argent"
+      items={[
+        {
+          title: '1. Cliquez sur le lien de parrainage',
+          description:
+            'Utilisez notre <a href="https://wealthsimple.com/invite/9C6DMQ" target="_blank" class="text-green-600 dark:text-green-400 hover:underline font-medium">lien de parrainage</a> ou utilisez le code <span class="font-bold">9C6DMQ</span> pour vous inscrire à Wealthsimple. Cela vous assure d\'être admissible à la prime de 25 $ en argent. Vous pouvez faire les deux, mais en faire un seul suffit.',
+          icon: 'tabler:click',
+        },
+        {
+          title: '2. Créez votre compte',
+          description:
+            "Cliquez sur « Commencer » et créez votre compte. Vous devrez fournir :<br/>- Nom légal complet<br/>- Date de naissance<br/>- Adresse courriel et numéro de téléphone<br/>- Adresse canadienne<br/>- Numéro d'assurance sociale (pour les déclarations fiscales)<br/><br/>Ces informations sont requises par les réglementations canadiennes sur les valeurs mobilières.",
+          icon: 'tabler:user-plus',
+        },
+        {
+          title: '3. Vérifiez votre identité',
+          description:
+            "Wealthsimple vérifiera votre identité tel que requis par les réglementations canadiennes sur les valeurs mobilières. Cela implique généralement :<br/>- Prendre une photo de votre pièce d'identité gouvernementale (permis de conduire ou passeport)<br/>- Prendre un égoportrait pour la vérification faciale<br/><br/>Ce processus est sécuritaire et prend généralement moins de 5 minutes.",
+          icon: 'tabler:id',
+        },
+        {
+          title: '4. Choisissez votre type de compte',
+          description:
+            "Sélectionnez le type de compte qui correspond le mieux à vos besoins :<br/>- <strong>CELI</strong> - Compte d'épargne libre d'impôt (croissance libre d'impôt)<br/>- <strong>REER</strong> - Régime enregistré d'épargne-retraite (impôt différé)<br/>- <strong>CELIAPP</strong> - Compte d'épargne libre d'impôt pour l'achat d'une première propriété<br/>- <strong>Personnel</strong> - Compte de placement non enregistré<br/>- <strong>Crypto</strong> - Pour Bitcoin, Ethereum et autres cryptomonnaies",
+          icon: 'tabler:folders',
+        },
+        {
+          title: '5. Approvisionnez votre compte avec 1 $ ou plus',
+          description:
+            'Pour être admissible à la prime de 25 $, déposez au moins 1 $. Vous pouvez approvisionner votre compte par :<br/>- <strong>Virement bancaire</strong> - Liez votre compte bancaire et transférez des fonds<br/>- <strong>Dépôt direct</strong> - Configurez votre employeur pour déposer directement<br/>- <strong>Virement de fonds</strong> - Pour les montants plus importants<br/><br/>Le dépôt doit rester pendant au moins 30 jours.',
+          icon: 'tabler:transfer-in',
+        },
+        {
+          title: '6. Recevez votre prime de 25 $',
+          description:
+            "Une fois votre dépôt traité, votre prime de 25 $ en argent sera créditée en quelques jours ouvrables. Vous la verrez apparaître dans le solde de votre compte. La prime peut être investie ou retirée - c'est de l'argent réel !<br/><br/><strong>🎉 Félicitations ! Vous êtes maintenant un investisseur Wealthsimple !</strong>",
+          icon: 'tabler:confetti',
+        },
+      ]}
+    />
+  </div>
+
+  <Features
+    title="Conseils de pro"
+    columns={2}
+    items={[
+      {
+        title: 'À faire',
+        description:
+          '• Utilisez notre lien de parrainage avant de vous inscrire<br/>• Déposez 1 $ ou plus pour être admissible à la prime<br/>• Gardez votre dépôt pendant au moins 30 jours<br/>• Configurez des contributions automatiques<br/>• Profitez des transactions gratuites',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'À éviter',
+        description:
+          '• Ne vous inscrivez pas sans utiliser un lien de parrainage<br/>• Ne retirez pas dans les 30 jours suivant le dépôt<br/>• Ne déposez pas moins de 1 $<br/>• Ne partagez pas vos identifiants de connexion<br/>• Ne manquez pas les droits de cotisation CELI',
+        icon: 'tabler:x',
+      },
+    ]}
+  />
+
+  <div class="bg-gradient-to-r from-green-600 to-green-500 dark:from-green-700 dark:to-green-600">
+    <div class="max-w-3xl mx-auto px-4 py-16 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 font-heading text-white">
+        Prêt à obtenir votre prime de 25 $?
+      </h2>
+      <p class="text-lg text-white/90 mb-8">
+        Cliquez ci-dessous pour vous inscrire et commencer à investir avec Wealthsimple aujourd'hui.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+        <CopyCodeButton
+          referralCode="9C6DMQ"
+          buttonClass="px-10 py-4 text-lg bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl shadow-lg transition-all"
+        />
+        <Button
+          variant="secondary"
+          href="https://wealthsimple.com/invite/9C6DMQ"
+          target="_blank"
+          class="px-10 py-4 text-lg bg-white text-green-600 hover:bg-gray-50 border-2 border-white shadow-lg"
+          showArrow
+        >
+          Obtenez votre prime de 25 $
+        </Button>
+      </div>
+    </div>
+  </div>
+</PageLayoutFr>

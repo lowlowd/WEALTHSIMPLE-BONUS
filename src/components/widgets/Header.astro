@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 import Button from '~/components/ui/Button.astro';
+import LanguagePicker from '~/components/common/LanguagePicker.astro';
 
 import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash } from '~/utils/permalinks';
@@ -50,10 +51,6 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       <a class="flex items-center" href={getHomePermalink()}>
         <Logo />
       </a>
-
-      <div class="flex items-center lg:hidden">
-        <ToggleMenu />
-      </div>
 
       <nav
         data-aw-nav
@@ -113,12 +110,25 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 
       {
         actions?.length ? (
-          <div class="hidden lg:flex items-center" data-aw-header-actions>
-            {actions.map((btnProps) => (
-              <Button {...btnProps} class="py-2.5 px-6 font-semibold shadow-lg text-sm" />
-            ))}
+          <div class="flex items-center gap-2 lg:gap-4" data-aw-header-actions>
+            <LanguagePicker />
+            <div class="hidden lg:flex items-center gap-4">
+              {actions.map((btnProps) => (
+                <Button {...btnProps} class="py-2.5 px-6 font-semibold shadow-lg text-sm" />
+              ))}
+            </div>
+            <div class="lg:hidden">
+              <ToggleMenu />
+            </div>
           </div>
-        ) : null
+        ) : (
+          <div class="flex items-center gap-2" data-aw-header-actions>
+            <LanguagePicker />
+            <div class="lg:hidden">
+              <ToggleMenu />
+            </div>
+          </div>
+        )
       }
     </div>
   </div>

@@ -1,10 +1,11 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-03T00:00:00Z
-updateDate: 2025-01-17T00:00:00Z
-title: 'Wealthsimple Promo Code 2025: Best Current Promotions & Referral Bonus Guide'
+updateDate: 2026-01-16T00:00:00Z
+title: 'Wealthsimple Promo Code 2026: Best Current Promotions & Referral Bonus Guide'
 excerpt: 'Confused about Wealthsimple promo codes and referral codes? Learn the key differences, which one is better for you, and whether you can stack them.'
-image: ~/assets/images/promo-code-vs-referral-code.png
+image: /images/en/wealthsimple-promo-code-vs-referral-code.webp
+imageCaption: 'Comparison of Wealthsimple promo codes vs referral codes for 2026'
 category: Referral Codes
 tags:
   - wealthsimple promo code
@@ -15,7 +16,7 @@ metadata:
   canonical: https://wealthsimplebonus.ca/blog/promo-code-vs-referral-code
 faqs:
   - question: 'Can I use both a promo code and referral code?'
-    answer: 'Often yes, but stacking rules vary by campaign. Enter the referral code first, then check if the current device promo allows combining with referral bonuses.'
+    answer: 'It depends on the campaign. The referral bonus is generally combinable with other promotions, but each campaign has its own stacking rules. Always check the specific promo terms before signing up.'
   - question: 'Do promo codes expire?'
     answer: 'Yes. Promotional campaigns run for limited periods (typically a few weeks to a few months). Referral codes are always available.'
   - question: 'How long do I have to keep my money in Wealthsimple?'
@@ -46,7 +47,7 @@ Let's clear this up once and for all. I've helped dozens of friends set up their
 | **Typical Reward**  | Devices (iPhone, AirPods) or bonus cash | Cash ($25 - $5,000)         |
 | **Minimum Deposit** | Usually $100,000+                       | Just $1 [^1] [^2]           |
 | **Availability**    | Limited time only                       | Always available            |
-| **Stackable**       | Usually not                             | Usually not                 |
+| **Stackable**       | Depends on campaign                     | Generally combinable        |
 | **Best For**        | High-net-worth investors                | Everyone                    |
 
 ## What Is a Wealthsimple Promo Code?

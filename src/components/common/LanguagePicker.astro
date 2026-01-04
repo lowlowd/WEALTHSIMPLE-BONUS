@@ -1,0 +1,95 @@
+---
+/**
+ * LanguagePicker Component
+ * Displays a language toggle between English and French
+ * Automatically detects current language from URL path
+ */
+import { getFrenchBlogSlug, getEnglishBlogSlug } from '~/utils/blog-slug-mappings';
+
+// Get current URL path
+const currentPath = Astro.url.pathname;
+const isFrench = currentPath.startsWith('/fr');
+
+// Build the alternate language URL
+function getAlternateUrl(path: string): string {
+  // Normalize path - remove trailing slash
+  const normalizedPath = path.endsWith('/') && path !== '/' ? path.slice(0, -1) : path;
+
+  if (normalizedPath.startsWith('/fr')) {
+    // Currently French → switch to English
+    // Remove /fr prefix and map French routes to English
+    let enPath = normalizedPath.replace(/^\/fr/, '') || '/';
+
+    // Map French routes to English equivalents
+    const routeMap: Record<string, string> = {
+      '/a-propos': '/about',
+      '/comment-ca-fonctionne': '/how-it-works',
+      '/blogue': '/blog',
+      '/contact': '/contact',
+      '/confidentialite': '/privacy',
+      '/conditions': '/terms',
+    };
+
+    // Check for exact matches
+    for (const [frRoute, enRoute] of Object.entries(routeMap)) {
+      if (enPath === frRoute) {
+        return enRoute;
+      }
+    }
+
+    // Handle French blog post paths - map to English equivalent
+    if (enPath.startsWith('/blogue/')) {
+      const frSlug = enPath.replace('/blogue/', '');
+      const enSlug = getEnglishBlogSlug(frSlug);
+      return enSlug ? `/blog/${enSlug}` : '/blog';
+    }
+
+    return enPath || '/';
+  } else {
+    // Currently English → switch to French
+    // Add /fr prefix and map English routes to French
+    const routeMap: Record<string, string> = {
+      '/about': '/fr/a-propos',
+      '/how-it-works': '/fr/comment-ca-fonctionne',
+      '/blog': '/fr/blogue',
+      '/contact': '/fr/contact',
+      '/privacy': '/fr/confidentialite',
+      '/terms': '/fr/conditions',
+      '/': '/fr',
+    };
+
+    // Check for exact matches
+    for (const [enRoute, frRoute] of Object.entries(routeMap)) {
+      if (normalizedPath === enRoute) {
+        return frRoute;
+      }
+    }
+
+    // Handle English blog post paths - map to French equivalent
+    if (normalizedPath.startsWith('/blog/')) {
+      const enSlug = normalizedPath.replace('/blog/', '');
+      const frSlug = getFrenchBlogSlug(enSlug);
+      return frSlug ? `/fr/blogue/${frSlug}` : '/fr/blogue';
+    }
+
+    // Default: just add /fr prefix
+    return '/fr' + normalizedPath;
+  }
+}
+
+const alternateUrl = getAlternateUrl(currentPath);
+const currentLang = isFrench ? 'FR' : 'EN';
+const alternateLang = isFrench ? 'EN' : 'FR';
+---
+
+<div class="language-picker flex items-center gap-1 text-sm font-medium">
+  <span class="text-green-600 dark:text-green-400 font-semibold">{currentLang}</span>
+  <span class="text-gray-400 dark:text-gray-500">/</span>
+  <a
+    href={alternateUrl}
+    class="text-gray-500 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition-colors"
+    aria-label={isFrench ? 'Switch to English' : 'Passer au français'}
+  >
+    {alternateLang}
+  </a>
+</div>

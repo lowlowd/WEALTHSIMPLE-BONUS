@@ -7,9 +7,19 @@ export interface Props {
   author?: string;
   image?: string;
   url: string;
+  language?: string;
 }
 
-const { title, description, publishDate, updateDate, author = 'Isabelle Reuben', image, url } = Astro.props;
+const {
+  title,
+  description,
+  publishDate,
+  updateDate,
+  author = 'Isabelle Reuben',
+  image,
+  url,
+  language = 'en-CA',
+} = Astro.props;
 
 // Only show dateModified if the updateDate has passed (no future dates exposed in schema)
 // Compare using local date strings (YYYY-MM-DD) to avoid UTC timezone issues
@@ -22,6 +32,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: title,
   description: description,
+  inLanguage: language,
   datePublished: new Date(publishDate).toISOString(),
   ...(effectiveUpdateDate && { dateModified: new Date(effectiveUpdateDate).toISOString() }),
   author: {

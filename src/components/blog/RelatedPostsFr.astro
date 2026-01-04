@@ -1,0 +1,27 @@
+---
+import { APP_BLOG } from 'astrowind:config';
+import { getRelatedFrenchPosts } from '~/utils/blog-fr';
+import BlogHighlightedPostsFr from '../widgets/BlogHighlightedPostsFr.astro';
+import type { Post } from '~/types';
+
+export interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const relatedPosts = post.tags ? await getRelatedFrenchPosts(post, 4) : [];
+---
+
+{
+  APP_BLOG.isRelatedPostsEnabled ? (
+    <BlogHighlightedPostsFr
+      classes={{
+        container: 'pt-0 lg:pt-0 md:pt-0',
+      }}
+      title="Articles connexes"
+      linkText="Voir tous les articles"
+      linkUrl="/fr/blogue"
+      postIds={relatedPosts.map((post) => post.id)}
+    />
+  ) : null
+}

@@ -1,8 +1,8 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-04T00:00:00Z
-updateDate: 2025-01-20T00:00:00Z
-title: 'Wealthsimple Referral Ladder Challenge 2025: Earn Up to $5,000'
+updateDate: 2026-01-18T00:00:00Z
+title: 'Wealthsimple Referral Ladder Challenge 2026: Earn Up to $5,000'
 excerpt: 'Learn how the Wealthsimple Referral Ladder Challenge works and how to earn up to $5,000 in cash bonuses when transferring large portfolios.'
 image: ~/assets/images/referral-ladder-challenge.png
 category: Referral Codes
@@ -25,7 +25,7 @@ faqs:
   - question: 'Can I refer my spouse to the Referral Ladder if we live at the same address?'
     answer: 'Yes. Wealthsimple does not restrict referral bonuses based on household address. If your spouse is a new client, you can refer them.'
   - question: 'Will I receive a T4A tax slip for the referral bonus?'
-    answer: 'No. Wealthsimple does not issue T4A slips for referral bonuses. However, the bonus is considered taxable income by the CRA, and you are responsible for reporting it.'
+    answer: 'No. Wealthsimple does not issue T4A slips for referral bonuses. However, the bonus may be reportable to the CRA, and you are responsible for determining your tax obligations.'
   - question: 'Can I earn the Referral Ladder bonus on a Corporate Account?'
     answer: 'Yes, Corporate accounts are eligible. The cash bonus is typically deposited into a personal non-registered account linked to your profile.'
   - question: 'What happens if my deposit drops in value due to the market?'
@@ -38,7 +38,7 @@ Most people know about the standard sign-up bonus—which is usually $25 but can
 
 The Referral Ladder Challenge is Wealthsimple's tiered bonus structure that scales your reward based on your net funding amount. The more you deposit, the bigger your bonus.
 
-This program is **active through December 31, 2025**, and targets investors transferring significant assets from traditional banks.
+This program is **active through December 31, 2025** (subject to change), and targets investors transferring significant assets from traditional banks.
 
 ## The Complete Referrer Bonus Tiers
 
@@ -231,7 +231,7 @@ Yes. Wealthsimple does not restrict referral bonuses based on household address.
 
 ### Will I receive a T4A tax slip for the referral bonus?
 
-No. Wealthsimple states in their terms that they do not issue T4A slips for referral bonuses paid into non-registered accounts. However, because the bonus is a cash incentive, it is technically considered taxable income by the CRA, and you are responsible for reporting it.[^5]
+No. Wealthsimple states in their terms that they do not issue T4A slips for referral bonuses paid into non-registered accounts. However, because the bonus is a cash incentive, it may be reportable to the CRA, and you are responsible for determining your tax obligations.[^5]
 
 ### Can I earn the Referral Ladder bonus on a Corporate Account?
 

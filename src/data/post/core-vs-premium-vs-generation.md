@@ -1,8 +1,8 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-02T00:00:00Z
-updateDate: 2025-01-05T00:00:00Z
-title: 'Wealthsimple Core vs Premium vs Generation: Complete Tier Comparison (2025)'
+updateDate: 2026-01-08T00:00:00Z
+title: 'Wealthsimple Core vs Premium vs Generation: Complete Tier Comparison (2026)'
 excerpt: "Compare Wealthsimple's three client tiers - Core, Premium, and Generation. Learn about fees, interest rates, and whether Premium is worth it at $100K."
 image: ~/assets/images/core-vs-premium-vs-generation.png
 category: Guides
@@ -38,10 +38,14 @@ Wealthsimple isn't just a brokerage—it's actually a tiered ecosystem where you
 | ---------------------- | --------------- | ------------------ | ------------------- |
 | **Management Fee**     | 0.50%           | 0.40%              | 0.20%-0.40%         |
 | **Cash Interest**      | 0.75%-1.25%\*   | 1.75%              | 2.25% (max)         |
-| **USD Account**        | $10/month       | Free               | Free                |
+| **USD Account**        | $10 + tax/month | Free               | Free                |
+| **FX Fee**             | 1.5%            | 1.5%               | 1.5%                |
 | **Crypto Fees**        | 2.0%            | 1.0%               | 0.5%                |
 | **Crypto Staking Cut** | 30%             | 20%                | 15%                 |
 | **Options Trading**    | $2 USD/contract | $0.75 USD/contract | $0.75 USD/contract  |
+| **Priority Support**   | No              | Yes                | Yes                 |
+| **Private Assets**     | No              | No                 | Yes                 |
+| **Dedicated Advisor**  | No              | No                 | Yes                 |
 | **Referral Eligible**  | ✅ Yes          | ✅ Yes             | ✅ Yes              |
 
 ## Core Tier ($0 - $99,999)

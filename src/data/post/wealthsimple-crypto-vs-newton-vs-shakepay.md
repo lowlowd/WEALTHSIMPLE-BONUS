@@ -1,9 +1,9 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-12-09
-updateDate: 2025-01-14T00:00:00Z
-title: 'Wealthsimple Crypto vs Newton vs Shakepay: Complete 2025 Comparison'
-excerpt: 'Compare Wealthsimple Crypto, Newton, and Shakepay for Canadian investors. We analyze fees, spreads, staking rewards, and which platform is best for you in 2025.'
+updateDate: 2026-01-14T00:00:00Z
+title: 'Wealthsimple Crypto vs Newton vs Shakepay: Complete 2026 Comparison'
+excerpt: 'Compare Wealthsimple Crypto, Newton, and Shakepay for Canadian investors. We analyze fees, spreads, staking rewards, and which platform is best for you in 2026.'
 image: ~/assets/images/wealthsimple-crypto-vs-newton-vs-shakepay.png
 category: Comparisons
 tags:
@@ -37,6 +37,16 @@ Here’s the honest truth: **There isn't one.**
 I’ve used all three platforms for years, and my strategy is actually split between them. I use Shakepay for my daily Bitcoin accumulation, Newton for smaller altcoin plays, and Wealthsimple for my serious, long-term staking where I want maximum regulatory protection.
 
 Here is the complete, no-fluff breakdown of Wealthsimple Crypto vs Newton vs Shakepay to help you figure out which one fits _you_.
+
+### Looking for Referral Codes?
+
+If you just want the sign-up bonuses, here they are:
+
+| Platform         | Referral Code                                                        | Bonus                    |
+| :--------------- | :------------------------------------------------------------------- | :----------------------- |
+| **Wealthsimple** | 9C6DMQ <br> [Wealthsimple →](https://wealthsimple.com/invite/9C6DMQ) | $25 (deposit $1)         |
+| **Newton**       | JPPX31 <br> [Newton →](https://web.newton.co/r/JPPX31)               | $25 (trade $100)         |
+| **Shakepay**     | 059XIVK <br> [Shakepay →](https://shakepay.me/r/059XIVK)             | $20 (trade $100 BTC/ETH) |
 
 ## Quick Comparison Overview
 

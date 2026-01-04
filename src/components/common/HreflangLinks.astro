@@ -1,0 +1,80 @@
+---
+/**
+ * HreflangLinks Component
+ * Generates hreflang alternate links for EN ↔ FR pages
+ */
+import { getFrenchBlogSlug, getEnglishBlogSlug } from '~/utils/blog-slug-mappings';
+
+const pathname = Astro.url.pathname;
+const baseUrl = Astro.site?.origin || 'https://wealthsimple-bonus.com';
+
+// Determine if we're on a French page
+const isFrench = pathname.startsWith('/fr');
+
+// Normalize path - remove trailing slash for consistency
+const normalizedPath = pathname.endsWith('/') && pathname !== '/' ? pathname.slice(0, -1) : pathname;
+
+// Path mappings between English and French (static pages)
+const pathMappings: Record<string, string> = {
+  // Static pages
+  '/': '/fr',
+  '/about': '/fr/a-propos',
+  '/how-it-works': '/fr/comment-ca-fonctionne',
+  '/contact': '/fr/contact',
+  '/privacy': '/fr/confidentialite',
+  '/terms': '/fr/conditions',
+  // Blog index
+  '/blog': '/fr/blogue',
+};
+
+// Create reverse mappings (French → English)
+const reverseMappings: Record<string, string> = {};
+for (const [en, fr] of Object.entries(pathMappings)) {
+  reverseMappings[fr] = en;
+}
+
+let englishUrl = '';
+let frenchUrl = '';
+
+if (isFrench) {
+  // We're on a French page - find the English equivalent
+  if (reverseMappings[normalizedPath]) {
+    englishUrl = baseUrl + reverseMappings[normalizedPath];
+    frenchUrl = baseUrl + normalizedPath;
+  } else if (normalizedPath.startsWith('/fr/blogue/')) {
+    // French blog post - use slug mapping
+    const frSlug = normalizedPath.replace('/fr/blogue/', '').replace(/\/$/, '');
+    const enSlug = getEnglishBlogSlug(frSlug);
+    if (enSlug) {
+      englishUrl = baseUrl + '/blog/' + enSlug;
+      frenchUrl = baseUrl + normalizedPath;
+    }
+  }
+} else {
+  // We're on an English page - find the French equivalent
+  if (pathMappings[normalizedPath]) {
+    englishUrl = baseUrl + normalizedPath;
+    frenchUrl = baseUrl + pathMappings[normalizedPath];
+  } else if (normalizedPath.startsWith('/blog/')) {
+    // English blog post - use slug mapping
+    const enSlug = normalizedPath.replace('/blog/', '').replace(/\/$/, '');
+    const frSlug = getFrenchBlogSlug(enSlug);
+    if (frSlug) {
+      englishUrl = baseUrl + normalizedPath;
+      frenchUrl = baseUrl + '/fr/blogue/' + frSlug;
+    }
+  }
+}
+
+const hasAlternates = englishUrl && frenchUrl;
+---
+
+{
+  hasAlternates && (
+    <>
+      <link rel="alternate" hreflang="en" href={englishUrl} />
+      <link rel="alternate" hreflang="fr-CA" href={frenchUrl} />
+      <link rel="alternate" hreflang="x-default" href={englishUrl} />
+    </>
+  )
+}

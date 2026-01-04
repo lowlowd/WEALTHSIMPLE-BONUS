@@ -1,16 +1,16 @@
 ---
 author: Isabelle Reuben
 publishDate: 2025-11-29T00:00:00Z
-updateDate: 2025-01-26T00:00:00Z
-title: 'Wealthsimple Tax Review 2025: Free Tax Filing for Canadians'
-excerpt: 'A complete review of Wealthsimple Tax for 2025. Learn about features, limitations, and how it integrates with your investments for seamless tax filing.'
+updateDate: 2026-01-22T00:00:00Z
+title: 'Wealthsimple Tax Review 2026: Free Tax Filing for Canadians'
+excerpt: 'A complete review of Wealthsimple Tax for 2026. Learn about features, limitations, and how it integrates with your investments for seamless tax filing.'
 image: ~/assets/images/wealthsimple-tax-review-2026.png
 category: Reviews
 tags:
   - wealthsimple tax
   - free tax software
   - canadian taxes
-  - tax filing 2025
+  - tax filing 2026
 metadata:
   canonical: https://wealthsimplebonus.ca/blog/wealthsimple-tax-review-2025
 faqs:

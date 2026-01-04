@@ -51,7 +51,6 @@ import { UI } from 'astrowind:config';
       document.getElementById('header')?.classList.remove('expanded');
       document.getElementById('header')?.classList.remove('bg-page');
       document.querySelector('[data-aw-nav]')?.classList.add('hidden');
-      document.querySelector('[data-aw-header-actions]')?.classList.add('hidden');
     });
 
     attachEvent('[data-aw-toggle-menu]', 'click', function (_, elem) {
@@ -61,8 +60,6 @@ import { UI } from 'astrowind:config';
       document.getElementById('header')?.classList.toggle('expanded');
       document.getElementById('header')?.classList.toggle('bg-page');
       document.querySelector('[data-aw-nav]')?.classList.toggle('hidden');
-      const headerActions = document.querySelector('[data-aw-header-actions]');
-      headerActions?.classList.add('hidden');
     });
 
     attachEvent('[data-aw-toggle-color-scheme]', 'click', function () {
@@ -117,7 +114,6 @@ import { UI } from 'astrowind:config';
       document.getElementById('header')?.classList.remove('expanded');
       document.getElementById('header')?.classList.remove('bg-page');
       document.querySelector('[data-aw-nav]')?.classList.add('hidden');
-      document.querySelector('[data-aw-header-actions]')?.classList.add('hidden');
     });
 
     function applyHeaderStylesOnScroll() {
@@ -153,7 +149,6 @@ import { UI } from 'astrowind:config';
     document.getElementById('header')?.classList.remove('h-screen');
     document.getElementById('header')?.classList.remove('expanded');
     document.querySelector('[data-aw-nav]')?.classList.add('hidden');
-    document.querySelector('[data-aw-header-actions]')?.classList.add('hidden');
   };
 
   window.onload = onLoad;

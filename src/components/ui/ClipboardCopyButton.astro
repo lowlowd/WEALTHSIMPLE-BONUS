@@ -8,27 +8,54 @@ interface Props {
   referralCode: string;
   visitUrl?: string;
   visitButtonText?: string;
+  lang?: 'en' | 'fr';
+  copyButtonText?: string;
+  headerText?: string;
 }
 
 const {
   referralCode,
   visitUrl = 'https://wealthsimple.com/invite/9C6DMQ',
   visitButtonText = 'Visit Wealthsimple.ca',
+  lang = 'en',
+  copyButtonText,
+  headerText,
 } = Astro.props;
 
 // Generate unique ID to avoid conflicts when component is used multiple times
 const uniqueId = `clipboard-${Math.random().toString(36).substring(2, 9)}`;
 
-// Get current date formatted as "Month Year"
+// Get current date formatted based on language
 const now = new Date();
 const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long' };
-const currentDate = now.toLocaleDateString('en-US', options);
+const locale = lang === 'fr' ? 'fr-CA' : 'en-US';
+const currentDate = now.toLocaleDateString(locale, options);
+
+// Localized strings
+const strings = {
+  en: {
+    header: 'Copy the code here:',
+    copyButton: '1. Copy WealthSimple Referral Code',
+    copied: 'Copied!',
+    verified: 'Code Verified for',
+  },
+  fr: {
+    header: 'Copiez le code ici :',
+    copyButton: '1. Copier le code de parrainage',
+    copied: 'Copié !',
+    verified: 'Code vérifié pour',
+  },
+};
+
+const t = strings[lang];
+const displayHeaderText = headerText || t.header;
+const displayCopyButtonText = copyButtonText || t.copyButton;
 ---
 
 <div class="w-full max-w-md mx-auto rounded-2xl bg-transparent p-6" style="width: 100%; min-width: 380px;">
   <div class="text-center space-y-3" style="width: 100%;">
     <!-- Header -->
-    <h3 class="text-xl font-semibold text-slate-700 dark:text-slate-200">Copy the code here:</h3>
+    <h3 class="text-xl font-semibold text-slate-700 dark:text-slate-200">{displayHeaderText}</h3>
 
     <!-- Referral Code Box -->
     <div
@@ -43,17 +70,16 @@ const currentDate = now.toLocaleDateString('en-US', options);
       type="button"
       id={`${uniqueId}-copy`}
       data-code={referralCode}
-      class="copy-button w-full flex items-center justify-center gap-3 rounded-xl py-4 px-8 text-lg font-bold shadow-lg transition-all duration-200 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white"
-      style="min-width: 320px; height: 80px;"
+      data-copied-text={t.copied}
+      class="copy-button w-full flex flex-wrap items-center justify-center gap-2 rounded-xl py-6 px-4 text-base md:text-lg font-bold shadow-lg transition-all duration-200 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-center leading-snug"
+      style="min-height: 80px;"
     >
-      <span id={`${uniqueId}-text`} style="min-width: 280px; display: inline-block;"
-        >1. Copy WealthSimple Referral Code</span
-      >
-      <!-- Copy Icon (shown by default) -->
+      <span id={`${uniqueId}-text`}>{displayCopyButtonText}</span>
+      <!-- Copy Icon (shown by default) - AFTER text -->
       <svg
         id={`${uniqueId}-copy-icon`}
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
+        class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -69,7 +95,7 @@ const currentDate = now.toLocaleDateString('en-US', options);
       <svg
         id={`${uniqueId}-check-icon`}
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 hidden"
+        class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0 hidden"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -101,12 +127,13 @@ const currentDate = now.toLocaleDateString('en-US', options);
     </a>
 
     <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-      Code Verified for {currentDate}
+      {t.verified}
+      {currentDate}
     </p>
   </div>
 </div>
 
-<script is:inline define:vars={{ uniqueId, referralCode }}>
+<script is:inline define:vars={{ uniqueId, referralCode, copiedText: t.copied, originalText: displayCopyButtonText }}>
   // Get DOM elements
   const copyBtn = document.getElementById(`${uniqueId}-copy`);
   const textEl = document.getElementById(`${uniqueId}-text`);
@@ -119,7 +146,7 @@ const currentDate = now.toLocaleDateString('en-US', options);
         await navigator.clipboard.writeText(referralCode);
 
         // Show success state
-        textEl.textContent = 'Copied!';
+        textEl.textContent = copiedText;
         copyIcon.classList.add('hidden');
         checkIcon.classList.remove('hidden');
 
@@ -130,7 +157,7 @@ const currentDate = now.toLocaleDateString('en-US', options);
 
         // Reset after 2 seconds
         setTimeout(() => {
-          textEl.textContent = '1. Copy WealthSimple Referral Code';
+          textEl.textContent = originalText;
           copyIcon.classList.remove('hidden');
           checkIcon.classList.add('hidden');
 

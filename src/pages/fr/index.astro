@@ -1,0 +1,463 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/widgets/Header.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Features from '~/components/widgets/Features.astro';
+import Button from '~/components/ui/Button.astro';
+import FAQSchema from '~/components/common/FAQSchema.astro';
+
+// Import French navigation data
+import { headerDataFr, footerDataFr } from '~/navigation-fr';
+
+// Interactive button components
+import ClipboardCopyButton from '~/components/ui/ClipboardCopyButton.astro';
+import CopyCodeButton from '~/components/ui/CopyCodeButton.astro';
+
+// FAQ data for schema (French)
+const faqItems = [
+  {
+    title: 'Quand vais-je recevoir ma prime de 25 $?',
+    description:
+      'Votre prime de 25 $ en argent sera créditée à votre compte dans les quelques jours ouvrables suivant votre dépôt réussi de 1 $ ou plus dans votre compte Wealthsimple.',
+  },
+  {
+    title: 'Quel est le dépôt minimum pour obtenir la prime?',
+    description:
+      'Vous devez déposer au moins 1 $ pour être admissible à la prime de 25 $ en argent. Le dépôt doit rester dans votre compte pendant au moins 30 jours.',
+  },
+  {
+    title: "Puis-je utiliser Wealthsimple si j'ai déjà des investissements ailleurs?",
+    description:
+      "Oui ! Wealthsimple fonctionne en parallèle avec vos investissements existants. Plusieurs utilisateurs transfèrent leurs REER, CELI ou portefeuilles non enregistrés vers Wealthsimple pour profiter de frais moins élevés et de l'investissement automatisé.",
+  },
+  {
+    title: 'Y a-t-il des frais de compte?',
+    description:
+      "Wealthsimple n'a aucuns frais de compte pour sa plateforme de transactions autogérées. Pour les portefeuilles gérés, ils facturent des frais de gestion compétitifs de 0,4 à 0,5 % sans commission de transaction.",
+  },
+  {
+    title: 'Wealthsimple est-il fiable et sécuritaire?',
+    description:
+      "Oui, Wealthsimple est réglementé par l'OCRI et est membre du FCPE, qui protège vos investissements jusqu'à 1 million de dollars. Votre argent est également détenu auprès des grandes banques canadiennes.",
+  },
+  {
+    title: "Et si j'oublie d'utiliser le lien de parrainage?",
+    description:
+      'Bonne nouvelle : vous pouvez encore ajouter un code de parrainage après l\'inscription! Si vous n\'avez jamais approvisionné votre compte, vous pouvez ajouter un code n\'importe quand. Si vous avez déjà approvisionné, vous avez 7 jours à partir du moment où les fonds ont été traités. <a href="/fr/blogue/ajouter-code-parrainage-apres-inscription" class="text-green-600 hover:underline">Lire le guide complet →</a>',
+  },
+  {
+    title: "Puis-je parrainer mes amis après m'être inscrit?",
+    description:
+      "Absolument ! Une fois que vous êtes utilisateur de Wealthsimple, vous obtiendrez votre propre lien de parrainage. Lorsque vos amis s'inscrivent et déposent 1 $ ou plus, vous et votre ami pouvez gagner des primes en argent.",
+  },
+  {
+    title: 'Dans quoi puis-je investir avec Wealthsimple?',
+    description:
+      "Wealthsimple offre des actions, des FNB, des cryptos, des portefeuilles gérés, des CELI, des REER, des CELIAPP et plus encore. Vous pouvez également négocier des fractions d'actions à partir d'aussi peu que 1 $.",
+  },
+  {
+    title: 'Combien puis-je gagner avec les parrainages?',
+    description:
+      "Vous pouvez gagner jusqu'à 5 000 $ en primes en argent grâce au programme de parrainage de Wealthsimple. Chaque parrainage réussi vous rapporte 25 $ lorsque votre ami dépose 1 $ ou plus.",
+  },
+];
+
+const metadata = {
+  title: "Wealthsimple Bonus - Obtenez 25 $ en argent à l'inscription",
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <FAQSchema faqs={faqItems} />
+  <Header {...headerDataFr} />
+
+  <Hero>
+    <Fragment slot="title">
+      <h1 class="text-3xl md:text-4xl font-bold leading-tight tracking-tight mb-4 font-heading dark:text-gray-200">
+        Obtenez une prime de 25 $ en argent en vous inscrivant avec notre code de parrainage Wealthsimple
+      </h1>
+    </Fragment>
+    <Fragment slot="subtitle">
+      <p class="text-xl text-gray-600 dark:text-gray-300 mt-4 max-w-3xl mx-auto">
+        Déposez 1 $ ou plus et recevez 25 $ en argent instantanément.
+      </p>
+    </Fragment>
+  </Hero>
+
+  <WidgetWrapper containerClass="bg-white dark:bg-slate-900 py-4 md:py-8 -mt-20 md:-mt-20">
+    <div class="flex flex-col items-center gap-4 max-w-lg mx-auto">
+      <ClipboardCopyButton
+        referralCode="9C6DMQ"
+        visitUrl="https://wealthsimple.com/invite/9C6DMQ"
+        visitButtonText="Visiter Wealthsimple.ca"
+        lang="fr"
+      />
+    </div>
+  </WidgetWrapper>
+
+  <section class="relative not-prose scroll-mt-[72px] py-12 md:py-16 lg:py-20">
+    <div class="max-w-7xl mx-auto px-4 md:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+        <!-- Left Column: Steps -->
+        <div class="space-y-8">
+          <h2 class="text-3xl md:text-4xl font-bold mb-8 font-heading">Comment obtenir votre prime de 25 $</h2>
+
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Inscrivez-vous à Wealthsimple</h3>
+              <p class="text-muted">
+                <a
+                  href="https://wealthsimple.com/invite/9C6DMQ"
+                  target="_blank"
+                  class="text-green-600 dark:text-green-400 hover:underline font-medium"
+                  >Utilisez notre lien de parrainage Wealthsimple</a
+                > et utilisez le code <span class="font-bold">9C6DMQ</span> pour créer votre compte gratuit. Cela ne prend
+                que quelques minutes.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Déposez 1 $ ou plus</h3>
+              <p class="text-muted">
+                Approvisionnez votre compte avec au moins 1 $. Vous pouvez transférer depuis votre banque ou configurer
+                le dépôt direct.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-start">
+            <div class="flex-shrink-0 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Obtenez votre prime de 25 $ en argent</h3>
+              <p class="text-muted">
+                Votre <span class="font-bold">prime de 25 $ en argent</span> sera déposée dans votre compte en quelques jours
+                ouvrables !
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Referral Code Eligibility -->
+        <div class="bg-gray-50 dark:bg-slate-800 rounded-2xl p-6 shadow-lg">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6 font-heading text-center">
+            Pouvez-vous encore utiliser un code de parrainage?
+          </h2>
+
+          <!-- Eligibility Chart -->
+          <div class="overflow-x-auto mb-6">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-gray-200 dark:border-gray-700">
+                  <th class="text-left py-3 px-2 font-bold text-gray-900 dark:text-white">Votre situation</th>
+                  <th class="text-center py-3 px-2 font-bold text-gray-900 dark:text-white">Admissible?</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+                <tr>
+                  <td class="py-3 px-2 text-gray-700 dark:text-gray-300">Jamais inscrit à Wealthsimple</td>
+                  <td class="py-3 px-2 text-center"
+                    ><span
+                      class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+                      >✓ Oui</span
+                    ></td
+                  >
+                </tr>
+                <tr>
+                  <td class="py-3 px-2 text-gray-700 dark:text-gray-300">Inscrit mais jamais approvisionné</td>
+                  <td class="py-3 px-2 text-center"
+                    ><span
+                      class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+                      >✓ Oui, n'importe quand</span
+                    ></td
+                  >
+                </tr>
+                <tr>
+                  <td class="py-3 px-2 text-gray-700 dark:text-gray-300">Approvisionné dans les 7 derniers jours</td>
+                  <td class="py-3 px-2 text-center"
+                    ><span
+                      class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200"
+                      >✓ Oui, agissez maintenant!</span
+                    ></td
+                  >
+                </tr>
+                <tr>
+                  <td class="py-3 px-2 text-gray-700 dark:text-gray-300">Approvisionné il y a plus de 7 jours</td>
+                  <td class="py-3 px-2 text-center"
+                    ><span
+                      class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200"
+                      >✗ Non</span
+                    ></td
+                  >
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- TL;DR Box -->
+          <div class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-4">
+            <p class="text-sm text-gray-700 dark:text-gray-300">
+              <span class="font-bold text-green-700 dark:text-green-400">En bref :</span>
+              Si vous avez approvisionné votre compte, vous avez <span class="font-bold">7 jours</span> pour ajouter un code.
+              Jamais approvisionné? Vous pouvez ajouter un code n'importe quand, puis vous avez <span class="font-bold"
+                >30 jours</span
+              > pour approvisionner.
+            </p>
+          </div>
+
+          <!-- Learn More Link -->
+          <div class="mt-4 text-center">
+            <a
+              href="/fr/blogue/ajouter-code-parrainage-apres-inscription"
+              class="text-green-600 dark:text-green-400 hover:underline text-sm font-medium"
+            >
+              Guide complet : Ajouter un code après l'inscription →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<div class="bg-gray-50 dark:bg-slate-800">
+  <div class="max-w-7xl mx-auto px-4 py-16 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-8 font-heading">Qu'est-ce que Wealthsimple?</h2>
+    <div class="text-lg text-muted-foreground max-w-3xl mx-auto space-y-6">
+      <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+        Wealthsimple est la plus grande plateforme d'investissement en ligne au Canada, fondée en 2014 et dont le siège
+        social est à Toronto. Avec plus de 3 millions de Canadiens qui confient leur argent à Wealthsimple, c'est devenu
+        le choix incontournable pour les investisseurs modernes qui veulent une façon simple et peu coûteuse de faire
+        fructifier leur patrimoine.
+      </p>
+      <p class="bg-green-50 dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-green-200 dark:border-gray-700">
+        Que vous souhaitiez investir dans des actions, des FNB ou des cryptos, épargner pour la retraite avec un CELI ou
+        un REER, ou épargner pour votre première maison avec un CELIAPP, Wealthsimple vous facilite la tâche. Leur
+        application primée offre des transactions sans commission, le rééquilibrage automatique du portefeuille et la
+        récupération des pertes fiscales.
+      </p>
+      <p class="bg-white dark:bg-slate-900 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+        Wealthsimple est réglementé par l'OCRI (Organisme canadien de réglementation des investissements) et est membre
+        du FCPE, protégeant vos investissements jusqu'à 1 million de dollars. C'est la façon intelligente et sécuritaire
+        d'investir au Canada.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- CTA Banner Section -->
+<div class="bg-gradient-to-r from-green-600 to-green-500 dark:from-green-700 dark:to-green-600">
+  <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="text-center md:text-left text-white">
+        <div class="text-3xl md:text-4xl font-bold mb-3">Obtenez votre prime Wealthsimple de 25 $ aujourd'hui!</div>
+        <p class="text-lg md:text-xl opacity-95">
+          Inscrivez-vous avec notre lien de parrainage, déposez 1 $ ou plus, et obtenez 25 $ en argent instantanément.
+          Commencez à bâtir votre patrimoine maintenant!
+        </p>
+      </div>
+      <div class="flex-shrink-0 flex flex-col gap-3">
+        <CopyCodeButton
+          referralCode="9C6DMQ"
+          buttonClass="px-10 py-4 text-lg bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl shadow-lg transition-all"
+        />
+        <Button
+          variant="secondary"
+          href="https://wealthsimple.com/invite/9C6DMQ"
+          target="_blank"
+          class="px-10 py-4 text-lg bg-white text-green-600 hover:bg-gray-50 border-2 border-white shadow-lg"
+          showArrow
+        >
+          Obtenez 25 $
+        </Button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<Features
+  title="Comment fonctionne Wealthsimple"
+  items={[
+    {
+      title: 'Transactions autogérées',
+      description:
+        "Négociez des actions, des FNB et des cryptos sans commission. Achetez des fractions d'actions pour aussi peu que 1 $ et bâtissez votre portefeuille à votre façon.",
+      icon: 'tabler:chart-line',
+    },
+    {
+      title: 'Portefeuilles gérés',
+      description:
+        "Laissez les experts de Wealthsimple gérer vos investissements avec le rééquilibrage automatique et la récupération des pertes fiscales. Parfait pour les investisseurs qui préfèrent ne pas s'en occuper.",
+      icon: 'tabler:robot',
+    },
+    {
+      title: 'Comptes enregistrés',
+      description:
+        'Ouvrez un CELI, REER, CELIAPP, REEE ou compte personnel. Wealthsimple prend en charge tous les principaux types de comptes enregistrés au Canada.',
+      icon: 'tabler:building-bank',
+    },
+    {
+      title: 'Frais réduits',
+      description:
+        'Aucuns frais de compte, aucun solde minimum et transactions sans commission. Les portefeuilles gérés ont des frais annuels compétitifs de 0,4 à 0,5 %.',
+      icon: 'tabler:discount-2',
+    },
+  ]}
+/>
+
+<div class="bg-gray-50 dark:bg-slate-800">
+  <Features
+    title="Sécurité et protection"
+    subtitle="Votre argent est protégé par les mesures de protection financière les plus solides du Canada"
+    items={[
+      {
+        title: 'Protection du FCPE',
+        description:
+          "Vos investissements sont protégés jusqu'à 1 million de dollars par le Fonds canadien de protection des épargnants (FCPE).",
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: "Réglementé par l'OCRI",
+        description:
+          "Wealthsimple est réglementé par l'OCRI, l'organisme canadien de réglementation des investissements.",
+        icon: 'tabler:certificate',
+      },
+      {
+        title: 'Sécurité de niveau bancaire',
+        description:
+          "Vos données sont protégées par un cryptage 256 bits, l'authentification à deux facteurs et la connexion biométrique.",
+        icon: 'tabler:lock',
+      },
+      {
+        title: '100 % canadien',
+        description:
+          'Avec son siège social à Toronto, Wealthsimple est une entreprise fièrement canadienne au service des investisseurs canadiens.',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</div>
+
+<FAQs
+  title="Foire aux questions"
+  items={[
+    {
+      title: 'Quand vais-je recevoir ma prime de 25 $?',
+      description:
+        'Votre prime de 25 $ en argent sera créditée à votre compte dans les quelques jours ouvrables suivant votre dépôt réussi de 1 $ ou plus dans votre compte Wealthsimple.',
+    },
+    {
+      title: 'Quel est le dépôt minimum pour obtenir la prime?',
+      description:
+        'Vous devez déposer au moins 1 $ pour être admissible à la prime de 25 $ en argent. Le dépôt doit rester dans votre compte pendant au moins 30 jours.',
+    },
+    {
+      title: "Puis-je utiliser Wealthsimple si j'ai déjà des investissements ailleurs?",
+      description:
+        "Oui ! Wealthsimple fonctionne en parallèle avec vos investissements existants. Plusieurs utilisateurs transfèrent leurs REER, CELI ou portefeuilles non enregistrés vers Wealthsimple pour profiter de frais moins élevés et de l'investissement automatisé.",
+    },
+    {
+      title: 'Y a-t-il des frais de compte?',
+      description:
+        "Wealthsimple n'a aucuns frais de compte pour sa plateforme de transactions autogérées. Pour les portefeuilles gérés, ils facturent des frais de gestion compétitifs de 0,4 à 0,5 % sans commission de transaction.",
+    },
+    {
+      title: 'Wealthsimple est-il fiable et sécuritaire?',
+      description:
+        "Oui, Wealthsimple est réglementé par l'OCRI et est membre du FCPE, qui protège vos investissements jusqu'à 1 million de dollars. Votre argent est également détenu auprès des grandes banques canadiennes.",
+    },
+    {
+      title: "Et si j'oublie d'utiliser le lien de parrainage?",
+      description:
+        'Bonne nouvelle : vous pouvez encore ajouter un code de parrainage après l\'inscription! Si vous n\'avez jamais approvisionné votre compte, vous pouvez ajouter un code n\'importe quand. Si vous avez déjà approvisionné, vous avez 7 jours à partir du moment où les fonds ont été traités. <a href="/fr/blogue/ajouter-code-parrainage-apres-inscription" class="text-green-600 hover:underline">Lire le guide complet →</a>',
+    },
+    {
+      title: "Puis-je parrainer mes amis après m'être inscrit?",
+      description:
+        "Absolument ! Une fois que vous êtes utilisateur de Wealthsimple, vous obtiendrez votre propre lien de parrainage. Lorsque vos amis s'inscrivent et déposent 1 $ ou plus, vous et votre ami pouvez gagner des primes en argent.",
+    },
+    {
+      title: 'Dans quoi puis-je investir avec Wealthsimple?',
+      description:
+        "Wealthsimple offre des actions, des FNB, des cryptos, des portefeuilles gérés, des CELI, des REER, des CELIAPP et plus encore. Vous pouvez également négocier des fractions d'actions à partir d'aussi peu que 1 $.",
+    },
+  ]}
+/>
+
+<Footer {...footerDataFr}>
+  <div slot="cta" class="col-span-12 mb-8">
+    <div class="bg-gradient-to-r from-green-600 to-green-500 rounded-lg p-8 text-center">
+      <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Prêt à obtenir votre prime Wealthsimple de 25 $?</h3>
+      <p class="text-white text-lg mb-6 opacity-95">
+        Rejoignez plus de 3 millions de Canadiens qui investissent avec Wealthsimple. Inscrivez-vous maintenant et
+        obtenez 25 $ en argent lorsque vous déposez 1 $ ou plus.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
+        <CopyCodeButton
+          referralCode="9C6DMQ"
+          buttonClass="px-10 py-4 text-lg bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl shadow-lg transition-all"
+        />
+        <Button
+          variant="secondary"
+          href="https://wealthsimple.com/invite/9C6DMQ"
+          target="_blank"
+          class="px-10 py-4 text-lg bg-white text-green-600 hover:bg-gray-50 border-2 border-white shadow-lg"
+          showArrow
+        >
+          Obtenez votre prime de 25 $
+        </Button>
+      </div>
+    </div>
+  </div>
+</Footer>

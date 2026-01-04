@@ -4,7 +4,7 @@ description: 'Terms of Service for Wealthsimple Bonus. Read our terms for using 
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: December 5, 2025
+_Last updated_: January 4, 2026
 
 ## 1. Acceptance of Terms
 

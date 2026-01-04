@@ -1,0 +1,155 @@
+---
+import PageLayoutFr from '~/layouts/PageLayoutFr.astro';
+import Button from '~/components/ui/Button.astro';
+import isabelleImg from '~/assets/images/isabelle-reuben.jpg';
+import PersonSchema from '~/components/common/PersonSchema.astro';
+import BreadcrumbSchema from '~/components/common/BreadcrumbSchema.astro';
+
+// Metadata for the page
+const metadata = {
+  title: 'À propos de Wealthsimple Bonus',
+  description:
+    "Votre ressource de confiance pour les primes de parrainage Wealthsimple et les conseils d'investissement pour aider les Canadiens à faire fructifier leur patrimoine.",
+};
+---
+
+<PageLayoutFr metadata={metadata}>
+  <PersonSchema />
+  <BreadcrumbSchema
+    items={[
+      { name: 'Accueil', url: 'https://wealthsimplebonus.ca/fr' },
+      { name: 'À propos', url: 'https://wealthsimplebonus.ca/fr/a-propos' },
+    ]}
+  />
+  <div class="max-w-7xl mx-auto px-4 py-16 text-center bg-white dark:bg-slate-900">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6 font-heading text-green-600 dark:text-green-400">
+      Pourquoi Wealthsimple Bonus?
+    </h2>
+    <p class="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+      Chez Wealthsimple Bonus, notre mission est simple : aider les Canadiens à découvrir les avantages de
+      l'investissement moderne avec Wealthsimple. Nous croyons que tout le monde mérite d'avoir accès à des outils
+      d'investissement professionnels et peu coûteux qui facilitent la croissance de votre patrimoine.
+    </p>
+  </div>
+
+  <!-- About the Author -->
+  <div class="bg-gray-50 dark:bg-slate-800">
+    <div class="max-w-4xl mx-auto px-4 py-16">
+      <h3 class="text-3xl font-bold tracking-tight mb-8 font-heading text-green-600 dark:text-green-400 text-center">
+        À propos de l'auteure
+      </h3>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+        <!-- Author Image -->
+        <div class="flex-shrink-0">
+          <img
+            src={isabelleImg.src}
+            alt="Isabelle Reuben"
+            class="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-gray-200 dark:border-gray-700"
+          />
+        </div>
+        <!-- Author Info -->
+        <div class="text-center md:text-left">
+          <h4 class="text-2xl font-bold mb-1">Isabelle Reuben</h4>
+          <p class="text-green-600 dark:text-green-400 font-semibold uppercase tracking-wide text-sm mb-4">
+            Rédactrice financière pigiste
+          </p>
+          <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
+            <p>
+              Isabelle Reuben est une rédactrice pigiste avec une formation en finance et un véritable enthousiasme pour
+              aider les Canadiens à naviguer dans le monde de l'investissement personnel. Elle se spécialise dans la
+              couverture des plateformes d'investissement, des primes de parrainage et des conseils financiers pratiques
+              pour le grand public.
+            </p>
+            <p>
+              Isabelle est passionnée par le partage de conseils sur la façon de tirer le meilleur parti des
+              fonctionnalités et des programmes de parrainage de Wealthsimple. Ses articles visent à simplifier les
+              concepts financiers en conseils clairs et pratiques — parce qu'elle croit que l'investissement intelligent
+              devrait être accessible à tous, pas seulement aux experts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Trust Us, What Makes Wealthsimple Special, Our Commitment -->
+  <div class="bg-gray-50 dark:bg-slate-800">
+    <div class="max-w-4xl mx-auto px-4 py-16 space-y-16">
+      <!-- Why Trust Us -->
+      <div class="text-center">
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
+          Pourquoi faire confiance à notre lien de parrainage?
+        </h3>
+        <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
+          <p>
+            Nous utilisons personnellement Wealthsimple et vérifions que notre lien de parrainage fonctionne
+            correctement. Lorsque vous vous inscrivez par notre lien et déposez 1 $ ou plus, vous recevrez une <strong
+              >prime de 25 $ en argent</strong
+            > directement dans votre compte.
+          </p>
+          <p>
+            Contrairement à d'autres sites qui peuvent partager des informations dépassées, nous gardons notre contenu à
+            jour avec les dernières offres et structures de primes de Wealthsimple. Nous nous engageons à fournir des
+            informations précises et honnêtes pour vous aider à prendre les meilleures décisions financières.
+          </p>
+        </div>
+      </div>
+
+      <!-- What Makes Wealthsimple Special -->
+      <div class="text-center">
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
+          Qu'est-ce qui rend Wealthsimple spécial?
+        </h3>
+        <p class="text-lg text-muted-foreground leading-relaxed">
+          Wealthsimple a transformé l'investissement pour plus de 3 millions de Canadiens. Avec des transactions sans
+          commission sur les actions et les FNB, des fractions d'actions, le trading de cryptos et des portefeuilles
+          gérés professionnellement, Wealthsimple facilite l'investissement avec n'importe quel montant. De plus, des
+          fonctionnalités comme le rééquilibrage automatique, la récupération des pertes fiscales et la protection du
+          FCPE vous donnent la tranquillité d'esprit.
+        </p>
+      </div>
+
+      <!-- Our Commitment -->
+      <div class="text-center">
+        <h3 class="text-3xl font-bold tracking-tight mb-4 font-heading text-green-600 dark:text-green-400">
+          Notre engagement envers vous
+        </h3>
+        <div class="text-lg text-muted-foreground leading-relaxed space-y-4">
+          <p>
+            Nous nous engageons à fournir des informations précises et à jour sur les fonctionnalités, les avantages et
+            les primes de parrainage de Wealthsimple. Notre équipe reste informée des dernières mises à jour pour vous
+            assurer d'avoir toujours accès aux informations les plus récentes.
+          </p>
+          <p>
+            Que vous soyez un investisseur débutant, un investisseur actif expérimenté ou quelqu'un qui cherche à
+            épargner pour la retraite, nous sommes là pour vous aider à tirer le meilleur parti de la plateforme
+            d'investissement innovante de Wealthsimple.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="bg-white dark:bg-transparent">
+    <div class="max-w-4xl mx-auto px-4 py-16">
+      <div class="text-center">
+        <h3 class="text-2xl font-bold tracking-tight mb-4 font-heading">Prêt à commencer?</h3>
+        <p class="text-lg text-muted-foreground mb-6">
+          Rejoignez plus de 3 millions de Canadiens qui ont découvert une façon plus intelligente d'investir. Utilisez
+          notre lien de parrainage pour débloquer votre prime de 25 $ en argent et commencez votre parcours Wealthsimple
+          aujourd'hui.
+        </p>
+        <Button
+          variant="primary"
+          href="https://wealthsimple.com/invite/9C6DMQ"
+          target="_blank"
+          class="px-6 py-3 text-base bg-green-600 hover:bg-green-700"
+          showArrow
+        >
+          Obtenez votre prime Wealthsimple de 25 $
+        </Button>
+      </div>
+    </div>
+  </div>
+</PageLayoutFr>
