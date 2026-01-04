@@ -3,6 +3,8 @@ node_modules
 .github
 .changeset
 koho blog/
+docs/
+public/*.md
 BLOG-OPTIMIZATION-PHASE-2.md
 CONTACT-PAGE-ENHANCEMENT-PLAN.md
 KEYWORD-INTEGRATION-MASTER-PLAN.md
