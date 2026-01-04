@@ -1,0 +1,24 @@
+---
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Wealthsimple Bonus',
+  url: 'https://wealthsimplebonus.ca',
+  logo: 'https://wealthsimplebonus.ca/favicon.svg',
+  description:
+    'Your trusted resource for Wealthsimple referral codes, investing tips, and guides to maximize your bonuses.',
+  sameAs: [],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer service',
+    url: 'https://wealthsimplebonus.ca/contact',
+    availableLanguage: ['English', 'French'],
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Canada',
+  },
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />

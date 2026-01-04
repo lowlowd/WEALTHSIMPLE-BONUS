@@ -5,6 +5,7 @@ updateDate: 2026-01-08T00:00:00Z
 title: 'Wealthsimple Core vs Premium vs Generation (2026 Comparison)'
 excerpt: "Compare Wealthsimple's three client tiers - Core, Premium, and Generation. Learn about fees, interest rates, and whether Premium is worth it at $100K."
 image: ~/assets/images/core-vs-premium-vs-generation.png
+imageCaption: 'Wealthsimple Core, Premium, and Generation tier comparison'
 category: Guides
 tags:
   - wealthsimple premium

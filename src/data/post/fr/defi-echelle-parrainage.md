@@ -5,6 +5,7 @@ updateDate: 2026-01-18T00:00:00Z
 title: 'Défi Échelle Wealthsimple 2026 : Gagnez 5 000 $ (Détails)'
 excerpt: "Découvrez comment fonctionne le défi de l'échelle de parrainage Wealthsimple et comment gagner jusqu'à 5 000 $ en primes en argent lors du transfert de grands portefeuilles."
 image: ~/assets/images/defi-echelle-parrainage.png
+imageCaption: "Échelle de parrainage Wealthsimple avec paliers de bonus jusqu'à 5 000 $"
 category: Codes de parrainage
 tags:
   - échelle de parrainage wealthsimple

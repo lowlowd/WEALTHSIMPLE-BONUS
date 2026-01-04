@@ -5,6 +5,7 @@ updateDate: 2026-01-12T00:00:00Z
 title: 'Wealthsimple vs Questrade 2026 : Comparatif & Frais'
 excerpt: "Une comparaison détaillée de Wealthsimple et Questrade pour les investisseurs canadiens. Comparez les frais, les fonctionnalités, et découvrez quelle plateforme convient à votre style d'investissement."
 image: ~/assets/images/wealthsimple-vs-questrade.png
+imageCaption: 'Comparatif Wealthsimple vs Questrade pour investisseurs canadiens'
 category: Comparaisons
 tags:
   - wealthsimple vs questrade

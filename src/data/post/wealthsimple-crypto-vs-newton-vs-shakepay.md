@@ -5,6 +5,7 @@ updateDate: 2026-01-14T00:00:00Z
 title: 'Wealthsimple Crypto vs Newton vs Shakepay (2026 Review)'
 excerpt: 'Compare Wealthsimple Crypto, Newton, and Shakepay for Canadian investors. We analyze fees, spreads, staking rewards, and which platform is best for you in 2026.'
 image: ~/assets/images/wealthsimple-crypto-vs-newton-vs-shakepay.png
+imageCaption: 'Comparison of Canadian crypto platforms: Wealthsimple, Newton, and Shakepay'
 category: Comparisons
 tags:
   - bitcoin canada

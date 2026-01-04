@@ -4,6 +4,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import FAQSchema from '~/components/blog/FAQSchema.astro';
+import ArticleSchema from '~/components/common/ArticleSchema.astro';
 import AuthorFooter from '~/components/blog/AuthorFooter.astro';
 
 import { getPermalink } from '~/utils/permalinks';
@@ -25,6 +26,16 @@ const getSimplifiedTitle = (title: string, maxLength: number = 40) => {
 
 const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'category') : '#';
 ---
+
+<ArticleSchema
+  title={post.title}
+  description={post.excerpt || ''}
+  publishDate={post.publishDate}
+  updateDate={post.updateDate}
+  author={post.author}
+  url={`/blog/${post.slug}`}
+  language="en-CA"
+/>
 
 <!-- FAQ Schema (if FAQs exist) -->{post.faqs && post.faqs.length > 0 && <FAQSchema faqs={post.faqs} />}
 

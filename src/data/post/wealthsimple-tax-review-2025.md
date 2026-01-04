@@ -5,6 +5,7 @@ updateDate: 2026-01-22T00:00:00Z
 title: 'Wealthsimple Tax Review 2026: Free Tax Filing for Canadians'
 excerpt: 'A complete review of Wealthsimple Tax for 2026. Learn about features, limitations, and how it integrates with your investments for seamless tax filing.'
 image: ~/assets/images/wealthsimple-tax-review-2026.png
+imageCaption: 'Wealthsimple Tax free tax filing options for Canadians'
 category: Reviews
 tags:
   - wealthsimple tax

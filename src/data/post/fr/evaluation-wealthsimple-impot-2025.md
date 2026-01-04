@@ -5,6 +5,7 @@ updateDate: 2026-01-22T00:00:00Z
 title: 'Avis Wealthsimple Impôt 2026 : Gratuit & Simple (Canadiens)'
 excerpt: "Une évaluation complète de Wealthsimple Impôt pour 2026. Apprenez-en sur les fonctionnalités, les limitations, et comment il s'intègre avec vos investissements pour une production d'impôts sans tracas."
 image: ~/assets/images/evaluation-wealthsimple-impot.png
+imageCaption: 'Options de déclaration Wealthsimple Impôt gratuites pour les Canadiens'
 category: Évaluations
 tags:
   - wealthsimple impôt

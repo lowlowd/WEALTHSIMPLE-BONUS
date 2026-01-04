@@ -5,6 +5,7 @@ updateDate: 2026-01-10T00:00:00Z
 title: 'Avis Wealthsimple Cash 2026 : Intérêts & Carte (Évaluation)'
 excerpt: "Une évaluation complète du compte Wealthsimple Cash en 2026. Apprenez-en sur les taux d'intérêt actuels, la carte Mastercard prépayée, les frais de transaction étrangère et la couverture SADC."
 image: ~/assets/images/evaluation-compte-wealthsimple-comptant.png
+imageCaption: 'Options et fonctionnalités du compte Wealthsimple Cash'
 category: Évaluations
 tags:
   - wealthsimple cash

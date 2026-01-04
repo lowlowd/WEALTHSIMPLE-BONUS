@@ -5,6 +5,7 @@ updateDate: 2026-01-12T00:00:00Z
 title: 'Wealthsimple vs Questrade Fees 2026: Complete Comparison'
 excerpt: 'Compare Wealthsimple and Questrade fees for 2026. Learn about trading commissions, FX fees, and which platform is better for your investing style.'
 image: ~/assets/images/wealthsimple-vs-questrade-2025.png
+imageCaption: 'Wealthsimple vs Questrade comparison for Canadian investors'
 category: Comparisons
 tags:
   - wealthsimple vs questrade

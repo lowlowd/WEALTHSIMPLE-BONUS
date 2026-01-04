@@ -5,6 +5,7 @@ updateDate: 2026-01-20T00:00:00Z
 title: 'Prime parrainage Wealthsimple : Conditions & Règles (2026)'
 excerpt: "Comprenez les petits caractères du programme de parrainage Wealthsimple. Découvrez les exigences d'admissibilité, les dépôts minimums, les périodes de conservation et les implications fiscales."
 image: ~/assets/images/conditions-prime-parrainage.png
+imageCaption: 'Conditions et règles du programme de parrainage Wealthsimple avec exigences'
 category: Codes de parrainage
 tags:
   - conditions wealthsimple

@@ -5,6 +5,7 @@ updateDate: 2026-01-18T00:00:00Z
 title: 'Wealthsimple Referral Ladder Challenge 2026: Earn Up to $5,000'
 excerpt: 'Learn how the Wealthsimple Referral Ladder Challenge works and how to earn up to $5,000 in cash bonuses when transferring large portfolios.'
 image: ~/assets/images/referral-ladder-challenge.png
+imageCaption: 'Wealthsimple referral ladder showing bonus tiers up to $5,000'
 category: Referral Codes
 tags:
   - wealthsimple referral ladder

@@ -5,6 +5,7 @@ updateDate: 2026-01-10T00:00:00Z
 title: 'Wealthsimple Cash Review 2026: Rates & Features (Updated)'
 excerpt: 'A complete review of the Wealthsimple Cash account in 2026. Learn about current interest rates, the prepaid Mastercard, foreign transaction fees, and CDIC coverage.'
 image: ~/assets/images/wealthsimple-cash-account-review.png
+imageCaption: 'Wealthsimple Cash account options and features'
 category: Reviews
 tags:
   - wealthsimple cash

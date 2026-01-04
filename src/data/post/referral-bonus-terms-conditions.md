@@ -5,6 +5,7 @@ updateDate: 2026-01-20T00:00:00Z
 title: 'Wealthsimple Referral Bonus Terms & Conditions (2026)'
 excerpt: "Understand the fine print of Wealthsimple's referral program. Learn about eligibility requirements, deposit minimums, holding periods, and tax implications."
 image: ~/assets/images/referral-bonus-terms-conditions.png
+imageCaption: 'Wealthsimple referral bonus terms and conditions with eligibility requirements'
 category: Referral Codes
 tags:
   - wealthsimple terms

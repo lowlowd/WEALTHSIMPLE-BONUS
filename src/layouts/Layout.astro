@@ -19,10 +19,18 @@ import type { MetaData as MetaDataType } from '~/types';
 
 export interface Props {
   metadata?: MetaDataType;
+  language?: string;
+  textDirection?: 'ltr' | 'rtl';
 }
 
-const { metadata = {} } = Astro.props;
-const { language, textDirection } = I18N;
+const { metadata = {}, language: langProp, textDirection: dirProp } = Astro.props;
+const { language: defaultLang, textDirection: defaultDir } = I18N;
+
+// Auto-detect language from URL path (e.g., /fr/ → fr-CA)
+const isFrenchPath = Astro.url.pathname.startsWith('/fr');
+const autoDetectedLang = isFrenchPath ? 'fr-CA' : defaultLang;
+const language = langProp || autoDetectedLang;
+const textDirection = dirProp || defaultDir;
 ---
 
 <!doctype html>
