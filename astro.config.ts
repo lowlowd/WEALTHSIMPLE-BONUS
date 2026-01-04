@@ -9,6 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
+import indexnow from 'astro-indexnow';
 import remarkGfm from 'remark-gfm';
 import type { AstroIntegration } from 'astro';
 
@@ -71,6 +72,9 @@ export default defineConfig({
     }),
     react(),
     partytown(),
+    indexnow({
+      key: '6db75d67f1424b0486421a3f614515db',
+    }),
   ],
 
   image: {
