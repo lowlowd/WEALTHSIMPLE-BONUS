@@ -411,12 +411,12 @@ Yes. If your account has remained unfunded. The strict 7-day deadline to add a c
 
 [^2]: Wealthsimple - Promotions and Offers: https://www.wealthsimple.com/en-ca/magazine/promotions
 
-[^3]: Wealthsimple Help Centre - Device Promotion Terms: https://help.wealthsimple.com/hc/en-ca/articles/19154942940059
+[^3]: Wealthsimple - Device Promotion Terms: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^4]: Wealthsimple - Current Promotions: https://promotions.wealthsimple.com/
 
-[^5]: Wealthsimple - Referral Ladder Challenge: https://promotions.wealthsimple.com/hc/en-ca/articles/39074332108955-Wealthsimple-Referral-Ladder-Challenge
+[^5]: Wealthsimple - Referral Ladder Challenge: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^6]: Wealthsimple Help Centre - Can I combine promotions?: https://help.wealthsimple.com/hc/en-ca/articles/1260803566110
+[^6]: Wealthsimple - Can I combine promotions?: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^7]: Wealthsimple - Tiers and Benefits: https://www.wealthsimple.com/en-ca/pricing

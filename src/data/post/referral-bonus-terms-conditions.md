@@ -248,7 +248,7 @@ Generally, no. Wealthsimple's clawback policy applies to withdrawals, not market
 
 [^2]: Wealthsimple Help Centre - Transfer an account to Wealthsimple: https://help.wealthsimple.com/hc/en-ca/articles/1500003503661
 
-[^3]: Wealthsimple Help Centre - Referral Bonus Tax Information: https://help.wealthsimple.com/hc/en-ca/articles/4404646483355
+[^3]: Wealthsimple - Referral Bonus Tax Information: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 ### Who gets the bonus if I open a Spousal RRSP?
 

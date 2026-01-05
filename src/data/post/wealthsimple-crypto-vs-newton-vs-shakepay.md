@@ -190,4 +190,4 @@ Yes, there is a limit. For security, the **wealthsimple crypto withdrawal limit 
 
 [^6]: Ontario Securities Commission - Registered Crypto Trading Platforms: https://www.osc.ca/en/industry/registration-and-compliance/crypto-businesses
 
-[^7]: Wealthsimple - Withdrawing Crypto to External Wallets: https://help.wealthsimple.com/hc/en-ca/articles/4415114284315
+[^7]: Wealthsimple - Withdrawing Crypto to External Wallets: https://help.wealthsimple.com/hc/en-ca/articles/360058451693

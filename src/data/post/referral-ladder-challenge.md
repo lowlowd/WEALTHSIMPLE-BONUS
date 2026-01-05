@@ -242,7 +242,7 @@ Yes, Corporate accounts are eligible. If you are opening a new Corporate Investi
 
 You will not lose your bonus. Wealthsimple calculates your tier based on Net Funding (total deposits minus total withdrawals). If you deposit $100,000 and the market value drops to $90,000, your "Net Funding" is still $100,000. You only risk a clawback if you actively withdraw funds that drop your net funding below the tier threshold.
 
-[^1]: Wealthsimple - Referral Ladder Challenge: https://promotions.wealthsimple.com/hc/en-ca/articles/39074332108955-Wealthsimple-Referral-Ladder-Challenge
+[^1]: Wealthsimple - Referral Ladder Challenge: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^2]: Wealthsimple Help Centre - Transfer an account to Wealthsimple: https://help.wealthsimple.com/hc/en-ca/articles/1500003503661
 
@@ -252,4 +252,4 @@ You will not lose your bonus. Wealthsimple calculates your tier based on Net Fun
 
 [^5]: CRA - Gifts and Awards from Employers (Reference for cash incentives): https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/gifts-awards-social-events/gifts-awards-long-service-awards.html
 
-[^6]: Wealthsimple Help Centre - Open a Corporate Account: https://help.wealthsimple.com/hc/en-ca/articles/4405906843931
+[^6]: Wealthsimple - Open a Corporate Account: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion

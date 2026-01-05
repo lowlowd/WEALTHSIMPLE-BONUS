@@ -271,7 +271,7 @@ In most cases, yes. Traditional banks hold payroll funds until the official "pay
 
 [^2]: Bank of Canada - Foreign Exchange Rates: https://www.bankofcanada.ca/rates/exchange/currency-converter/
 
-[^3]: Wealthsimple Help Centre - ATM Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/1500012838081
+[^3]: Wealthsimple - ATM Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/9730610402075
 
 [^4]: CDIC - Deposit Insurance Coverage: https://help.wealthsimple.com/hc/en-ca/articles/360056590614-How-we-keep-your-money-safe
 

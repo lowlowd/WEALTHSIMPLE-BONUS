@@ -222,6 +222,6 @@ If you withdraw funds within 180 days of receiving your Wealthsimple sign up bon
 
 [^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^2]: Wealthsimple Help Centre - Add a referral code after signing up: https://help.wealthsimple.com/hc/en-ca/articles/4404646552347
+[^2]: Wealthsimple - Add a referral code after signing up: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^3]: Wealthsimple Help Centre - When will I receive my referral bonus?: https://help.wealthsimple.com/hc/en-ca/articles/4404648335523
+[^3]: Wealthsimple - When will I receive my referral bonus?: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion

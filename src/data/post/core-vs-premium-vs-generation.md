@@ -305,6 +305,6 @@ The Wealthsimple sign up bonus itself is cash, not "deposits" for tier purposes.
 
 [^3]: Wealthsimple - Pricing & Tiers: https://www.wealthsimple.com/en-ca/pricing
 
-[^4]: Wealthsimple - Credit Card: https://www.wealthsimple.com/en-ca/product/credit-card
+[^4]: Wealthsimple - Credit Card: https://www.wealthsimple.com/en-ca/credit-card
 
-[^5]: Wealthsimple - Household Feature: https://help.wealthsimple.com/hc/en-ca/articles/4408576949787
+[^5]: Wealthsimple - Household Feature: https://help.wealthsimple.com/hc/en-ca/articles/14557325627803

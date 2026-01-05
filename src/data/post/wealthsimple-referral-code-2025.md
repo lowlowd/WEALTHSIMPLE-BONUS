@@ -387,11 +387,11 @@ Yes! Once you're a Wealthsimple client, you get your own referral link and can e
 
 [^1]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^2]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
+[^2]: Wealthsimple - How to Use a Referral Code: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^3]: Wealthsimple - Transfer Fee Reimbursement: https://help.wealthsimple.com/hc/en-ca/articles/360058459793
+[^3]: Wealthsimple - Transfer Fee Reimbursement: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
-[^4]: Wealthsimple - How to Use a Referral Code: https://help.wealthsimple.com/hc/en-ca/articles/4408285991579
+[^4]: Wealthsimple - How to Use a Referral Code: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 
 [^5]: Wealthsimple - Referral Program: https://promotions.wealthsimple.com/hc/en-ca/articles/19646567019035-Wealthsimple-Referral-Bonus-Promotion
 

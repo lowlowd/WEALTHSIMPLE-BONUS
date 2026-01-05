@@ -178,7 +178,7 @@ a[data-footnote-ref] {
 
 .prose tbody td:first-child {
   @apply font-medium text-slate-700;
-  text-align: left;
+  text-align: center;
 }
 
 /* Dark mode table styles */
@@ -208,4 +208,62 @@ a[data-footnote-ref] {
 
 .dark .prose tbody td:first-child {
   @apply text-slate-300;
+}
+
+/* ========================================
+   MOBILE POLISH IMPROVEMENTS
+   ======================================== */
+
+/* Line length and typography */
+.prose {
+  max-width: 68ch;
+}
+
+/* Heading vertical rhythm */
+.prose h2 {
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.prose h3 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+}
+
+/* Softer link styling */
+.prose a {
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 768px) {
+  .prose {
+    max-width: 60ch;
+    font-size: 1.0625rem; /* 17px for better mobile readability */
+    line-height: 1.85;
+  }
+
+  .prose p {
+    margin-bottom: 1.5em;
+  }
+
+  .prose h2 {
+    margin-top: 2em;
+  }
+
+  .prose h3 {
+    margin-top: 1.75em;
+  }
+
+  /* Compact table padding on mobile */
+  .prose thead th {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .prose tbody td {
+    padding: 0.5rem 0.75rem;
+  }
 }

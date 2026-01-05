@@ -302,15 +302,15 @@ Yes, but only back to the 2020 tax year. Wealthsimple Tax does not support filin
 
 [^1]: Canada Revenue Agency - Certified software for the 2024 tax year: https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/netfile-overview/certified-software-netfile-program.html
 
-[^2]: Wealthsimple Help Centre - Wealthsimple Tax Accuracy Guarantee: https://help.wealthsimple.com/hc/en-ca/articles/4409324100507
+[^2]: Wealthsimple - Wealthsimple Tax Accuracy Guarantee: https://help.wealthsimple.com/hc/en-ca/articles/360056580534
 
-[^3]: Wealthsimple Help Centre - Is there a Wealthsimple Tax app?: https://help.wealthsimple.com/hc/en-ca/articles/360058461433
+[^3]: Wealthsimple - Is there a Wealthsimple Tax app?: https://help.wealthsimple.com/hc/en-ca/articles/4409329745051
 
-[^4]: Wealthsimple Help Centre - Can I file a T3 Trust return?: https://help.wealthsimple.com/hc/en-ca/articles/4409328224795
+[^4]: Wealthsimple - Can I file a T3 Trust return?: https://help.wealthsimple.com/hc/en-ca/articles/4418347816347
 
-[^5]: Wealthsimple Help Centre - Form T1135 Foreign Income Verification: https://help.wealthsimple.com/hc/en-ca/articles/4409323547419
+[^5]: Wealthsimple - Form T1135 Foreign Income Verification: https://help.wealthsimple.com/hc/en-ca/articles/4418347816347
 
-[^6]: Wealthsimple Help Centre - Can I file for previous years?: https://help.wealthsimple.com/hc/en-ca/articles/4409328222107
+[^6]: Wealthsimple - Can I file for previous years?: https://help.wealthsimple.com/hc/en-ca/articles/4418347816347
 
 ### Where do I find my NETFILE Access Code?
 
