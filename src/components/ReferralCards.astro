@@ -1,0 +1,275 @@
+---
+// src/components/ReferralCards.astro
+// Bright colorful table - gold for WS, green for Questrade
+---
+
+<div class="referral-table-wrapper">
+  <table class="referral-table">
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Bonus</th>
+        <th>Requirement</th>
+        <th>Code</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="ws-row">
+        <td class="platform-cell">
+          <strong>Wealthsimple</strong>
+        </td>
+        <td class="bonus-cell">$25</td>
+        <td>Deposit $1</td>
+        <td class="code-cell">
+          <button class="copy-btn" data-code="9C6DMQ">
+            9C6DMQ
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a
+            href="https://wealthsimple.com/invite/9C6DMQ"
+            class="apply-link ws-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply ➔
+          </a>
+        </td>
+      </tr>
+      <tr class="qt-row">
+        <td class="platform-cell">
+          <strong>Questrade</strong>
+        </td>
+        <td class="bonus-cell">$50</td>
+        <td>Deposit $250</td>
+        <td class="code-cell">
+          <button class="copy-btn qt-copy" data-code="406714313487116">
+            406714...
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a
+            href="https://questmobile.onelink.me/tX0y/419708l0"
+            class="apply-link qt-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply ➔
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .referral-table-wrapper {
+    margin: 2rem 0;
+    overflow-x: auto;
+    border-radius: 12px;
+  }
+
+  .referral-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .referral-table th {
+    background: #374151;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+  }
+
+  /* Center align Bonus, Requirement, Code, Link columns */
+  .referral-table th:nth-child(2),
+  .referral-table th:nth-child(3),
+  .referral-table th:nth-child(4),
+  .referral-table th:nth-child(5),
+  .referral-table td:nth-child(2),
+  .referral-table td:nth-child(3),
+  .referral-table td:nth-child(4),
+  .referral-table td:nth-child(5) {
+    text-align: center;
+  }
+
+  .referral-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* WEALTHSIMPLE ROW - Gold/Yellow theme */
+  .ws-row {
+    background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%);
+  }
+
+  .ws-row td {
+    color: #78350f;
+    border-bottom: 2px solid #fbbf24;
+  }
+
+  .ws-row .platform-cell {
+    color: #92400e;
+  }
+
+  .ws-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #b45309;
+  }
+
+  /* QUESTRADE ROW - Green theme */
+  .qt-row {
+    background: linear-gradient(90deg, #d1fae5 0%, #a7f3d0 100%);
+  }
+
+  .qt-row td {
+    color: #064e3b;
+  }
+
+  .qt-row .platform-cell {
+    color: #047857;
+  }
+
+  .qt-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #059669;
+  }
+
+  /* Code cell with copy button */
+  .code-cell {
+    font-family: ui-monospace, monospace;
+  }
+
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: ui-monospace, monospace;
+    font-size: 0.8rem;
+    color: #1f2937;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    min-width: 95px;
+  }
+
+  .copy-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .copy-btn.copied {
+    background: #1f2937;
+    color: #ffffff;
+  }
+
+  /* Apply link */
+  .apply-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white !important;
+    transition: opacity 0.15s ease;
+  }
+
+  .apply-link:hover {
+    opacity: 0.9;
+  }
+
+  .ws-link {
+    background: #b45309;
+  }
+
+  .qt-link {
+    background: #059669;
+  }
+
+  /* Mobile responsive */
+  @media (max-width: 639px) {
+    .referral-table th,
+    .referral-table td {
+      padding: 0.5rem 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    /* Hide Requirement column on mobile */
+    .referral-table th:nth-child(3),
+    .referral-table td:nth-child(3) {
+      display: none;
+    }
+
+    .apply-link {
+      padding: 0.35rem 0.5rem;
+      font-size: 0.7rem;
+    }
+
+    .bonus-cell {
+      font-size: 0.95rem !important;
+    }
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const code = btn.getAttribute('data-code');
+      navigator.clipboard.writeText(code).then(() => {
+        btn.classList.add('copied');
+        const originalText = btn.childNodes[0].textContent;
+        btn.childNodes[0].textContent = 'Copied!';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.childNodes[0].textContent = originalText;
+        }, 2000);
+      });
+    });
+  });
+</script>

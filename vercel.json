@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/blog/wealthsimple-referral-code-2025",
+      "destination": "/blog/wealthsimple-guide",
+      "permanent": true
+    },
+    {
+      "source": "/fr/blogue/code-de-parrainage-wealthsimple-2025",
+      "destination": "/fr/blogue/guide-wealthsimple",
+      "permanent": true
+    },
+    {
       "source": "/_astro/wealthsimple-referral-code-2025.BxGau8hQ.png",
       "destination": "/images/en/wealthsimple-referral-code-9c6dmq.jpg",
       "permanent": true

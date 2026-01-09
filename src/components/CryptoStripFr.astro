@@ -1,0 +1,287 @@
+---
+// src/components/CryptoStripFr.astro
+// Single-row referral strip for crypto platforms in French
+// Usage: <CryptoStripFr platform="wealthsimple" /> or "newton" or "shakepay"
+
+interface Props {
+  platform: 'wealthsimple' | 'newton' | 'shakepay';
+}
+
+const { platform } = Astro.props;
+
+const platformData = {
+  wealthsimple: {
+    name: 'Wealthsimple',
+    bonus: '25 $',
+    requirement: 'Dépôt de 1 $',
+    code: '9C6DMQ',
+    link: 'https://wealthsimple.com/invite/9C6DMQ',
+    rowClass: 'ws-row',
+    linkClass: 'ws-link',
+  },
+  newton: {
+    name: 'Newton',
+    bonus: '25 $',
+    requirement: 'Transaction de 100 $',
+    code: 'JPPX31',
+    link: 'https://www.newton.co/r/JPPX31',
+    rowClass: 'newton-row',
+    linkClass: 'newton-link',
+  },
+  shakepay: {
+    name: 'Shakepay',
+    bonus: '20 $',
+    requirement: 'Transaction de 100 $',
+    code: '059XIVK',
+    link: 'https://shakepay.com/r/059XIVK',
+    rowClass: 'shakepay-row',
+    linkClass: 'shakepay-link',
+  },
+};
+
+const data = platformData[platform];
+---
+
+<div class="crypto-strip-wrapper">
+  <table class="crypto-strip">
+    <thead>
+      <tr>
+        <th>Plateforme</th>
+        <th>Prime</th>
+        <th>Exigence</th>
+        <th>Code</th>
+        <th>Lien</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class={data.rowClass}>
+        <td class="platform-cell">
+          <strong>{data.name}</strong>
+        </td>
+        <td class="bonus-cell">{data.bonus}</td>
+        <td>{data.requirement}</td>
+        <td class="code-cell">
+          <button class="copy-btn" data-code={data.code}>
+            {data.code}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a href={data.link} class={`apply-link ${data.linkClass}`} target="_blank" rel="noopener noreferrer">
+            S'inscrire ➔
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .crypto-strip-wrapper {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    border-radius: 12px;
+  }
+
+  .crypto-strip {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .crypto-strip th {
+    background: #374151;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+
+  .crypto-strip th:nth-child(2),
+  .crypto-strip th:nth-child(3),
+  .crypto-strip th:nth-child(4),
+  .crypto-strip th:nth-child(5),
+  .crypto-strip td:nth-child(2),
+  .crypto-strip td:nth-child(3),
+  .crypto-strip td:nth-child(4),
+  .crypto-strip td:nth-child(5) {
+    text-align: center;
+  }
+
+  .crypto-strip td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .ws-row {
+    background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%);
+  }
+
+  .ws-row td {
+    color: #78350f;
+  }
+
+  .ws-row .platform-cell {
+    color: #92400e;
+  }
+
+  .ws-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #b45309;
+  }
+
+  .newton-row {
+    background: linear-gradient(90deg, #dbeafe 0%, #bfdbfe 100%);
+  }
+
+  .newton-row td {
+    color: #1e3a8a;
+  }
+
+  .newton-row .platform-cell {
+    color: #1d4ed8;
+  }
+
+  .newton-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #2563eb;
+  }
+
+  .shakepay-row {
+    background: linear-gradient(90deg, #ffedd5 0%, #fed7aa 100%);
+  }
+
+  .shakepay-row td {
+    color: #7c2d12;
+  }
+
+  .shakepay-row .platform-cell {
+    color: #c2410c;
+  }
+
+  .shakepay-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #ea580c;
+  }
+
+  .code-cell {
+    font-family: ui-monospace, monospace;
+  }
+
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: ui-monospace, monospace;
+    font-size: 0.8rem;
+    color: #1f2937;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    min-width: 85px;
+  }
+
+  .copy-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .copy-btn.copied {
+    background: #1f2937;
+    color: #ffffff;
+  }
+
+  .apply-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white !important;
+    transition: opacity 0.15s ease;
+  }
+
+  .apply-link:hover {
+    opacity: 0.9;
+  }
+
+  .ws-link {
+    background: #b45309;
+  }
+
+  .newton-link {
+    background: #2563eb;
+  }
+
+  .shakepay-link {
+    background: #ea580c;
+  }
+
+  @media (max-width: 639px) {
+    .crypto-strip th,
+    .crypto-strip td {
+      padding: 0.5rem 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    .crypto-strip th:nth-child(3),
+    .crypto-strip td:nth-child(3) {
+      display: none;
+    }
+
+    .apply-link {
+      padding: 0.35rem 0.5rem;
+      font-size: 0.7rem;
+    }
+
+    .bonus-cell {
+      font-size: 0.95rem !important;
+    }
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.crypto-strip .copy-btn').forEach((btn) => {
+    const originalCode = btn.getAttribute('data-code');
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(originalCode).then(() => {
+        btn.classList.add('copied');
+        btn.childNodes[0].textContent = 'Copié!';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.childNodes[0].textContent = originalCode;
+        }, 2000);
+      });
+    });
+  });
+</script>

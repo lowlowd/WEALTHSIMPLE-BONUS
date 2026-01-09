@@ -203,7 +203,7 @@ The Referral Ladder Challenge is one of the best-kept secrets in Canadian fintec
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Referral Bonus Terms & Conditions Explained](/blog/referral-bonus-terms-conditions)
 - [Wealthsimple vs Questrade Fees 2025](/blog/wealthsimple-vs-questrade-2025)
 - [Wealthsimple Core vs Premium vs Generation](/blog/core-vs-premium-vs-generation)

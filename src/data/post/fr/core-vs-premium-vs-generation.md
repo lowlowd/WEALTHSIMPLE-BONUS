@@ -25,7 +25,7 @@ faqs:
     answer: "Si vous négociez fréquemment des actions américaines, le compte USD gratuit économise 1,5 % sur chaque conversion. Sur 10 000 $ de transactions USD annuellement, c'est 150 $ d'économies, ce qui dépasse les 120 $/an que coûterait le compte USD pour un client Core."
 ---
 
-Le système de paliers de Wealthsimple détermine vos frais, avantages et expérience globale. Comprendre les différences vous aide à savoir si viser un palier supérieur vaut l'effort. Voici exactement ce que vous obtenez à chaque niveau.
+Wealthsimple n'est pas seulement un courtier—c'est en fait un écosystème à paliers où vos avantages s'améliorent au fur et à mesure que votre compte grandit. En tant que cliente Core avec deux ans d'expérience, j'ai regardé mes comptes grandir vers ce seuil de 100 K$—donc j'ai porté une attention particulière à ce que chaque palier offre réellement. Si vous vous demandez si ça vaut la peine de pousser pour atteindre le seuil de 100 K$ ou 500 K$, ce comparatif de **Wealthsimple Core vs Premium vs Génération** vous aidera à comprendre la vraie valeur.
 
 ## Les trois paliers en un coup d'œil
 
@@ -46,7 +46,7 @@ Le système de paliers de Wealthsimple détermine vos frais, avantages et expér
 
 ## Palier Core : Le point de départ
 
-Core est là où tout le monde commence. Avec des dépôts nets sous 100 000 $, vous obtenez :
+Le palier **Core** est là où tout le monde commence—et honnêtement, c'est assez solide en soi. Je suis cliente Core depuis l'ouverture de mes comptes, et bien que je sois consciente des limitations, ça fonctionne bien pour mes besoins actuels. Voici ce que vous obtenez quand vous débutez ou construisez votre portefeuille :
 
 ### Ce qui est inclus
 
@@ -55,6 +55,16 @@ Core est là où tout le monde commence. Avec des dépôts nets sous 100 000 $, 
 - **Frais crypto standard** (2 %)
 - **Compte Cash** avec intérêt de base (0,75 %)
 - **Carte Wealthsimple** sans frais de transaction étrangère
+
+### Le coût caché : Négociation USD
+
+Ok, voici le piège pour les utilisateurs Core—il y a des **frais de conversion de 1,5 %** chaque fois que vous touchez aux actions américaines. C'est la principale limitation que j'ai remarquée dans mes propres transactions—je me suis surtout tenue aux FNB canadiens pour éviter ces frais.
+
+**Exemple :** Acheter 10 000 $ d'actions Apple :
+
+- Frais FX : 150 $ (achat) + 150 $ (vente) = **300 $ coût aller-retour**
+
+La solution de contournement ? Le **compte USD** pour 10 $/mois, qui vous permet de détenir des USD et éviter la conversion par transaction.
 
 ### Ce qui coûte extra
 
@@ -71,9 +81,23 @@ La plupart des Canadiens resteront au palier Core, et c'est parfaitement correct
 
 Core offre tout ce dont vous avez besoin sans frais supplémentaires.
 
+### Core suffit-il ?
+
+**Oui, si vous :**
+
+- Investissez seulement dans des actions et FNB canadiens
+- Avez moins de 100 K$ d'actifs totaux
+- Ne négociez pas activement des actions américaines
+
+**Non, si vous :**
+
+- Négociez fréquemment des actions américaines
+- Approchez les 100 K$ et voulez des frais plus bas
+- Voulez un intérêt plus élevé sur vos liquidités
+
 ## Palier Premium : L'option idéale
 
-À 100 000 $+ en dépôts nets, Premium débloque une valeur significative. C'est le palier optimal pour beaucoup d'investisseurs canadiens sérieux.
+**Premium** est vraiment le « sweet spot » pour les investisseurs sérieux au Canada. Atteignez 100 000 $ en dépôts nets sur tous vos comptes Wealthsimple, et vous débloquerez ces améliorations automatiquement.
 
 ### Ce qui est inclus (en plus de Core)
 
@@ -93,6 +117,10 @@ Voici ce que vous économisez en passant de Core à Premium sur un portefeuille 
 | Compte USD              | 120 $/an | 0 $/an   | **120 $**         |
 | Intérêt Cash (sur 10K$) | 75 $/an  | 175 $/an | **100 $**         |
 | **Total**               |          |          | **320 $/an**      |
+
+**Notre avis : Premium en vaut absolument la peine à 100 K$.** Les avantages s'activent automatiquement—vous n'avez rien à faire une fois le seuil atteint. Pour la plupart des Canadiens investissant dans des actions américaines, le compte USD gratuit seul se rentabilise.
+
+Si vous approchez les 100 K$, considérez consolider vos comptes pour atteindre Premium plus vite—c'est exactement ce que je planifie au fur et à mesure que mon portefeuille grandit.
 
 ### Pour qui Premium est idéal
 
@@ -205,6 +233,38 @@ Peu importe le palier que vous viserez éventuellement, tout le monde commence p
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Wealthsimple vs Questrade 2025](/fr/blogue/wealthsimple-vs-questrade-2025)
 - [Évaluation du compte Wealthsimple Cash](/fr/blogue/evaluation-compte-wealthsimple-comptant)
+
+## Foire aux questions
+
+### Puis-je combiner mes actifs avec mon conjoint pour atteindre le statut Génération ?
+
+Oui, grâce à la fonctionnalité **Ménage Wealthsimple**. Un Ménage est limité à 2 personnes partageant la même adresse résidentielle. Une fois liés, Wealthsimple combine vos actifs totaux pour calculer votre palier. Par exemple, si vous avez 300 000 $ et votre partenaire a 200 000 $, vous serez tous deux promus au statut Génération.
+
+> **Note de confidentialité :** Les membres du ménage peuvent seulement voir le total combiné—ils ne peuvent pas accéder aux soldes ou activités individuels de l'autre.
+
+### Si le marché fait baisser mon solde sous 100 000 $, est-ce que je perds mon statut Premium ?
+
+Wealthsimple vous protège généralement des baisses de marché. Votre statut est déterminé par les dépôts nets OU la valeur totale du portefeuille—celui qui est le plus élevé. Si vous déposez 100 000 $ et que le marché fait baisser votre valeur à 90 000 $, vous gardez typiquement le statut Premium.
+
+### Dois-je payer les frais de 10 $ USD pour chaque compte séparément ?
+
+Non. Si vous êtes un client Core payant pour l'abonnement au compte USD (10 $/mois), ces frais uniques couvrent tous vos comptes admissibles (CELI, REER et non-enregistré). Si vous êtes Premium ou Génération, ces frais sont entièrement annulés.
+
+### Mon argent est-il bloqué si j'investis en crédit privé ou capital-investissement ?
+
+Oui, ces actifs ont des règles de liquidité différentes des actions. Contrairement aux FNB qui peuvent être vendus instantanément pendant les heures de marché, les fonds de crédit privé et capital-investissement ont typiquement des « fenêtres de rachat » mensuelles ou trimestrielles spécifiques.
+
+### Les clients Génération ont-ils toujours accès aux salons DragonPass ?
+
+Oui, mais cela fait partie du système « Récompenses Jalons ». Une fois que vous atteignez le niveau d'actifs requis, vous pouvez sélectionner les 10 visites de salon DragonPass comme récompense pour l'année.
+
+### Est-ce que CELI + REER + Chèques comptent tous vers le statut de palier ?
+
+Oui. Tous les comptes Wealthsimple sont combinés lors du calcul de votre palier.
+
+### Les primes de parrainage comptent-elles vers la qualification de palier ?
+
+La prime d'inscription Wealthsimple elle-même est de l'argent comptant, pas des « dépôts » aux fins du palier. Cependant, tous les fonds que vous déposez pour recevoir la prime comptent vers votre statut de palier.

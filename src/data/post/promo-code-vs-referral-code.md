@@ -2,10 +2,10 @@
 author: Isabelle Reuben
 publishDate: 2025-12-03T00:00:00Z
 updateDate: 2026-01-16T00:00:00Z
-title: 'Wealthsimple Promo Code 2026: Best Deals & Bonuses (Guide)'
-excerpt: 'Confused about Wealthsimple promo codes and referral codes? Learn the key differences, which one is better for you, and whether you can stack them.'
+title: 'Wealthsimple Promo Code vs Referral Code (2026): Which Is Better?'
+excerpt: 'Promo code or referral code? Compare minimum deposits, rewards, and availability to choose the best Wealthsimple signup option for your situation.'
 image: /images/en/wealthsimple-promo-code-vs-referral-code.webp
-imageCaption: 'Comparison of Wealthsimple promo codes vs referral codes for 2026'
+imageCaption: 'Side-by-side comparison: Wealthsimple promo code vs referral code (2026 requirements and rewards)'
 category: Referral Codes
 tags:
   - wealthsimple promo code
@@ -38,6 +38,11 @@ faqs:
 ---
 
 Let's clear this up once and for all. I've helped dozens of friends set up their accounts, and the first question is always: "Do I have a promo code?" I usually have to break the news that unless they're transferring a six-figure inheritance, a referral code is actually what they're looking for.
+
+<div style="margin: 1rem 0; padding: clamp(0.75rem, 2vw, 1.25rem) clamp(1rem, 2vw, 1.5rem); background: linear-gradient(90deg, #d1fae5 0%, #a7f3d0 100%); border-radius: 8px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.75rem; text-align: center;">
+  <span style="color: #065f46; font-weight: 500; font-size: clamp(0.9rem, 1.5vw, 1.1rem); flex: 1 1 auto; min-width: 200px;">Account under $100K? Use referral code <strong style="font-size: clamp(1rem, 1.8vw, 1.25rem);">9C6DMQ</strong></span>
+  <a href="/" style="display: inline-block; padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1.25rem, 2vw, 2rem); background: #059669; color: white; font-weight: 700; font-size: clamp(0.85rem, 1.2vw, 1rem); border-radius: 6px; text-decoration: none; white-space: nowrap;">Get $25 →</a>
+</div>
 
 ## Quick Comparison: Promo Code vs Referral Code
 
@@ -361,7 +366,7 @@ If bonuses were deposited to your TFSA or RRSP, they would consume contribution 
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
 - [Referral Bonus Terms & Conditions Explained](/blog/referral-bonus-terms-conditions)
 

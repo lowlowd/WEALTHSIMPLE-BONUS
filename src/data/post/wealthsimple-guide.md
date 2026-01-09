@@ -2,10 +2,10 @@
 author: Isabelle Reuben
 publishDate: 2025-12-07T00:00:00Z
 updateDate: 2026-01-06T00:00:00Z
-title: 'Wealthsimple Referral Code 2026: Get $25 Bonus (Ultimate Guide)'
-excerpt: 'Get the latest Wealthsimple referral code for 2026 and earn a $25 cash bonus. Learn about the referral ladder, existing client options, and how to maximize your rewards.'
+title: 'Wealthsimple Guide (2026): Products, Fees & Referral Program'
+excerpt: 'A complete overview of the Wealthsimple ecosystem for 2026. We explain the products (Trade, Cash, Crypto), fees, and how the referral program works.'
 image: /images/en/wealthsimple-referral-code-9c6dmq.webp
-imageCaption: 'Using referral code 9C6DMQ to claim your Wealthsimple signup bonus in 2026'
+imageCaption: 'Wealthsimple Platform Overview 2026: A guide to account types, fees, and the referral program ladder'
 category: Referral Codes
 tags:
   - wealthsimple referral code
@@ -14,14 +14,24 @@ tags:
   - wealthsimple promo code
   - wealthsimple referral 2026
 metadata:
-  canonical: https://wealthsimplebonus.ca/blog/wealthsimple-referral-code-2025
+  canonical: https://wealthsimplebonus.ca/blog/wealthsimple-guide
 ---
 
-So you're looking for a **Wealthsimple referral code in 2025**—you've found it. I've been using Wealthsimple for over two years now for my Cash, Trading, and RRSP accounts, so I can speak from experience about how the referral program actually works. Whether you're after a promo deal, trying to squeeze every dollar out of your sign up bonus, or you're kicking yourself for forgetting to enter a code when you signed up (we've all been there), this guide has you covered. No fluff, just what actually works here in Canada.
+Wealthsimple is Canada's largest online brokerage, offering commission-free trading, automated investing, crypto, and high-interest banking—all in one app. This guide explains how the platform works, what products are available, and how the referral bonus program operates.
 
-> **TL;DR:** Use code **9C6DMQ** → Deposit $1+ → Get **$25 cash** within 24 hours. [Sign up here](https://wealthsimple.com/invite/9C6DMQ)
+<div style="margin: 1rem 0; padding: clamp(0.75rem, 2vw, 1.25rem) clamp(1rem, 2vw, 1.5rem); background: linear-gradient(90deg, #d1fae5 0%, #a7f3d0 100%); border-radius: 8px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.75rem; text-align: center;">
+  <span style="color: #065f46; font-weight: 500; font-size: clamp(0.9rem, 1.5vw, 1.1rem); flex: 1 1 auto; min-width: 200px;">Looking for a referral code? <strong style="font-size: clamp(1rem, 1.8vw, 1.25rem);">9C6DMQ</strong></span>
+  <a href="/" style="display: inline-block; padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1.25rem, 2vw, 2rem); background: #059669; color: white; font-weight: 700; font-size: clamp(0.85rem, 1.2vw, 1rem); border-radius: 6px; text-decoration: none; white-space: nowrap;">Get $25 →</a>
+</div>
 
-## Current Wealthsimple Referral Code (December 2025)
+## Quick Navigation
+
+- **[Promo vs Referral: Which is better? →](/blog/promo-code-vs-referral-code)**
+- **[Forgot your code? Add it after signup →](/blog/add-referral-code-after-signup)**
+- **[Referral Ladder: Earn up to $5,000 →](/blog/referral-ladder-challenge)**
+- **Platform overview** (continue reading below)
+
+## Current Wealthsimple Referral Code (January 2026)
 
 The current working Wealthsimple referral code is **9C6DMQ**. When you use this code:
 
@@ -29,11 +39,9 @@ The current working Wealthsimple referral code is **9C6DMQ**. When you use this 
 - **Minimum deposit:** Just $1
 - **Bonus timing:** Within 24 hours of your qualifying deposit
 
-👉 **[Sign up with referral code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)** and get your $25 bonus today.
-
 Searching for a Wealthsimple referral code with no deposit required? The $1 minimum is as close as it gets—essentially free money for pocket change.
 
-> **Personal note:** I opened my Wealthsimple account in late 2022 and it's now my primary platform for everyday trading and my RRSP. The referral bonus was my first interaction with Wealthsimple—and two years later, I'm still here.
+> **Personal note:** I opened my Wealthsimple account in late 2022 and it's now my primary platform for everyday trading and my RRSP. The referral bonus was my first interaction with Wealthsimple—and years later, I'm still here.
 
 ## How the Wealthsimple Referral Program Works
 
@@ -301,7 +309,7 @@ Look, there are referral codes all over Reddit and random forums. Here's why our
 
 Seriously, the whole process takes maybe 5 minutes. That's it. Five minutes for free money.
 
-1. **[Click here to sign up with code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)**
+1. **[Get the referral code on the homepage →](/)**
 2. Complete the quick identity verification
 3. Link your bank account
 4. Deposit $1 or more

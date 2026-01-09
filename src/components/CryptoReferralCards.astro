@@ -1,0 +1,333 @@
+---
+// src/components/CryptoReferralCards.astro
+// 3-column table for crypto platforms: Wealthsimple (gold), Newton (blue), Shakepay (orange)
+---
+
+<div class="crypto-table-wrapper">
+  <table class="crypto-table">
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Bonus</th>
+        <th>Requirement</th>
+        <th>Code</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="ws-row">
+        <td class="platform-cell">
+          <strong>Wealthsimple</strong>
+        </td>
+        <td class="bonus-cell">$25</td>
+        <td>Deposit $1</td>
+        <td class="code-cell">
+          <button class="copy-btn" data-code="9C6DMQ">
+            9C6DMQ
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a
+            href="https://wealthsimple.com/invite/9C6DMQ"
+            class="apply-link ws-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply ➔
+          </a>
+        </td>
+      </tr>
+      <tr class="newton-row">
+        <td class="platform-cell">
+          <strong>Newton</strong>
+        </td>
+        <td class="bonus-cell">$25</td>
+        <td>Trade $100</td>
+        <td class="code-cell">
+          <button class="copy-btn newton-copy" data-code="JPPX31">
+            JPPX31
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a
+            href="https://www.newton.co/r/JPPX31"
+            class="apply-link newton-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply ➔
+          </a>
+        </td>
+      </tr>
+      <tr class="shakepay-row">
+        <td class="platform-cell">
+          <strong>Shakepay</strong>
+        </td>
+        <td class="bonus-cell">$20</td>
+        <td>Trade $100</td>
+        <td class="code-cell">
+          <button class="copy-btn shakepay-copy" data-code="059XIVK">
+            059XIVK
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path
+                d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg
+            >
+          </button>
+        </td>
+        <td>
+          <a
+            href="https://shakepay.com/r/059XIVK"
+            class="apply-link shakepay-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apply ➔
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .crypto-table-wrapper {
+    margin: 2rem 0;
+    overflow-x: auto;
+    border-radius: 12px;
+  }
+
+  .crypto-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .crypto-table th {
+    background: #374151;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+  }
+
+  /* Center align Bonus, Requirement, Code, Link columns */
+  .crypto-table th:nth-child(2),
+  .crypto-table th:nth-child(3),
+  .crypto-table th:nth-child(4),
+  .crypto-table th:nth-child(5),
+  .crypto-table td:nth-child(2),
+  .crypto-table td:nth-child(3),
+  .crypto-table td:nth-child(4),
+  .crypto-table td:nth-child(5) {
+    text-align: center;
+  }
+
+  .crypto-table td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  /* WEALTHSIMPLE ROW - Gold/Yellow theme */
+  .ws-row {
+    background: linear-gradient(90deg, #fef3c7 0%, #fde68a 100%);
+  }
+
+  .ws-row td {
+    color: #78350f;
+    border-bottom: 2px solid #fbbf24;
+  }
+
+  .ws-row .platform-cell {
+    color: #92400e;
+  }
+
+  .ws-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #b45309;
+  }
+
+  /* NEWTON ROW - Blue theme */
+  .newton-row {
+    background: linear-gradient(90deg, #dbeafe 0%, #bfdbfe 100%);
+  }
+
+  .newton-row td {
+    color: #1e3a8a;
+    border-bottom: 2px solid #3b82f6;
+  }
+
+  .newton-row .platform-cell {
+    color: #1d4ed8;
+  }
+
+  .newton-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #2563eb;
+  }
+
+  /* SHAKEPAY ROW - Orange theme */
+  .shakepay-row {
+    background: linear-gradient(90deg, #ffedd5 0%, #fed7aa 100%);
+  }
+
+  .shakepay-row td {
+    color: #7c2d12;
+  }
+
+  .shakepay-row .platform-cell {
+    color: #c2410c;
+  }
+
+  .shakepay-row .bonus-cell {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #ea580c;
+  }
+
+  /* Code cell with copy button */
+  .code-cell {
+    font-family: ui-monospace, monospace;
+  }
+
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: ui-monospace, monospace;
+    font-size: 0.8rem;
+    color: #1f2937;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    min-width: 85px;
+  }
+
+  .copy-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .copy-btn.copied {
+    background: #1f2937;
+    color: #ffffff;
+  }
+
+  /* Apply link */
+  .apply-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white !important;
+    transition: opacity 0.15s ease;
+  }
+
+  .apply-link:hover {
+    opacity: 0.9;
+  }
+
+  .ws-link {
+    background: #b45309;
+  }
+
+  .newton-link {
+    background: #2563eb;
+  }
+
+  .shakepay-link {
+    background: #ea580c;
+  }
+
+  /* Mobile responsive */
+  @media (max-width: 639px) {
+    .crypto-table th,
+    .crypto-table td {
+      padding: 0.5rem 0.4rem;
+      font-size: 0.75rem;
+    }
+
+    /* Hide Requirement column on mobile */
+    .crypto-table th:nth-child(3),
+    .crypto-table td:nth-child(3) {
+      display: none;
+    }
+
+    .apply-link {
+      padding: 0.35rem 0.5rem;
+      font-size: 0.7rem;
+    }
+
+    .bonus-cell {
+      font-size: 0.95rem !important;
+    }
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.crypto-table .copy-btn').forEach((btn) => {
+    const originalCode = btn.getAttribute('data-code');
+    btn.addEventListener('click', () => {
+      navigator.clipboard.writeText(originalCode).then(() => {
+        btn.classList.add('copied');
+        btn.childNodes[0].textContent = 'Copied!';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.childNodes[0].textContent = originalCode;
+        }, 2000);
+      });
+    });
+  });
+</script>

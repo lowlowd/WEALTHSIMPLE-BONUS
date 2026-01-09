@@ -266,7 +266,7 @@ And when you receive that refund? Consider investing it and claiming a **$25 ref
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Wealthsimple Cash Account Review 2025](/blog/wealthsimple-cash-account-review)
 - [Wealthsimple Core vs Premium vs Generation](/blog/core-vs-premium-vs-generation)
 

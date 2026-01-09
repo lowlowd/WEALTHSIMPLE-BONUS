@@ -112,6 +112,22 @@ Vous gagnez **1 % de remise en argent** sur tous les achats avec la carte. Ce n'
 
 > **⚠️ Note :** Les retraits à l'étranger ne sont **pas** remboursés. Cette politique s'applique uniquement aux guichets canadiens.
 
+## Fonctionnalités du compte USD
+
+Pour les utilisateurs qui détiennent des dollars américains (dividendes d'actions US, revenus en USD, etc.), Wealthsimple offre un compte USD :
+
+| Caractéristique | Core        | Premium/Génération |
+| --------------- | ----------- | ------------------ |
+| Compte USD      | 10 $/mois   | Gratuit            |
+| Intérêt USD     | Limité      | Oui                |
+| Conversion FX   | Frais 1,5 % | Frais 1,5 %        |
+
+Le compte USD est particulièrement utile pour :
+
+- Collecter les dividendes d'actions américaines en USD
+- Éviter les conversions de devises répétées
+- Voyager fréquemment aux États-Unis
+
 ## Assurance SADC : Jusqu'à 1 million de dollars
 
 C'est l'une des caractéristiques les plus sous-estimées du compte Wealthsimple Cash.
@@ -131,6 +147,40 @@ Wealthsimple répartit vos dépôts entre plusieurs banques partenaires membres 
 | CPG (même banque) | 100 000 $ combiné   |
 
 Pour les personnes avec des soldes élevés, cette couverture étendue est un avantage majeur.
+
+## Fonds de crédit privé (Palier Génération)
+
+Pour les clients Génération (500 K$+), Wealthsimple offre l'accès aux investissements en crédit privé.
+
+### Qu'est-ce que le crédit privé ?
+
+Les fonds de crédit privé prêtent directement aux entreprises, contournant les banques traditionnelles. Ils offrent typiquement :
+
+- Des rendements plus élevés que les revenus fixes traditionnels
+- Une corrélation plus faible avec les marchés boursiers
+- Des distributions de revenus régulières
+
+### Considérations de risque
+
+Le crédit privé **n'est pas sans risque** :
+
+- Moins liquide que les actions ou ETF
+- Risque de défaut sur les prêts sous-jacents
+- Ne convient pas aux fonds d'urgence
+
+Ce produit est conçu pour les investisseurs avertis qui comprennent les risques et veulent une diversification au-delà des marchés publics.
+
+## Ouvrir un compte Wealthsimple Cash
+
+C'est simple de commencer :
+
+1. **[Inscrivez-vous avec le code de parrainage 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)** — Recevez une prime de 25 $
+2. Complétez la vérification d'identité (quelques minutes)
+3. Votre compte Cash/Chèques est automatiquement ouvert
+4. Commandez votre carte Mastercard prépayée gratuite
+5. Liez votre compte bancaire et transférez des fonds
+
+Il n'y a pas de dépôt minimum pour ouvrir le compte ou commencer à gagner des intérêts.
 
 ## Intégration avec l'écosystème Wealthsimple
 
@@ -187,6 +237,24 @@ Wealthsimple Cash ne supporte pas les chèques papier. Si vous en avez besoin r�
 
 La remise de 1 % est modeste comparée aux cartes de crédit haut de gamme (2-4 %). Si vous maximisez les récompenses, utilisez une carte de crédit pour les achats et Cash pour les services bancaires.
 
+## Wealthsimple Cash vs. EQ Bank
+
+EQ Bank est une autre alternative populaire à haut rendement. Voici comment ils se comparent :
+
+| Caractéristique             | Wealthsimple Cash | EQ Bank          |
+| --------------------------- | ----------------- | ---------------- |
+| Taux d'intérêt              | 1,25 % - 2,25 %   | 1,00 % - 2,75 %  |
+| Carte physique              | Oui (prépayée)    | Oui (Mastercard) |
+| Frais FX                    | 0 %               | 1,5 %            |
+| Couverture SADC             | Jusqu'à 1 M$      | 100 K$           |
+| Intégration investissements | Complète          | Limitée          |
+
+**EQ Bank gagne sur :** Taux maximum légèrement plus élevé avec dépôt direct (2,75 % vs 2,25 %)
+
+**Wealthsimple gagne sur :** Aucuns frais FX, couverture SADC plus élevée, intégration des investissements
+
+Avec les récentes baisses de taux de la Banque du Canada, les deux plateformes offrent maintenant des taux similaires. Le choix dépend de si vous valorisez les services bancaires adaptés aux voyages (Wealthsimple) ou un intérêt d'épargne légèrement plus élevé (EQ Bank).
+
 ## Le verdict
 
 Le compte Wealthsimple Cash n'est peut-être pas le meilleur dans chaque catégorie, mais c'est un excellent choix « tout-en-un » pour les Canadiens qui veulent :
@@ -209,6 +277,44 @@ Ouvrez un compte Wealthsimple (incluant Cash) avec un code de parrainage et rece
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Wealthsimple Core vs Premium vs Génération](/fr/blogue/core-vs-premium-vs-generation)
 - [Wealthsimple vs Questrade 2025](/fr/blogue/wealthsimple-vs-questrade-2025)
+
+## Foire aux questions
+
+### Quel est le taux d'intérêt du compte Wealthsimple Cash en 2025 ?
+
+Les taux varient de 0,75 % à 2,25 % selon le statut du client et l'admissibilité au dépôt direct. Les clients Core reçoivent 0,75 % de base, Premium obtient 1,75 %, et Génération reçoit le maximum de 2,25 %. Les clients Core et Premium admissibles peuvent augmenter leur taux de 0,5 % avec des dépôts directs qualifiants (2 000 $+/mois).
+
+### Y a-t-il des frais de transaction étrangère ?
+
+Non. Wealthsimple facture 0 % sur les achats étrangers, ce qui en fait l'une des meilleures cartes de voyage au Canada.
+
+### Quelle est la meilleure prime d'inscription Wealthsimple ?
+
+La meilleure prime d'inscription est le code de parrainage **9C6DMQ**—vous obtenez 25 $ en argent pour seulement 1 $ de dépôt, et cela va directement dans votre compte Cash et commence à accumuler des intérêts immédiatement.
+
+### Puis-je utiliser la carte Wealthsimple chez Costco ?
+
+Oui ! Costco Canada accepte Mastercard, donc la carte Mastercard prépayée Wealthsimple fonctionne parfaitement là-bas.
+
+### Puis-je ouvrir un compte Wealthsimple Cash conjoint avec mon partenaire ?
+
+Oui. Wealthsimple supporte maintenant les comptes chèques conjoints. Vous pouvez inviter un partenaire à rejoindre votre compte directement via l'application.
+
+### Wealthsimple rembourse-t-il les frais de guichet facturés par d'autres banques ?
+
+Oui, pour les retraits aux guichets canadiens. Wealthsimple rembourse un nombre illimité de frais de guichet jusqu'à 5 $ chacun, le remboursement apparaissant généralement dans les 4 jours ouvrables.
+
+### Combien de temps les dépôts de chèques mobiles prennent-ils pour être compensés ?
+
+Cela dépend de votre limite de dépôt instantané. Si votre limite est de 3 000 $ et que vous déposez un chèque de 1 000 $, les fonds sont généralement disponibles immédiatement. Si vous déposez un chèque de 10 000 $, les premiers 3 000 $ sont disponibles instantanément, et les 7 000 $ restants seront retenus pendant environ 5-7 jours ouvrables.
+
+### Le compte Wealthsimple Cash a-t-il une protection contre les découverts ?
+
+Non. Le compte Wealthsimple Cash n'offre pas de protection contre les découverts traditionnelle ou de crédit.
+
+### Vais-je vraiment être payé un jour plus tôt avec le dépôt direct ?
+
+Dans la plupart des cas, oui. Wealthsimple libère les fonds dès qu'ils reçoivent l'avis du système de compensation des paiements, ce qui arrive souvent l'après-midi ou le soir du jour précédent.

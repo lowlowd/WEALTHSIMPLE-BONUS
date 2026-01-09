@@ -218,7 +218,7 @@ If everything checks out:
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [How to Add a Referral Code After Signing Up](/blog/add-referral-code-after-signup)
 - [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
 

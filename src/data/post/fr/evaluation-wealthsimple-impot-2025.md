@@ -136,6 +136,33 @@ Il n'y a **aucune fonctionnalité bloquée** si vous ne payez pas. Tout le monde
 
 Ces montants sont significativement moins chers que TurboImpôt ou H&R Block pour des déclarations similaires.
 
+## Nouveautés pour 2025
+
+### Guides vidéo sur les impôts
+
+De nouveaux guides vidéo vous accompagnent à travers les différentes sections de votre déclaration d'impôts.
+
+### Production guidée
+
+Un nouvel assistant aide à construire un modèle basé sur votre situation spécifique.
+
+### Intégration des paiements à l'ARC
+
+Si vous devez des impôts, vous pouvez maintenant ajouter l'ARC comme bénéficiaire directement dans votre compte chèques Wealthsimple.
+
+## Négociation d'options et impôts
+
+Pour les négociateurs d'options, la production d'impôts peut être complexe. Wealthsimple Impôt importe votre activité de négociation d'options et catégorise les gains/pertes de manière appropriée.
+
+**Ce qui est suivi :**
+
+- Prime reçue de la vente d'options
+- Gains/pertes de l'achat et la vente d'options
+- Transactions d'assignation et d'exercice
+
+**Retours Reddit :**
+Les utilisateurs sur r/PersonalFinanceCanada et r/CanadianInvestor rapportent que Wealthsimple Impôt gère les options mieux que la plupart des logiciels d'impôt de détail, bien que les stratégies multi-jambes complexes puissent nécessiter une révision manuelle.
+
 ## Limitations à connaître
 
 ### Pas de support téléphonique
@@ -206,6 +233,40 @@ Utiliser Wealthsimple Impôt seul ne vous rend **pas inéligible** à la prime d
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Évaluation du compte Wealthsimple Cash](/fr/blogue/evaluation-compte-wealthsimple-comptant)
 - [Wealthsimple Core vs Premium vs Génération](/fr/blogue/core-vs-premium-vs-generation)
+
+## Foire aux questions
+
+### Wealthsimple Impôt est-il vraiment gratuit ?
+
+Oui. Vous pouvez compléter et soumettre votre déclaration entière pour 0 $. Le don à la fin est complètement optionnel.
+
+### Puis-je produire au Québec ?
+
+Oui, Wealthsimple Impôt supporte les déclarations fédérales et provinciales du Québec.
+
+### Gère-t-il les cryptomonnaies ?
+
+Oui, et c'est l'une des meilleures options gratuites pour les crypto. Si vous négociez des cryptos sur Wealthsimple, votre PBR et vos gains/pertes sont calculés automatiquement.
+
+### Wealthsimple Impôt gère-t-il le formulaire T1135 pour les actifs étrangers ?
+
+Oui. Si vous détenez des biens étrangers d'un coût total de plus de 100 000 $ CAD, Wealthsimple Impôt supporte entièrement le formulaire T1135.
+
+### Puis-je produire une déclaration finale pour une personne décédée ?
+
+Oui, Wealthsimple Impôt supporte la préparation et la production d'une déclaration finale (T1) pour un individu décédé. Cependant, il ne supporte pas actuellement les déclarations T3 de revenus de fiducie.
+
+### Le plan Plus avec protection contre les vérifications vaut-il le coup ?
+
+La version gratuite inclut déjà une garantie d'exactitude de 100 %. Pour les déclarations T4 simples, le plan Plus n'est probablement pas nécessaire. Pour les travailleurs autonomes ou ceux avec des revenus de location, les frais de 30 $ peuvent valoir la tranquillité d'esprit.
+
+### Puis-je produire des impôts pour les années précédentes (déclarations de rattrapage) ?
+
+Oui, mais seulement jusqu'à 2020. Wealthsimple Impôt ne supporte pas la production pour les années avant 2020. Pour 2019 ou avant, vous devrez utiliser des formulaires papier.
+
+### Où trouver mon code d'accès IMPÔTNET ?
+
+Votre code d'accès IMPÔTNET (CAN) est un code de 8 caractères situé dans le coin supérieur droit de votre Avis de cotisation de l'année précédente de l'ARC.

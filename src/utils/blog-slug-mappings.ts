@@ -5,7 +5,7 @@
 
 // English slug → French slug
 export const enToFrBlogSlugs: Record<string, string> = {
-  'wealthsimple-referral-code-2025': 'code-de-parrainage-wealthsimple-2025',
+  'wealthsimple-guide': 'guide-wealthsimple',
   'add-referral-code-after-signup': 'ajouter-code-parrainage-apres-inscription',
   'wealthsimple-vs-questrade-2025': 'wealthsimple-vs-questrade-2025',
   'core-vs-premium-vs-generation': 'core-vs-premium-vs-generation',

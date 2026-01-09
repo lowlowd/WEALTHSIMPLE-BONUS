@@ -223,7 +223,7 @@ This bonus is deposited directly into your Cash account and is yours to keep (su
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Wealthsimple Core vs Premium vs Generation](/blog/core-vs-premium-vs-generation)
 - [Wealthsimple vs Questrade Fees 2025](/blog/wealthsimple-vs-questrade-2025)
 

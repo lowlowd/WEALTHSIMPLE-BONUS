@@ -262,7 +262,7 @@ If you're transferring a large portfolio to immediately reach Premium or Generat
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
 - [Wealthsimple vs Questrade Fees 2025](/blog/wealthsimple-vs-questrade-2025)
 - [Wealthsimple Cash Account Review 2025](/blog/wealthsimple-cash-account-review)

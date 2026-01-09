@@ -25,6 +25,12 @@ const getSimplifiedTitle = (title: string, maxLength: number = 40) => {
 };
 
 const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'category') : '#';
+
+// Only show update date if it's different from publish date AND is today or in the past
+const showUpdateDate =
+  post.updateDate &&
+  new Date(post.updateDate).getTime() !== new Date(post.publishDate).getTime() &&
+  new Date(post.updateDate) <= new Date();
 ---
 
 <ArticleSchema
@@ -95,11 +101,25 @@ const categorySlug = post.category?.slug ? getPermalink(post.category.slug, 'cat
 
       <!-- Metadata Line with Icons -->
       <div class="flex items-center flex-wrap text-sm text-gray-600 dark:text-gray-400 mb-8 gap-y-2">
-        <!-- Date -->
+        {/* Date */}
         <div class="flex items-center">
           <Icon name="tabler:clock" class="w-4 h-4 mr-1.5 text-gray-500 dark:text-gray-400" />
           <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time>
         </div>
+
+        {
+          showUpdateDate && (
+            <>
+              <span class="mx-2 text-gray-400">•</span>
+              <div class="flex items-center">
+                <Icon name="tabler:refresh" class="w-4 h-4 mr-1.5 text-green-600 dark:text-green-400" />
+                <span class="text-green-700 dark:text-green-400 font-medium">
+                  Updated {getFormattedDate(post.updateDate!)}
+                </span>
+              </div>
+            </>
+          )
+        }
 
         {
           post.author && (

@@ -138,10 +138,26 @@ a[data-footnote-ref] {
   -webkit-overflow-scrolling: touch;
 }
 
-@media (min-width: 768px) {
+/* Prevent horizontal body overflow on mobile */
+@media (max-width: 639px) {
+  .prose {
+    overflow-x: hidden;
+  }
+
+  /* Keep table as proper table display, use min-width to fill container */
+  .prose table {
+    display: table;
+    min-width: 100%;
+    max-width: calc(100vw - 3rem);
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 640px) {
   .prose table {
     display: table;
     overflow-x: visible;
+    width: 100%;
   }
 }
 

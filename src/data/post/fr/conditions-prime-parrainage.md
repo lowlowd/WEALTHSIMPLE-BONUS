@@ -225,6 +225,6 @@ Maintenant que vous comprenez les conditions, vous êtes prêt à vous inscrire 
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Comment ajouter un code de parrainage après l'inscription](/fr/blogue/ajouter-code-parrainage-apres-inscription)
 - [Défi de l'échelle de parrainage : Gagnez jusqu'à 5 000 $](/fr/blogue/defi-echelle-parrainage)

@@ -33,6 +33,11 @@ faqs:
 
 Vous vous êtes inscrit à Wealthsimple mais avez oublié d'utiliser un code de parrainage ? Pas d'inquiétude. Vous pourriez encore être en mesure de réclamer votre **prime d'inscription Wealthsimple**. Ce guide couvre exactement comment ajouter un code de parrainage après l'inscription—incluant les fenêtres de temps critiques que vous devez connaître.
 
+<div style="margin: 1rem 0; padding: clamp(0.75rem, 2vw, 1.25rem) clamp(1rem, 2vw, 1.5rem); background: linear-gradient(90deg, #d1fae5 0%, #a7f3d0 100%); border-radius: 8px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.75rem; text-align: center;">
+  <span style="color: #065f46; font-weight: 500; font-size: clamp(0.9rem, 1.5vw, 1.1rem); flex: 1 1 auto; min-width: 200px;">Non approvisionné ou dans les 7 jours? Ajoutez le code <strong style="font-size: clamp(1rem, 1.8vw, 1.25rem);">9C6DMQ</strong></span>
+  <a href="/fr/" style="display: inline-block; padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1.25rem, 2vw, 2rem); background: #059669; color: white; font-weight: 700; font-size: clamp(0.85rem, 1.2vw, 1rem); border-radius: 6px; text-decoration: none; white-space: nowrap;">Obtenez le code →</a>
+</div>
+
 J'ai vécu les deux côtés de la médaille. J'ai réussi à aider un ami à ajouter un code au jour 6, et j'ai dû annoncer la mauvaise nouvelle à un cousin qui a réalisé qu'il avait manqué la fenêtre de seulement 12 heures. C'est une limite ferme que le système applique automatiquement, alors je dis toujours aux gens de vérifier leur onglet « Parrainages » dès qu'ils terminent leur premier dépôt.
 
 ## Pouvez-vous ajouter un code de parrainage après l'inscription ?
@@ -142,6 +147,47 @@ Une fois que vous avez ajouté avec succès le code de parrainage **9C6DMQ** :
 
 La prime est déposée dans votre compte Wealthsimple Cash, pas dans vos comptes de placement. Cela signifie qu'elle n'affecte pas vos droits de cotisation au CELI ou au REER.
 
+## Pourquoi Wealthsimple a-t-elle cette règle de 7 jours ?
+
+La fenêtre rétroactive de 7 jours existe comme un compromis entre deux objectifs :
+
+1. **Aider les utilisateurs authentiques** qui ont oublié d'entrer un code lors de l'inscription
+2. **Prévenir les abus** où les utilisateurs pourraient attendre indéfiniment pour voir s'ils veulent rester avant de réclamer une prime
+
+Cette politique est plus stricte que certains concurrents mais plus généreuse que d'autres (certaines plateformes n'offrent aucune option rétroactive du tout).
+
+## Conseils pour ne pas manquer votre prime de parrainage
+
+Pour référence future, voici comment vous assurer de ne jamais manquer une prime d'inscription :
+
+### ✅ Utilisez le lien direct
+
+Au lieu d'entrer manuellement un code, utilisez un lien de parrainage comme **[wealthsimple.com/invite/9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)**. Cela applique automatiquement le code.
+
+### ✅ Vérifiez avant d'approvisionner
+
+Avant de faire votre premier dépôt, allez dans la section Parrainages et confirmez qu'un code de parrainage est affiché comme appliqué.
+
+### ✅ Faites des captures d'écran
+
+Prenez des captures d'écran de la confirmation que le code a été appliqué. Cela peut aider si vous devez contacter le soutien.
+
+### ✅ Approvisionnez dans les 30 jours
+
+Une fois que vous appliquez un code de parrainage, vous avez 30 jours pour approvisionner votre compte. Si vous manquez cette fenêtre, le code expire—mais pas de panique. Puisque votre compte est encore non approvisionné, vous pouvez simplement réappliquer le même code et recommencer avec une nouvelle fenêtre de 30 jours.
+
+## Prêt à réclamer votre prime d'inscription Wealthsimple ?
+
+Encore dans la fenêtre de 7 jours ? Ou n'avez pas encore approvisionné ? Parfait. Voici votre plan d'action pour réclamer votre prime d'inscription :
+
+1. Ouvrez l'application Wealthsimple maintenant
+2. Naviguez vers la section Parrainages
+3. Entrez le code : **9C6DMQ**
+4. Assurez-vous d'avoir au moins 1 $ déposé
+5. Recevez votre **prime de 25 $ en argent** dans les 24 heures
+
+👉 **[Besoin de recommencer ? Inscrivez-vous ici avec le code 9C6DMQ](https://wealthsimple.com/invite/9C6DMQ)**
+
 ## Questions courantes
 
 ### Le code fonctionne-t-il pour tous les types de comptes ?
@@ -166,6 +212,6 @@ Si vous êtes dans la fenêtre de 7 jours, n'attendez pas. Ajoutez le code immé
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Conditions générales de la prime de parrainage](/fr/blogue/conditions-prime-parrainage)
 - [Défi de l'échelle de parrainage : Gagnez jusqu'à 5 000 $](/fr/blogue/defi-echelle-parrainage)

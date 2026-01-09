@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
+import LanguagePicker from '~/components/common/LanguagePicker.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -69,6 +70,15 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
           </div>
         ))
       }
+    </div>
+
+    <!-- Language Picker -->
+    {/* Detect if current page is French based on homeHref prop or URL */}
+    <div class="py-4 border-t border-gray-200 dark:border-slate-700">
+      <div class="flex items-center gap-2 text-sm text-muted dark:text-gray-400">
+        <span>{homeHref?.includes('/fr') ? 'Langue :' : 'Language:'}</span>
+        <LanguagePicker />
+      </div>
     </div>
 
     <!-- Disclaimer Section -->

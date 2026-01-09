@@ -214,6 +214,6 @@ Partagez votre propre code de parrainage avec vos amis et famille, et gagnez des
 
 ## Articles connexes
 
-- [Code de parrainage Wealthsimple 2025 : Guide ultime](/fr/blogue/code-de-parrainage-wealthsimple-2025)
+- [Guide Wealthsimple : Produits, Frais et Programme de Parrainage](/fr/blogue/guide-wealthsimple)
 - [Conditions générales de la prime de parrainage](/fr/blogue/conditions-prime-parrainage)
 - [Wealthsimple Core vs Premium vs Génération](/fr/blogue/core-vs-premium-vs-generation)

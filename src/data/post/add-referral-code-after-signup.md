@@ -33,6 +33,11 @@ faqs:
 
 Did you sign up for Wealthsimple but forgot to use a referral code? Don't worry. You might still be able to claim your **Wealthsimple sign up bonus**. This guide covers exactly how to add a referral code after signing up—including the critical time windows you need to know about.
 
+<div style="margin: 1rem 0; padding: clamp(0.75rem, 2vw, 1.25rem) clamp(1rem, 2vw, 1.5rem); background: linear-gradient(90deg, #d1fae5 0%, #a7f3d0 100%); border-radius: 8px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.75rem; text-align: center;">
+  <span style="color: #065f46; font-weight: 500; font-size: clamp(0.9rem, 1.5vw, 1.1rem); flex: 1 1 auto; min-width: 200px;">Unfunded or within 7 days? Add code <strong style="font-size: clamp(1rem, 1.8vw, 1.25rem);">9C6DMQ</strong></span>
+  <a href="/" style="display: inline-block; padding: clamp(0.5rem, 1vw, 0.75rem) clamp(1.25rem, 2vw, 2rem); background: #059669; color: white; font-weight: 700; font-size: clamp(0.85rem, 1.2vw, 1rem); border-radius: 6px; text-decoration: none; white-space: nowrap;">Get Code →</a>
+</div>
+
 I've been on both sides of this. I've successfully helped a friend add a code on day 6, and I've had to be the bearer of bad news for a cousin who realized they missed the window by just 12 hours. It's a hard limit that the system enforces automatically, so I always tell people to check their "Referrals" tab the second they finish their first deposit.
 
 ## Can You Add a Referral Code After Signing Up?
@@ -183,7 +188,7 @@ Still within the 7-day window? Or haven't funded yet? Good. Here's your action p
 
 ## Related Articles
 
-- [Wealthsimple Referral Code 2025: Ultimate Guide](/blog/wealthsimple-referral-code-2025)
+- [Wealthsimple Guide: Overview, Products & Referral Program](/blog/wealthsimple-guide)
 - [Referral Bonus Terms & Conditions Explained](/blog/referral-bonus-terms-conditions)
 - [Referral Ladder Challenge: Earn Up to $5,000](/blog/referral-ladder-challenge)
 
