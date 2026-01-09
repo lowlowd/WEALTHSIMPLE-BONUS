@@ -33,7 +33,15 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) => {
+        // Exclude blog/blogue pagination pages (page 2+) - they have noindex
+        if (/\/(blog|blogue)\/\d+/.test(page)) return false;
+        // Exclude tag/etiquette pages - they have noindex
+        if (/\/(tag|etiquette)\//.test(page)) return false;
+        return true;
+      },
+    }),
     mdx(),
     icon({
       include: {
