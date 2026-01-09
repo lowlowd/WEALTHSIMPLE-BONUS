@@ -271,3 +271,77 @@ git diff --name-only | grep "_astro"
 - [ ] Tables render correctly on mobile
 - [ ] Schema markup validates (test with Google's Rich Results Test)
 - [ ] Image sitemap updated with new images
+
+---
+
+## 11. Bing IndexNow Troubleshooting
+
+### Common 403 "UserForbiddedToAccessSite" Error
+
+If IndexNow submissions fail with 403, check these in order:
+
+#### 1. Key File Format (Most Common Issue)
+
+The key file must have **no trailing newline or CRLF**:
+
+```powershell
+# Check file size - should be exactly 32 bytes for a 32-char key
+(Get-Item "public\<key>.txt").Length
+
+# Fix: Write without trailing newline
+[System.IO.File]::WriteAllText("public\<key>.txt", "<your-32-char-key>")
+```
+
+> [!CAUTION]
+> Windows editors add CRLF (`\r\n`) by default. IndexNow is strict - even a single extra byte causes 403.
+
+#### 2. Preview Deploys Cause 403s
+
+IndexNow runs on every build by default. Preview deploys use a different domain but submit with production host, causing 403.
+
+**Fix in `astro.config.ts`:**
+
+```typescript
+// Only run IndexNow on production builds
+...(process.env.VERCEL_ENV === 'production'
+  ? [indexnow({ key: 'your-key-here' })]
+  : []),
+```
+
+#### 3. Test with Alternative Endpoints
+
+If Bing returns 403, test Yandex to isolate the issue:
+
+```powershell
+# Yandex often accepts when Bing is blocking
+Invoke-WebRequest -Uri "https://yandex.com/indexnow?url=https://yoursite.com/&key=<key>" -UseBasicParsing
+```
+
+If Yandex returns 202 but Bing returns 403, it's a Bing-specific cache/rate-limit issue. Wait 24-48 hours.
+
+#### 4. Verify Key File is Accessible
+
+```powershell
+# Check key file returns 200 with correct content-type
+(Invoke-WebRequest -Uri "https://yoursite.com/<key>.txt" -UseBasicParsing).Headers
+# Should show: Content-Type: text/plain, Content-Length: 32
+```
+
+#### 5. Get Detailed Error Message
+
+```powershell
+$body = '{"host":"yoursite.com","key":"<key>","keyLocation":"https://yoursite.com/<key>.txt","urlList":["https://yoursite.com/"]}'
+try {
+    Invoke-WebRequest -Uri "https://api.indexnow.org/indexnow" -Method POST -ContentType "application/json" -Body $body -UseBasicParsing
+} catch {
+    $stream = $_.Exception.Response.GetResponseStream()
+    $reader = [System.IO.StreamReader]::new($stream)
+    Write-Host $reader.ReadToEnd()  # Shows: "UserForbiddedToAccessSite" or similar
+}
+```
+
+#### 6. If All Else Fails
+
+- **Rotate the key**: Generate a new 32-char key, update config and key file
+- **Use Bing Webmaster Tools**: Submit URLs directly via the dashboard instead of API
+- **Wait 24-48 hours**: Bing may have cached a "bad" validation state
