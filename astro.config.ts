@@ -81,8 +81,8 @@ export default defineConfig({
     }),
     react(),
     partytown(),
-    // IndexNow only on production (prevents 403 on preview deploys)
-    ...(process.env.VERCEL_ENV === 'production' ? [indexnow({ key: '6db75d67f1424b0486421a3f614515db' })] : []),
+    // IndexNow only on production (fresh key Jan 2026)
+    ...(process.env.VERCEL_ENV === 'production' ? [indexnow({ key: 'ca076a24121f4be8852528ce8a78be62' })] : []),
   ],
 
   image: {
