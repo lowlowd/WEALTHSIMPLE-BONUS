@@ -345,3 +345,38 @@ try {
 - **Rotate the key**: Generate a new 32-char key, update config and key file
 - **Use Bing Webmaster Tools**: Submit URLs directly via the dashboard instead of API
 - **Wait 24-48 hours**: Bing may have cached a "bad" validation state
+
+---
+
+### Root Cause Analysis (Jan 2026 Case Study)
+
+**Symptom:** Persistent 403 errors in Vercel build logs despite correct key file setup.
+
+**Investigation Results:**
+
+1. Key file was accessible (returned 200, correct Content-Type, 32 bytes)
+2. No Vercel WAF rules or middleware blocking
+3. Yandex IndexNow endpoint **accepted** submissions (202)
+4. Bing endpoint **rejected** submissions (403) with empty response body
+
+**Root Cause:** Bing had "poisoned" the original key after repeated failed attempts (during early debugging with CRLF issues). Even after fixing the key file, Bing continued to reject the key.
+
+**Solution:** Generate and deploy a completely fresh key:
+
+```powershell
+# Generate new 32-char hex key (using GUID)
+[guid]::NewGuid().ToString("N")
+# Example output: ca076a24121f4be8852528ce8a78be62
+```
+
+Then:
+
+1. Create `public/<new-key>.txt` with the key as content (no trailing newline)
+2. Update `astro.config.ts` with the new key
+3. Delete the old key file
+4. Commit and deploy
+
+**Result:** `Successfully submitted 120 URLs to IndexNow` ✅
+
+> [!TIP]
+> If you get persistent 403 errors even after verifying your key file is correct, rotating to a fresh key is often the fastest fix. IndexNow keys are self-generated (not from Bing), so you can create them anytime.
